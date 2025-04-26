@@ -3,8 +3,7 @@ package file_management
 import java.io.*
 
 fun writeStringToFile(fileName: String, text: String) {
-    File("output").mkdirs()
-    val writer = BufferedWriter(FileWriter("output/$fileName"))
+    val writer = BufferedWriter(FileWriter("database/$fileName"))
     writer.write(text)
     writer.close()
 }
