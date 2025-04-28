@@ -1,0 +1,486 @@
+{
+  "Psychopath's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Psychopath's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawDexterity": 2,
+      "rawStrength": 2
+    },
+    "rarity": "legendary"
+  },
+  "Freelancer's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Freelancer's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawDexterity": 2,
+      "rawAgility": 2
+    },
+    "rarity": "legendary"
+  },
+  "Alchemist's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Alchemist's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawDefence": 2,
+      "rawIntelligence": 2
+    },
+    "rarity": "legendary"
+  },
+  "Sadist's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Sadist's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {"rawDexterity": 4},
+    "rarity": "legendary"
+  },
+  "Fanatic's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Fanatic's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawDefence": 2,
+      "rawAgility": 2
+    },
+    "rarity": "legendary"
+  },
+  "Sycophant's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Sycophant's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawIntelligence": 2,
+      "rawAgility": 2
+    },
+    "rarity": "legendary"
+  },
+  "Barbarian's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Barbarian's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawStrength": 2,
+      "rawAgility": 2
+    },
+    "rarity": "legendary"
+  },
+  "Destroyer's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Destroyer's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawStrength": 2,
+      "rawDefence": 2
+    },
+    "rarity": "legendary"
+  },
+  "Warlock's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Warlock's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawDexterity": 2,
+      "rawIntelligence": 2
+    },
+    "rarity": "legendary"
+  },
+  "Mastermind's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Mastermind's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {"rawIntelligence": 4},
+    "rarity": "legendary"
+  },
+  "Devil's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Devil's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawDexterity": 2,
+      "rawDefence": 2
+    },
+    "rarity": "legendary"
+  },
+  "Assimilator's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Assimilator's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawDexterity": 1,
+      "rawStrength": 1,
+      "rawDefence": 1,
+      "rawIntelligence": 1,
+      "rawAgility": 1
+    },
+    "rarity": "legendary"
+  },
+  "Loner's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Loner's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawStrength": 2,
+      "rawIntelligence": 2
+    },
+    "rarity": "legendary"
+  },
+  "Ghost's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Ghost's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {"rawAgility": 4},
+    "rarity": "legendary"
+  },
+  "Arsonist's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Arsonist's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {"rawDefence": 4},
+    "rarity": "legendary"
+  },
+  "Brute's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Brute's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {"rawStrength": 4},
+    "rarity": "legendary"
+  }
+}

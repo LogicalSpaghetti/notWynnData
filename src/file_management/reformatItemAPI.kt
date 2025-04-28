@@ -8,7 +8,7 @@ fun reformatItems(allItems: JSONObject) {
     // for each item Object,
     for (name in allItems.names()) {
         val item = allItems.getJSONObject(name as String?)
-
+        item.put("name", name)
         // remove useless data
         if (item.has("internalName")) item.remove("internalName")
         if (item.has("type")) {

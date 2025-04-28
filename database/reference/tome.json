@@ -1,0 +1,2833 @@
+{
+  "Infernal Tome of Combat Mastery II": {
+    "dropMeta": {
+      "name": "Orphion's Nexus of Light",
+      "coordinates": [
+        -732,
+        100,
+        -6412
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 80},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Infernal Tome of Combat Mastery II",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {
+      "damage": {
+        "min": 1,
+        "max": 4,
+        "raw": 3
+      },
+      "fireDamage": {
+        "min": 2,
+        "max": 8,
+        "raw": 6
+      }
+    },
+    "rarity": "mythic"
+  },
+  "Vampiric Tome of Defensive Mastery II": {
+    "dropMeta": {
+      "name": "The Canyon Colossus",
+      "coordinates": [
+        662,
+        49,
+        -4448
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "83",
+        "name": "tome.armour",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Vampiric Tome of Defensive Mastery II",
+    "restrictions": "untradable",
+    "subType": "armour_tome",
+    "type": "tome",
+    "identifications": {
+      "lifeSteal": {
+        "min": 21,
+        "max": 91,
+        "raw": 70
+      },
+      "rawHealth": {
+        "min": 90,
+        "max": 390,
+        "raw": 300
+      }
+    },
+    "rarity": "mythic"
+  },
+  "Nimble Tome of Combat Mastery II": {
+    "dropMeta": {
+      "name": "Orphion's Nexus of Light",
+      "coordinates": [
+        -732,
+        100,
+        -6412
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 80},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Nimble Tome of Combat Mastery II",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {"rawMainAttackDamage": {
+      "min": 20,
+      "max": 85,
+      "raw": 65
+    }},
+    "rarity": "fabled"
+  },
+  "Surefooted Tome of the Marathon I": {
+    "dropMeta": {
+      "name": "Nest of the Grootslangs",
+      "coordinates": [
+        -1977,
+        63,
+        -5615
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 60},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "87",
+        "name": "tome.movement",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Surefooted Tome of the Marathon I",
+    "restrictions": "untradable",
+    "subType": "marathon_tome",
+    "type": "tome",
+    "identifications": {
+      "sprintRegen": {
+        "min": 3,
+        "max": 13,
+        "raw": 10
+      },
+      "sprint": {
+        "min": 3,
+        "max": 13,
+        "raw": 10
+      }
+    },
+    "rarity": "fabled"
+  },
+  "Abyssal Tome of Combat Mastery II": {
+    "dropMeta": {
+      "name": "Orphion's Nexus of Light",
+      "coordinates": [
+        -732,
+        100,
+        -6412
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 80},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Abyssal Tome of Combat Mastery II",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {
+      "damage": {
+        "min": 1,
+        "max": 4,
+        "raw": 3
+      },
+      "waterDamage": {
+        "min": 2,
+        "max": 8,
+        "raw": 6
+      }
+    },
+    "rarity": "mythic"
+  },
+  "Harvester's Tome of Mysticism I": {
+    "dropMeta": {
+      "name": "Nest of the Grootslangs",
+      "coordinates": [
+        -1977,
+        63,
+        -5615
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 70},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "86",
+        "name": "tome.mana",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Harvester's Tome of Mysticism I",
+    "restrictions": "untradable",
+    "subType": "mysticism_tome",
+    "type": "tome",
+    "identifications": {"manaSteal": {
+      "min": 1,
+      "max": 3,
+      "raw": 2
+    }},
+    "rarity": "fabled"
+  },
+  "Tome of Scavenging Expertise I": {
+    "dropMeta": {
+      "name": "Nest of the Grootslangs",
+      "coordinates": [
+        -1977,
+        63,
+        -5615
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 60},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "88",
+        "name": "tome.utility",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Tome of Scavenging Expertise I",
+    "restrictions": "untradable",
+    "subType": "expertise_tome",
+    "type": "tome",
+    "identifications": {"stealing": {
+      "min": 1,
+      "max": 3,
+      "raw": 2
+    }},
+    "rarity": "fabled"
+  },
+  "Syndicate's Tome of Hospitality I": {
+    "dropMeta": {
+      "name": "Lootrun Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "lootrun"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 75},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "85",
+        "name": "tome.lootrun",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Syndicate's Tome of Hospitality I",
+    "restrictions": "untradable",
+    "subType": "lootrun_tome",
+    "type": "tome",
+    "identifications": {
+      "healingEfficiency": {
+        "min": 2,
+        "max": 7,
+        "raw": 5
+      },
+      "lootBonus": {
+        "min": 5,
+        "max": 20,
+        "raw": 15
+      }
+    },
+    "rarity": "fabled"
+  },
+  "Abyssal Tome of Combat Mastery III": {
+    "dropMeta": {
+      "name": "The Nameless Anomaly",
+      "coordinates": [
+        1193,
+        64,
+        -947
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 105},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Abyssal Tome of Combat Mastery III",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {
+      "damage": {
+        "min": 1,
+        "max": 5,
+        "raw": 4
+      },
+      "waterDamage": {
+        "min": 2,
+        "max": 9,
+        "raw": 7
+      }
+    },
+    "rarity": "mythic"
+  },
+  "Courageous Tome of Defensive Mastery II": {
+    "dropMeta": {
+      "name": "The Canyon Colossus",
+      "coordinates": [
+        662,
+        49,
+        -4448
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "83",
+        "name": "tome.armour",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Courageous Tome of Defensive Mastery II",
+    "restrictions": "untradable",
+    "subType": "armour_tome",
+    "type": "tome",
+    "identifications": {
+      "fireDefence": {
+        "min": 2,
+        "max": 10,
+        "raw": 8
+      },
+      "rawHealth": {
+        "min": 80,
+        "max": 345,
+        "raw": 265
+      }
+    },
+    "rarity": "fabled"
+  },
+  "Tome of Scavenging Expertise II": {
+    "dropMeta": {
+      "name": "Orphion's Nexus of Light",
+      "coordinates": [
+        -732,
+        100,
+        -6412
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 80},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "88",
+        "name": "tome.utility",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Tome of Scavenging Expertise II",
+    "restrictions": "untradable",
+    "subType": "expertise_tome",
+    "type": "tome",
+    "identifications": {"stealing": {
+      "min": 1,
+      "max": 4,
+      "raw": 3
+    }},
+    "rarity": "fabled"
+  },
+  "Tome of Triage Expertise III": {
+    "dropMeta": {
+      "name": "The Nameless Anomaly",
+      "coordinates": [
+        1193,
+        64,
+        -947
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 105},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "88",
+        "name": "tome.utility",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Tome of Triage Expertise III",
+    "restrictions": "untradable",
+    "subType": "expertise_tome",
+    "type": "tome",
+    "identifications": {"healthRegen": {
+      "min": 3,
+      "max": 13,
+      "raw": 10
+    }},
+    "rarity": "fabled"
+  },
+  "Tome of Remedial Expertise III": {
+    "dropMeta": {
+      "name": "The Nameless Anomaly",
+      "coordinates": [
+        1193,
+        64,
+        -947
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 105},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "88",
+        "name": "tome.utility",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Tome of Remedial Expertise III",
+    "restrictions": "untradable",
+    "subType": "expertise_tome",
+    "type": "tome",
+    "identifications": {"healingEfficiency": {
+      "min": 2,
+      "max": 9,
+      "raw": 7
+    }},
+    "rarity": "mythic"
+  },
+  "Syndicate's Tome of Safety I": {
+    "dropMeta": {
+      "name": "Lootrun Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "lootrun"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 75},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "85",
+        "name": "tome.lootrun",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Syndicate's Tome of Safety I",
+    "restrictions": "untradable",
+    "subType": "lootrun_tome",
+    "type": "tome",
+    "identifications": {
+      "thorns": {
+        "min": 2,
+        "max": 10,
+        "raw": 8
+      },
+      "lootBonus": {
+        "min": 5,
+        "max": 20,
+        "raw": 15
+      }
+    },
+    "rarity": "fabled"
+  },
+  "Seismic Tome of Combat Mastery III": {
+    "dropMeta": {
+      "name": "The Nameless Anomaly",
+      "coordinates": [
+        1193,
+        64,
+        -947
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 105},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Seismic Tome of Combat Mastery III",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {
+      "damage": {
+        "min": 1,
+        "max": 5,
+        "raw": 4
+      },
+      "earthDamage": {
+        "min": 2,
+        "max": 9,
+        "raw": 7
+      }
+    },
+    "rarity": "mythic"
+  },
+  "Tome of Remedial Expertise II": {
+    "dropMeta": {
+      "name": "Orphion's Nexus of Light",
+      "coordinates": [
+        -732,
+        100,
+        -6412
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 80},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "88",
+        "name": "tome.utility",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Tome of Remedial Expertise II",
+    "restrictions": "untradable",
+    "subType": "expertise_tome",
+    "type": "tome",
+    "identifications": {"healingEfficiency": {
+      "min": 2,
+      "max": 7,
+      "raw": 5
+    }},
+    "rarity": "mythic"
+  },
+  "Fighter's Tome of Combat Mastery III": {
+    "dropMeta": {
+      "name": "The Nameless Anomaly",
+      "coordinates": [
+        1193,
+        64,
+        -947
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 105},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Fighter's Tome of Combat Mastery III",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {"mainAttackDamage": {
+      "min": 2,
+      "max": 10,
+      "raw": 8
+    }},
+    "rarity": "fabled"
+  },
+  "Tome of Countering Expertise III": {
+    "dropMeta": {
+      "name": "The Nameless Anomaly",
+      "coordinates": [
+        1193,
+        64,
+        -947
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 105},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "88",
+        "name": "tome.utility",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Tome of Countering Expertise III",
+    "restrictions": "untradable",
+    "subType": "expertise_tome",
+    "type": "tome",
+    "identifications": {"thorns": {
+      "min": 4,
+      "max": 16,
+      "raw": 12
+    }},
+    "rarity": "fabled"
+  },
+  "Voltaic Tome of Combat Mastery III": {
+    "dropMeta": {
+      "name": "The Nameless Anomaly",
+      "coordinates": [
+        1193,
+        64,
+        -947
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 105},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Voltaic Tome of Combat Mastery III",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {
+      "damage": {
+        "min": 1,
+        "max": 5,
+        "raw": 4
+      },
+      "thunderDamage": {
+        "min": 2,
+        "max": 9,
+        "raw": 7
+      }
+    },
+    "rarity": "mythic"
+  },
+  "Tome of Countering Expertise II": {
+    "dropMeta": {
+      "name": "Orphion's Nexus of Light",
+      "coordinates": [
+        -732,
+        100,
+        -6412
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 80},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "88",
+        "name": "tome.utility",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Tome of Countering Expertise II",
+    "restrictions": "untradable",
+    "subType": "expertise_tome",
+    "type": "tome",
+    "identifications": {"thorns": {
+      "min": 3,
+      "max": 13,
+      "raw": 10
+    }},
+    "rarity": "fabled"
+  },
+  "Fighter's Tome of Combat Mastery I": {
+    "dropMeta": {
+      "name": "Nest of the Grootslangs",
+      "coordinates": [
+        -1977,
+        63,
+        -5615
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 60},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Fighter's Tome of Combat Mastery I",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {"mainAttackDamage": {
+      "min": 2,
+      "max": 7,
+      "raw": 5
+    }},
+    "rarity": "fabled"
+  },
+  "Cyclonic Tome of Combat Mastery III": {
+    "dropMeta": {
+      "name": "The Nameless Anomaly",
+      "coordinates": [
+        1193,
+        64,
+        -947
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 105},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Cyclonic Tome of Combat Mastery III",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {
+      "damage": {
+        "min": 1,
+        "max": 5,
+        "raw": 4
+      },
+      "airDamage": {
+        "min": 2,
+        "max": 9,
+        "raw": 7
+      }
+    },
+    "rarity": "mythic"
+  },
+  "Ephemeral Tome of Mysticism I": {
+    "dropMeta": {
+      "name": "Nest of the Grootslangs",
+      "coordinates": [
+        -1977,
+        63,
+        -5615
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 70},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "86",
+        "name": "tome.mana",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Ephemeral Tome of Mysticism I",
+    "restrictions": "untradable",
+    "subType": "mysticism_tome",
+    "type": "tome",
+    "identifications": {"manaRegen": {
+      "min": 1,
+      "max": 3,
+      "raw": 2
+    }},
+    "rarity": "fabled"
+  },
+  "Pulsing Tome of Defensive Mastery I": {
+    "dropMeta": {
+      "name": "Nest of the Grootslangs",
+      "coordinates": [
+        -1977,
+        63,
+        -5615
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 60},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "83",
+        "name": "tome.armour",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Pulsing Tome of Defensive Mastery I",
+    "restrictions": "untradable",
+    "subType": "armour_tome",
+    "type": "tome",
+    "identifications": {
+      "rawHealth": {
+        "min": 50,
+        "max": 215,
+        "raw": 165
+      },
+      "thunderDefence": {
+        "min": 2,
+        "max": 8,
+        "raw": 6
+      }
+    },
+    "rarity": "fabled"
+  },
+  "Tome of Scavenging Expertise III": {
+    "dropMeta": {
+      "name": "The Nameless Anomaly",
+      "coordinates": [
+        1193,
+        64,
+        -947
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 105},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "88",
+        "name": "tome.utility",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Tome of Scavenging Expertise III",
+    "restrictions": "untradable",
+    "subType": "expertise_tome",
+    "type": "tome",
+    "identifications": {"stealing": {
+      "min": 1,
+      "max": 5,
+      "raw": 4
+    }},
+    "rarity": "fabled"
+  },
+  "Golem's Tome of Mysticism II": {
+    "dropMeta": {
+      "name": "The Canyon Colossus",
+      "coordinates": [
+        662,
+        49,
+        -4448
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "86",
+        "name": "tome.mana",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Golem's Tome of Mysticism II",
+    "restrictions": "untradable",
+    "subType": "mysticism_tome",
+    "type": "tome",
+    "identifications": {"4thSpellCost": {
+      "min": -1,
+      "max": -5,
+      "raw": -4
+    }},
+    "rarity": "mythic"
+  },
+  "Sorcerer's Tome of Combat Mastery I": {
+    "dropMeta": {
+      "name": "Nest of the Grootslangs",
+      "coordinates": [
+        -1977,
+        63,
+        -5615
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 60},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Sorcerer's Tome of Combat Mastery I",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {"spellDamage": {
+      "min": 2,
+      "max": 7,
+      "raw": 5
+    }},
+    "rarity": "fabled"
+  },
+  "Dragon's Tome of Mysticism II": {
+    "dropMeta": {
+      "name": "The Canyon Colossus",
+      "coordinates": [
+        662,
+        49,
+        -4448
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "86",
+        "name": "tome.mana",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Dragon's Tome of Mysticism II",
+    "restrictions": "untradable",
+    "subType": "mysticism_tome",
+    "type": "tome",
+    "identifications": {"3rdSpellCost": {
+      "min": -1,
+      "max": -5,
+      "raw": -4
+    }},
+    "rarity": "mythic"
+  },
+  "Harvester's Tome of Mysticism II": {
+    "dropMeta": {
+      "name": "The Canyon Colossus",
+      "coordinates": [
+        662,
+        49,
+        -4448
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "86",
+        "name": "tome.mana",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Harvester's Tome of Mysticism II",
+    "restrictions": "untradable",
+    "subType": "mysticism_tome",
+    "type": "tome",
+    "identifications": {"manaSteal": {
+      "min": 1,
+      "max": 4,
+      "raw": 3
+    }},
+    "rarity": "fabled"
+  },
+  "Tome of Parrying Expertise III": {
+    "dropMeta": {
+      "name": "The Nameless Anomaly",
+      "coordinates": [
+        1193,
+        64,
+        -947
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 105},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "88",
+        "name": "tome.utility",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Tome of Parrying Expertise III",
+    "restrictions": "untradable",
+    "subType": "expertise_tome",
+    "type": "tome",
+    "identifications": {"reflection": {
+      "min": 4,
+      "max": 16,
+      "raw": 12
+    }},
+    "rarity": "fabled"
+  },
+  "Fleetfooted Tome of the Marathon II": {
+    "dropMeta": {
+      "name": "The Canyon Colossus",
+      "coordinates": [
+        662,
+        49,
+        -4448
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "87",
+        "name": "tome.movement",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Fleetfooted Tome of the Marathon II",
+    "restrictions": "untradable",
+    "subType": "marathon_tome",
+    "type": "tome",
+    "identifications": {"walkSpeed": {
+      "min": 2,
+      "max": 8,
+      "raw": 6
+    }},
+    "rarity": "fabled"
+  },
+  "Seismic Tome of Combat Mastery II": {
+    "dropMeta": {
+      "name": "Orphion's Nexus of Light",
+      "coordinates": [
+        -732,
+        100,
+        -6412
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 80},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Seismic Tome of Combat Mastery II",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {
+      "damage": {
+        "min": 1,
+        "max": 4,
+        "raw": 3
+      },
+      "earthDamage": {
+        "min": 2,
+        "max": 8,
+        "raw": 6
+      }
+    },
+    "rarity": "mythic"
+  },
+  "Pulsing Tome of Defensive Mastery II": {
+    "dropMeta": {
+      "name": "The Canyon Colossus",
+      "coordinates": [
+        662,
+        49,
+        -4448
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "83",
+        "name": "tome.armour",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Pulsing Tome of Defensive Mastery II",
+    "restrictions": "untradable",
+    "subType": "armour_tome",
+    "type": "tome",
+    "identifications": {
+      "rawHealth": {
+        "min": 80,
+        "max": 345,
+        "raw": 265
+      },
+      "thunderDefence": {
+        "min": 2,
+        "max": 10,
+        "raw": 8
+      }
+    },
+    "rarity": "fabled"
+  },
+  "Warlock's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Warlock's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawDexterity": 2,
+      "rawIntelligence": 2
+    },
+    "rarity": "legendary"
+  },
+  "Everlasting Tome of Defensive Mastery II": {
+    "dropMeta": {
+      "name": "The Canyon Colossus",
+      "coordinates": [
+        662,
+        49,
+        -4448
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "83",
+        "name": "tome.armour",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Everlasting Tome of Defensive Mastery II",
+    "restrictions": "untradable",
+    "subType": "armour_tome",
+    "type": "tome",
+    "identifications": {
+      "healthRegenRaw": {
+        "min": 11,
+        "max": 46,
+        "raw": 35
+      },
+      "rawHealth": {
+        "min": 90,
+        "max": 390,
+        "raw": 300
+      }
+    },
+    "rarity": "mythic"
+  },
+  "Esoteric Tome of Combat Mastery III": {
+    "dropMeta": {
+      "name": "The Nameless Anomaly",
+      "coordinates": [
+        1193,
+        64,
+        -947
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 105},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Esoteric Tome of Combat Mastery III",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {"rawSpellDamage": {
+      "min": 17,
+      "max": 73,
+      "raw": 56
+    }},
+    "rarity": "fabled"
+  },
+  "Tome of Parrying Expertise I": {
+    "dropMeta": {
+      "name": "Nest of the Grootslangs",
+      "coordinates": [
+        -1977,
+        63,
+        -5615
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 60},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "88",
+        "name": "tome.utility",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Tome of Parrying Expertise I",
+    "restrictions": "untradable",
+    "subType": "expertise_tome",
+    "type": "tome",
+    "identifications": {"reflection": {
+      "min": 2,
+      "max": 10,
+      "raw": 8
+    }},
+    "rarity": "fabled"
+  },
+  "Ephemeral Tome of Mysticism II": {
+    "dropMeta": {
+      "name": "The Canyon Colossus",
+      "coordinates": [
+        662,
+        49,
+        -4448
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "86",
+        "name": "tome.mana",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Ephemeral Tome of Mysticism II",
+    "restrictions": "untradable",
+    "subType": "mysticism_tome",
+    "type": "tome",
+    "identifications": {"manaRegen": {
+      "min": 1,
+      "max": 4,
+      "raw": 3
+    }},
+    "rarity": "fabled"
+  },
+  "Fleetfooted Tome of the Marathon I": {
+    "dropMeta": {
+      "name": "Orphion's Nexus of Light",
+      "coordinates": [
+        -732,
+        100,
+        -6412
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 60},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "87",
+        "name": "tome.movement",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Fleetfooted Tome of the Marathon I",
+    "restrictions": "untradable",
+    "subType": "marathon_tome",
+    "type": "tome",
+    "identifications": {"walkSpeed": {
+      "min": 2,
+      "max": 7,
+      "raw": 5
+    }},
+    "rarity": "fabled"
+  },
+  "Oceanic Tome of Defensive Mastery I": {
+    "dropMeta": {
+      "name": "Nest of the Grootslangs",
+      "coordinates": [
+        -1977,
+        63,
+        -5615
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 60},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "83",
+        "name": "tome.armour",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Oceanic Tome of Defensive Mastery I",
+    "restrictions": "untradable",
+    "subType": "armour_tome",
+    "type": "tome",
+    "identifications": {
+      "rawHealth": {
+        "min": 50,
+        "max": 215,
+        "raw": 165
+      },
+      "waterDefence": {
+        "min": 2,
+        "max": 8,
+        "raw": 6
+      }
+    },
+    "rarity": "fabled"
+  },
+  "Loner's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Loner's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawStrength": 2,
+      "rawIntelligence": 2
+    },
+    "rarity": "legendary"
+  },
+  "Arsonist's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Arsonist's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {"rawDefence": 4},
+    "rarity": "legendary"
+  },
+  "Tome of Combat Mastery": {
+    "dropMeta": {
+      "name": "Nest of the Grootslangs",
+      "coordinates": [
+        -1977,
+        63,
+        -5615
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 60},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Tome of Combat Mastery",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {"damage": {
+      "min": 1,
+      "max": 5,
+      "raw": 4
+    }},
+    "rarity": "legendary"
+  },
+  "Nimble Tome of Combat Mastery I": {
+    "dropMeta": {
+      "name": "Nest of the Grootslangs",
+      "coordinates": [
+        -1977,
+        63,
+        -5615
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 60},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Nimble Tome of Combat Mastery I",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {"rawMainAttackDamage": {
+      "min": 14,
+      "max": 59,
+      "raw": 45
+    }},
+    "rarity": "fabled"
+  },
+  "Courageous Tome of Defensive Mastery I": {
+    "dropMeta": {
+      "name": "Nest of the Grootslangs",
+      "coordinates": [
+        -1977,
+        63,
+        -5615
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 60},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "83",
+        "name": "tome.armour",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Courageous Tome of Defensive Mastery I",
+    "restrictions": "untradable",
+    "subType": "armour_tome",
+    "type": "tome",
+    "identifications": {
+      "fireDefence": {
+        "min": 2,
+        "max": 8,
+        "raw": 6
+      },
+      "rawHealth": {
+        "min": 50,
+        "max": 215,
+        "raw": 165
+      }
+    },
+    "rarity": "fabled"
+  },
+  "Syndicate's Tome of Caution I": {
+    "dropMeta": {
+      "name": "Lootrun Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "lootrun"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 75},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "85",
+        "name": "tome.lootrun",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Syndicate's Tome of Caution I",
+    "restrictions": "untradable",
+    "subType": "lootrun_tome",
+    "type": "tome",
+    "identifications": {
+      "reflection": {
+        "min": 2,
+        "max": 10,
+        "raw": 8
+      },
+      "lootBonus": {
+        "min": 5,
+        "max": 20,
+        "raw": 15
+      }
+    },
+    "rarity": "fabled"
+  },
+  "Oceanic Tome of Defensive Mastery II": {
+    "dropMeta": {
+      "name": "The Canyon Colossus",
+      "coordinates": [
+        662,
+        49,
+        -4448
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "83",
+        "name": "tome.armour",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Oceanic Tome of Defensive Mastery II",
+    "restrictions": "untradable",
+    "subType": "armour_tome",
+    "type": "tome",
+    "identifications": {
+      "rawHealth": {
+        "min": 80,
+        "max": 345,
+        "raw": 265
+      },
+      "waterDefence": {
+        "min": 2,
+        "max": 10,
+        "raw": 8
+      }
+    },
+    "rarity": "fabled"
+  },
+  "Sorcerer's Tome of Combat Mastery III": {
+    "dropMeta": {
+      "name": "The Nameless Anomaly",
+      "coordinates": [
+        1193,
+        64,
+        -947
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 105},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Sorcerer's Tome of Combat Mastery III",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {"spellDamage": {
+      "min": 2,
+      "max": 10,
+      "raw": 8
+    }},
+    "rarity": "fabled"
+  },
+  "Sorcerer's Tome of Combat Mastery II": {
+    "dropMeta": {
+      "name": "Orphion's Nexus of Light",
+      "coordinates": [
+        -732,
+        100,
+        -6412
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 80},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Sorcerer's Tome of Combat Mastery II",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {"spellDamage": {
+      "min": 2,
+      "max": 8,
+      "raw": 6
+    }},
+    "rarity": "fabled"
+  },
+  "Blooming Tome of Defensive Mastery II": {
+    "dropMeta": {
+      "name": "The Canyon Colossus",
+      "coordinates": [
+        662,
+        49,
+        -4448
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "83",
+        "name": "tome.armour",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Blooming Tome of Defensive Mastery II",
+    "restrictions": "untradable",
+    "subType": "armour_tome",
+    "type": "tome",
+    "identifications": {
+      "earthDefence": {
+        "min": 2,
+        "max": 10,
+        "raw": 8
+      },
+      "rawHealth": {
+        "min": 80,
+        "max": 345,
+        "raw": 265
+      }
+    },
+    "rarity": "fabled"
+  },
+  "Tome of Defensive Mastery": {
+    "dropMeta": {
+      "name": "Nest of the Grootslangs",
+      "coordinates": [
+        -1977,
+        63,
+        -5615
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 60},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "83",
+        "name": "tome.armour",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Tome of Defensive Mastery",
+    "restrictions": "untradable",
+    "subType": "armour_tome",
+    "type": "tome",
+    "identifications": {"rawHealth": {
+      "min": 44,
+      "max": 189,
+      "raw": 145
+    }},
+    "rarity": "legendary"
+  },
+  "Cyclonic Tome of Combat Mastery II": {
+    "dropMeta": {
+      "name": "Orphion's Nexus of Light",
+      "coordinates": [
+        -732,
+        100,
+        -6412
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 80},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Cyclonic Tome of Combat Mastery II",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {
+      "damage": {
+        "min": 1,
+        "max": 4,
+        "raw": 3
+      },
+      "airDamage": {
+        "min": 2,
+        "max": 8,
+        "raw": 6
+      }
+    },
+    "rarity": "mythic"
+  },
+  "Barbarian's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Barbarian's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawStrength": 2,
+      "rawAgility": 2
+    },
+    "rarity": "legendary"
+  },
+  "Pegasus' Tome of Mysticism II": {
+    "dropMeta": {
+      "name": "The Canyon Colossus",
+      "coordinates": [
+        662,
+        49,
+        -4448
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "86",
+        "name": "tome.mana",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Pegasus' Tome of Mysticism II",
+    "restrictions": "untradable",
+    "subType": "mysticism_tome",
+    "type": "tome",
+    "identifications": {"2ndSpellCost": {
+      "min": -1,
+      "max": -5,
+      "raw": -4
+    }},
+    "rarity": "mythic"
+  },
+  "Fighter's Tome of Combat Mastery II": {
+    "dropMeta": {
+      "name": "Orphion's Nexus of Light",
+      "coordinates": [
+        -732,
+        100,
+        -6412
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 80},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Fighter's Tome of Combat Mastery II",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {"mainAttackDamage": {
+      "min": 2,
+      "max": 8,
+      "raw": 6
+    }},
+    "rarity": "fabled"
+  },
+  "Voltaic Tome of Combat Mastery II": {
+    "dropMeta": {
+      "name": "Orphion's Nexus of Light",
+      "coordinates": [
+        -732,
+        100,
+        -6412
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 80},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Voltaic Tome of Combat Mastery II",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {
+      "damage": {
+        "min": 1,
+        "max": 4,
+        "raw": 3
+      },
+      "thunderDamage": {
+        "min": 2,
+        "max": 8,
+        "raw": 6
+      }
+    },
+    "rarity": "mythic"
+  },
+  "Mastermind's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Mastermind's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {"rawIntelligence": 4},
+    "rarity": "legendary"
+  },
+  "Nimble Tome of Combat Mastery III": {
+    "dropMeta": {
+      "name": "The Nameless Anomaly",
+      "coordinates": [
+        1193,
+        64,
+        -947
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 105},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Nimble Tome of Combat Mastery III",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {"rawMainAttackDamage": {
+      "min": 22,
+      "max": 95,
+      "raw": 73
+    }},
+    "rarity": "fabled"
+  },
+  "Brute's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Brute's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {"rawStrength": 4},
+    "rarity": "legendary"
+  },
+  "Clouded Tome of Defensive Mastery II": {
+    "dropMeta": {
+      "name": "The Canyon Colossus",
+      "coordinates": [
+        662,
+        49,
+        -4448
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "83",
+        "name": "tome.armour",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Clouded Tome of Defensive Mastery II",
+    "restrictions": "untradable",
+    "subType": "armour_tome",
+    "type": "tome",
+    "identifications": {
+      "rawHealth": {
+        "min": 80,
+        "max": 345,
+        "raw": 265
+      },
+      "airDefence": {
+        "min": 2,
+        "max": 10,
+        "raw": 8
+      }
+    },
+    "rarity": "fabled"
+  },
+  "Syndicate's Tome of Care I": {
+    "dropMeta": {
+      "name": "Lootrun Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "lootrun"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 75},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "85",
+        "name": "tome.lootrun",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Syndicate's Tome of Care I",
+    "restrictions": "untradable",
+    "subType": "lootrun_tome",
+    "type": "tome",
+    "identifications": {
+      "lootBonus": {
+        "min": 5,
+        "max": 20,
+        "raw": 15
+      },
+      "healthRegen": {
+        "min": 2,
+        "max": 8,
+        "raw": 6
+      }
+    },
+    "rarity": "fabled"
+  },
+  "Psychopath's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Psychopath's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawDexterity": 2,
+      "rawStrength": 2
+    },
+    "rarity": "legendary"
+  },
+  "Faerie's Tome of Mysticism II": {
+    "dropMeta": {
+      "name": "The Canyon Colossus",
+      "coordinates": [
+        662,
+        49,
+        -4448
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "86",
+        "name": "tome.mana",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Faerie's Tome of Mysticism II",
+    "restrictions": "untradable",
+    "subType": "mysticism_tome",
+    "type": "tome",
+    "identifications": {"1stSpellCost": {
+      "min": -1,
+      "max": -5,
+      "raw": -4
+    }},
+    "rarity": "mythic"
+  },
+  "Freelancer's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Freelancer's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawDexterity": 2,
+      "rawAgility": 2
+    },
+    "rarity": "legendary"
+  },
+  "Blooming Tome of Defensive Mastery I": {
+    "dropMeta": {
+      "name": "Nest of the Grootslangs",
+      "coordinates": [
+        -1977,
+        63,
+        -5615
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 60},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "83",
+        "name": "tome.armour",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Blooming Tome of Defensive Mastery I",
+    "restrictions": "untradable",
+    "subType": "armour_tome",
+    "type": "tome",
+    "identifications": {
+      "earthDefence": {
+        "min": 2,
+        "max": 8,
+        "raw": 6
+      },
+      "rawHealth": {
+        "min": 50,
+        "max": 215,
+        "raw": 165
+      }
+    },
+    "rarity": "fabled"
+  },
+  "Clouded Tome of Defensive Mastery I": {
+    "dropMeta": {
+      "name": "Nest of the Grootslangs",
+      "coordinates": [
+        -1977,
+        63,
+        -5615
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 60},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "83",
+        "name": "tome.armour",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Clouded Tome of Defensive Mastery I",
+    "restrictions": "untradable",
+    "subType": "armour_tome",
+    "type": "tome",
+    "identifications": {
+      "rawHealth": {
+        "min": 50,
+        "max": 215,
+        "raw": 165
+      },
+      "airDefence": {
+        "min": 2,
+        "max": 8,
+        "raw": 6
+      }
+    },
+    "rarity": "fabled"
+  },
+  "Alchemist's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Alchemist's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawDefence": 2,
+      "rawIntelligence": 2
+    },
+    "rarity": "legendary"
+  },
+  "Tome of Triage Expertise II": {
+    "dropMeta": {
+      "name": "Orphion's Nexus of Light",
+      "coordinates": [
+        -732,
+        100,
+        -6412
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 80},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "88",
+        "name": "tome.utility",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Tome of Triage Expertise II",
+    "restrictions": "untradable",
+    "subType": "expertise_tome",
+    "type": "tome",
+    "identifications": {"healthRegen": {
+      "min": 2,
+      "max": 10,
+      "raw": 8
+    }},
+    "rarity": "fabled"
+  },
+  "Sadist's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Sadist's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {"rawDexterity": 4},
+    "rarity": "legendary"
+  },
+  "Syndicate's Tome of Dividends I": {
+    "dropMeta": {
+      "name": "Lootrun Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "lootrun"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 75},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "85",
+        "name": "tome.lootrun",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Syndicate's Tome of Dividends I",
+    "restrictions": "untradable",
+    "subType": "lootrun_tome",
+    "type": "tome",
+    "identifications": {
+      "lootBonus": {
+        "min": 5,
+        "max": 20,
+        "raw": 15
+      },
+      "stealing": {
+        "min": 1,
+        "max": 3,
+        "raw": 2
+      }
+    },
+    "rarity": "fabled"
+  },
+  "Fanatic's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Fanatic's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawDefence": 2,
+      "rawAgility": 2
+    },
+    "rarity": "legendary"
+  },
+  "Sycophant's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Sycophant's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawIntelligence": 2,
+      "rawAgility": 2
+    },
+    "rarity": "legendary"
+  },
+  "Esoteric Tome of Combat Mastery II": {
+    "dropMeta": {
+      "name": "Orphion's Nexus of Light",
+      "coordinates": [
+        -732,
+        100,
+        -6412
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 80},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Esoteric Tome of Combat Mastery II",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {"rawSpellDamage": {
+      "min": 15,
+      "max": 65,
+      "raw": 50
+    }},
+    "rarity": "fabled"
+  },
+  "Destroyer's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Destroyer's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawStrength": 2,
+      "rawDefence": 2
+    },
+    "rarity": "legendary"
+  },
+  "Esoteric Tome of Combat Mastery I": {
+    "dropMeta": {
+      "name": "Nest of the Grootslangs",
+      "coordinates": [
+        -1977,
+        63,
+        -5615
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 60},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Esoteric Tome of Combat Mastery I",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {"rawSpellDamage": {
+      "min": 10,
+      "max": 44,
+      "raw": 34
+    }},
+    "rarity": "fabled"
+  },
+  "Tome of Triage Expertise I": {
+    "dropMeta": {
+      "name": "Nest of the Grootslangs",
+      "coordinates": [
+        -1977,
+        63,
+        -5615
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 60},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "88",
+        "name": "tome.utility",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Tome of Triage Expertise I",
+    "restrictions": "untradable",
+    "subType": "expertise_tome",
+    "type": "tome",
+    "identifications": {"healthRegen": {
+      "min": 2,
+      "max": 8,
+      "raw": 6
+    }},
+    "rarity": "fabled"
+  },
+  "Tome of Countering Expertise I": {
+    "dropMeta": {
+      "name": "Nest of the Grootslangs",
+      "coordinates": [
+        -1977,
+        63,
+        -5615
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 60},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "88",
+        "name": "tome.utility",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Tome of Countering Expertise I",
+    "restrictions": "untradable",
+    "subType": "expertise_tome",
+    "type": "tome",
+    "identifications": {"thorns": {
+      "min": 2,
+      "max": 10,
+      "raw": 8
+    }},
+    "rarity": "fabled"
+  },
+  "Surefooted Tome of the Marathon II": {
+    "dropMeta": {
+      "name": "The Canyon Colossus",
+      "coordinates": [
+        662,
+        49,
+        -4448
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "87",
+        "name": "tome.movement",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Surefooted Tome of the Marathon II",
+    "restrictions": "untradable",
+    "subType": "marathon_tome",
+    "type": "tome",
+    "identifications": {
+      "sprintRegen": {
+        "min": 4,
+        "max": 18,
+        "raw": 14
+      },
+      "sprint": {
+        "min": 4,
+        "max": 18,
+        "raw": 14
+      }
+    },
+    "rarity": "fabled"
+  },
+  "Devil's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Devil's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawDexterity": 2,
+      "rawDefence": 2
+    },
+    "rarity": "legendary"
+  },
+  "Assimilator's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Assimilator's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {
+      "rawDexterity": 1,
+      "rawStrength": 1,
+      "rawDefence": 1,
+      "rawIntelligence": 1,
+      "rawAgility": 1
+    },
+    "rarity": "legendary"
+  },
+  "Tome of Parrying Expertise II": {
+    "dropMeta": {
+      "name": "Orphion's Nexus of Light",
+      "coordinates": [
+        -732,
+        100,
+        -6412
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 80},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "88",
+        "name": "tome.utility",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Tome of Parrying Expertise II",
+    "restrictions": "untradable",
+    "subType": "expertise_tome",
+    "type": "tome",
+    "identifications": {"reflection": {
+      "min": 3,
+      "max": 13,
+      "raw": 10
+    }},
+    "rarity": "fabled"
+  },
+  "Ghost's Tome of Allegiance": {
+    "dropMeta": {
+      "name": "Guild Rewards",
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 100},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "name": "tome.guild",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Ghost's Tome of Allegiance",
+    "restrictions": "untradable",
+    "subType": "guild_tome",
+    "type": "tome",
+    "identifications": {"rawAgility": 4},
+    "rarity": "legendary"
+  },
+  "Infernal Tome of Combat Mastery III": {
+    "dropMeta": {
+      "name": "The Nameless Anomaly",
+      "coordinates": [
+        1193,
+        64,
+        -947
+      ],
+      "type": "raid"
+    },
+    "dropRestriction": "never",
+    "requirements": {"level": 105},
+    "raidReward": true,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "name": "tome.weapon",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "name": "Infernal Tome of Combat Mastery III",
+    "restrictions": "untradable",
+    "subType": "weapon_tome",
+    "type": "tome",
+    "identifications": {
+      "damage": {
+        "min": 1,
+        "max": 5,
+        "raw": 4
+      },
+      "fireDamage": {
+        "min": 2,
+        "max": 9,
+        "raw": 7
+      }
+    },
+    "rarity": "mythic"
+  }
+}

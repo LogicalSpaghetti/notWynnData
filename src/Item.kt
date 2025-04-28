@@ -16,13 +16,12 @@ fun item() {
 
     writeGroupsToFiles(groupedItems)
 
-//    val database = updateItemDatabase(groupedItems)
-//    writeStringToFile("database.js", "const itemDatabase = $database")
+    val database = updateItemDatabase(groupedItems)
 
-    removeUnnecessaryGroups(groupedItems)
+    removeUnnecessaryGroups(database)
 
-    // for use in interpreting item names as items
-    writeStringToFile("groupedItems.js", "const itemGroups = $groupedItems")
+    // for use in PedBuilderBuilder
+    writeStringToFile("groupedItems.js", "const itemGroups = $database")
 }
 
 fun getItemAPIData(): JSONObject {
@@ -76,30 +75,51 @@ fun sortItems(allItems: JSONObject): JSONObject {
 }
 
 fun updateItemDatabase(groupedItems: JSONObject): JSONObject {
-    val database = JSONObject(readStringFromFile("database/database.json"))
-//
-//    val groupNames = groupedItems.names()
-//    for (i in 0..<groupNames.length()) {
-//        val name = groupNames.getString(i)
-//        val group = groupedItems.getJSONObject(name)
-//        if (!database.has(name)) database.put(name, JSONArray())
-//        val databaseGroup = database.getJSONArray(name)
-//
-//        val apiNames = group.names()
-//        for (j in 0..<apiNames.length()) {
-//            val itemName = apiNames.getString(j)
-//
-//            val itemIndex = databaseGroup.indexOf(itemName)
-//            group.getJSONObject(itemName).put("groupId", if (itemIndex != -1) {
-//                databaseGroup.getJSONObject(itemName).getInt("groupId")
-//            } else {
-//                databaseGroup.length()
-//            })
-//            databaseGroup.put(itemName, group.getJSONObject(itemName))
-//        }
-//    }
-//
-    return database
+    //  // itemData:
+    //  {
+    //    "id": 0,
+    //    "name": "",
+    //    "item": {}
+    //  }
+
+    val databases = JSONObject(readStringFromFile("database/database.json"))
+
+    val groupNames = groupedItems.names()
+    for (i in 0..<groupNames.length()) {
+        val databaseName = groupNames.getString(i)
+        val apiGroup = groupedItems.getJSONObject(databaseName)
+        if (!databases.has(databaseName)) databases.put(databaseName, JSONArray())
+        val databaseGroup = databases.getJSONArray(databaseName)
+
+        // loop through, adding to and updating the database
+        for (name in apiGroup.names()) {
+            name as String
+
+            // grab from database
+            val databaseEntry = databaseGroup.find { (it as JSONObject).getString("name") == name }
+            if (databaseEntry == null) {
+                // new item, add entry and work out id
+                val newEntry = JSONObject()
+                newEntry.put("name", name)
+                val id = if (databaseGroup.length() == 0) 0 else ((databaseGroup[databaseGroup.length() - 1] as JSONObject).getInt(
+                        "id") + 1)
+                newEntry.put("id", id)
+
+                newEntry.put("item", apiGroup.getJSONObject(name))
+                databaseGroup.put(newEntry)
+            } else {
+                databaseEntry as JSONObject
+                // existing item, update item data
+                (databaseGroup[databaseGroup.indexOf(databaseEntry)] as JSONObject).put("item", apiGroup.get(name))
+            }
+        }
+    }
+
+    // for use in PedBuilderSearch
+    writeStringToFile("database.js", "const itemDatabase = $databases")
+    // for logging changes
+    writeStringToFile("database.json", databases.toString(2))
+    return databases
 }
 
 fun removeUnnecessaryGroups(groupedItems: JSONObject) {
@@ -116,6 +136,6 @@ fun writeGroupsToFiles(groupedItems: JSONObject) {
     val groupNames = groupedItems.names()
     for (i in 0..<groupNames.length()) {
         val name = groupNames.getString(i)
-        writeStringToFile("sections/$name.json", groupedItems.getJSONObject(name).toString(2))
+        writeStringToFile("reference/$name.json", groupedItems.getJSONObject(name).toString(2))
     }
 }
