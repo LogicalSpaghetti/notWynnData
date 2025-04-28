@@ -10,7 +10,7 @@ fun item() {
     reformatItems(allItems)
 
     // for use in PedAtlas
-    writeStringToFile("allItems.js", "const items = " + allItems.toString(2))
+    writeStringToFile("item/allItems.js", "const items = " + allItems.toString(2))
 
     val groupedItems = sortItems(allItems)
 
@@ -21,7 +21,7 @@ fun item() {
     removeUnnecessaryGroups(database)
 
     // for use in PedBuilderBuilder
-    writeStringToFile("groupedItems.js", "const itemGroups = $database")
+    writeStringToFile("item/groupedItems.js", "const itemGroups = $database")
 }
 
 fun getItemAPIData(): JSONObject {
@@ -75,14 +75,7 @@ fun sortItems(allItems: JSONObject): JSONObject {
 }
 
 fun updateItemDatabase(groupedItems: JSONObject): JSONObject {
-    //  // itemData:
-    //  {
-    //    "id": 0,
-    //    "name": "",
-    //    "item": {}
-    //  }
-
-    val databases = JSONObject(readStringFromFile("database/database.json"))
+    val databases = JSONObject(readStringFromFile("database/item/database.json"))
 
     val groupNames = groupedItems.names()
     for (i in 0..<groupNames.length()) {
@@ -116,9 +109,9 @@ fun updateItemDatabase(groupedItems: JSONObject): JSONObject {
     }
 
     // for use in PedBuilderSearch
-    writeStringToFile("database.js", "const itemDatabase = $databases")
+    writeStringToFile("item/database.js", "const itemDatabase = $databases")
     // for logging changes
-    writeStringToFile("database.json", databases.toString(2))
+    writeStringToFile("item/database.json", databases.toString(2))
     return databases
 }
 
@@ -136,6 +129,6 @@ fun writeGroupsToFiles(groupedItems: JSONObject) {
     val groupNames = groupedItems.names()
     for (i in 0..<groupNames.length()) {
         val name = groupNames.getString(i)
-        writeStringToFile("reference/$name.json", groupedItems.getJSONObject(name).toString(2))
+        writeStringToFile("item/reference/$name.json", groupedItems.getJSONObject(name).toString(2))
     }
 }

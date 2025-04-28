@@ -4,34 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c6fcfb9-2a60-42c2-a7d9-ddcf0ff6fce3" name="Changes" comment="semi-based">
+    <list default="true" id="2c6fcfb9-2a60-42c2-a7d9-ddcf0ff6fce3" name="Changes" comment="Database complete">
+      <change afterPath="$PROJECT_DIR$/src/Tree.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/allItems.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/database.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/groupedItems.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sections/armour_tome.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sections/boots.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sections/bracelet.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sections/chestplate.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sections/expertise_tome.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sections/guild_tome.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sections/helmet.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sections/leggings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sections/lootrun_tome.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sections/marathon_tome.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sections/mysticism_tome.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sections/necklace.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sections/ring.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sections/tome.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sections/weapon.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sections/weapon_tome.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/allItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/allItems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/database.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/database.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/groupedItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/groupedItems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/reference/armour_tome.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/reference/armour_tome.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/reference/boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/reference/boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/reference/bracelet.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/reference/bracelet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/reference/chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/reference/chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/reference/expertise_tome.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/reference/expertise_tome.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/reference/guild_tome.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/reference/guild_tome.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/reference/helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/reference/helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/reference/leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/reference/leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/reference/lootrun_tome.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/reference/lootrun_tome.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/reference/marathon_tome.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/reference/marathon_tome.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/reference/mysticism_tome.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/reference/mysticism_tome.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/reference/necklace.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/reference/necklace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/reference/ring.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/reference/ring.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/reference/tome.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/reference/tome.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/reference/weapon.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/reference/weapon.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/reference/weapon_tome.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/item/reference/weapon_tome.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Item.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Item.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/file_management/reformatItemAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/file_management/reformatItemAPI.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,6 +58,9 @@
     &quot;accountId&quot;: &quot;f9ed1193-e543-4c5b-b02b-4126e98c8aa5&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -62,22 +75,22 @@
     <option name="showScratchesAndConsoles" value="false" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Libraries/json-20240303.jar",
-    "onboarding.tips.debug.path": "C:/Users/Admin/IdeaProjects/notWynnData/src/Main.kt",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Libraries/json-20240303.jar&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Admin/IdeaProjects/notWynnData/src/Main.kt&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\IdeaProjects\notWynnData" />
@@ -112,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745710939811</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Database complete">
+      <option name="closed" value="true" />
+      <created>1745852168176</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745852168176</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +149,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="semi-based" />
-    <option name="LAST_COMMIT_MESSAGE" value="semi-based" />
+    <MESSAGE value="Database complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database complete" />
   </component>
 </project>

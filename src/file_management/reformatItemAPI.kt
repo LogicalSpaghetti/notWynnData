@@ -11,6 +11,7 @@ fun reformatItems(allItems: JSONObject) {
         item.put("name", name)
         // remove useless data
         if (item.has("internalName")) item.remove("internalName")
+        if (item.has("identified")) item.remove("identified")
         if (item.has("type")) {
             val subType = "${item.getString("type")}Type"
 
