@@ -16,7 +16,6 @@
       "rawMainAttackDamage": 300
     },
     "armourMaterial": "leather",
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Gert Shakestomper Toefeet",
     "subType": "boots",
@@ -76,9 +75,9 @@
     "identifications": {
       "rawDexterity": 4,
       "poison": {
-        "min": 108,
-        "max": 468,
-        "raw": 360
+        "min": 60,
+        "max": 260,
+        "raw": 200
       },
       "healingEfficiency": {
         "min": -6,
@@ -330,7 +329,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Earthlink",
     "subType": "boots",
     "base": {"baseHealth": 1850},
@@ -400,7 +398,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 2,
-    "identified": true,
     "name": "Corrupted Nii Mukluk",
     "subType": "boots",
     "base": {
@@ -592,7 +589,6 @@
       "agility": 50,
       "quest": "Troubled Tribesmen"
     },
-    "identified": true,
     "name": "Vei Haon",
     "subType": "boots",
     "type": "armour",
@@ -700,7 +696,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Hephaestus-Forged Sabatons",
     "subType": "boots",
     "base": {
@@ -746,7 +741,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Prologue",
     "subType": "boots",
     "base": {
@@ -1484,7 +1478,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 1,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Nesaak Snowshoes",
     "subType": "boots",
@@ -1584,7 +1577,6 @@
       "level": 44,
       "defence": 20
     },
-    "identified": true,
     "name": "Doomed Journey",
     "restrictions": "untradable",
     "subType": "boots",
@@ -1882,9 +1874,9 @@
         "raw": 25
       },
       "poison": {
-        "min": 3600,
-        "max": 15600,
-        "raw": 12000
+        "min": 2100,
+        "max": 9100,
+        "raw": 7000
       },
       "reflection": {
         "min": 6,
@@ -2286,7 +2278,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Corrupted Uth Sandals",
     "subType": "boots",
     "base": {
@@ -2553,7 +2544,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 1,
-    "identified": true,
     "name": "Corkian Jet Boots",
     "subType": "boots",
     "base": {
@@ -2620,7 +2610,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 3,
-    "identified": true,
     "armourColor": "rgb(207,223,240)",
     "name": "Saint's Sandals",
     "subType": "boots",
@@ -2655,7 +2644,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 3,
-    "identified": true,
     "name": "Longtail Boots",
     "subType": "boots",
     "base": {
@@ -2718,7 +2706,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 3,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Elk's Hoof",
     "subType": "boots",
@@ -2850,7 +2837,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 2,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Ice Skates",
     "subType": "boots",
@@ -3148,7 +3134,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 1,
-    "identified": true,
     "name": "Searing Soles",
     "subType": "boots",
     "base": {
@@ -3172,9 +3157,9 @@
         "raw": 5
       },
       "poison": {
-        "min": 570,
-        "max": 2470,
-        "raw": 1900
+        "min": 525,
+        "max": 2275,
+        "raw": 1750
       },
       "thunderDamage": {
         "min": 2,
@@ -3208,7 +3193,6 @@
       "healthRegen": 8
     },
     "armourMaterial": "leather",
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Fruma Imported Boots",
     "subType": "boots",
@@ -3460,7 +3444,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 2,
-    "identified": true,
     "name": "Enhanced Skeleton Boots",
     "subType": "boots",
     "base": {
@@ -3494,9 +3477,9 @@
         "raw": 25
       },
       "poison": {
-        "min": 1800,
-        "max": 7800,
-        "raw": 6000
+        "min": 1500,
+        "max": 6500,
+        "raw": 5000
       },
       "sprint": {
         "min": -19,
@@ -3742,9 +3725,9 @@
     "type": "armour",
     "identifications": {
       "poison": {
-        "min": 17,
-        "max": 75,
-        "raw": 58
+        "min": 10,
+        "max": 42,
+        "raw": 32
       },
       "lifeSteal": {
         "min": 2,
@@ -3794,9 +3777,9 @@
         "raw": 30
       },
       "poison": {
-        "min": 5400,
-        "max": 23400,
-        "raw": 18000
+        "min": 4200,
+        "max": 18200,
+        "raw": 14000
       },
       "healthRegen": {
         "min": -36,
@@ -3979,7 +3962,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Surefooter",
     "subType": "boots",
     "base": {
@@ -4110,7 +4092,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Mantlewalkers",
     "subType": "boots",
     "base": {
@@ -4128,7 +4109,6 @@
       "level": 84,
       "agility": 50
     },
-    "identified": true,
     "name": "Unsung",
     "restrictions": "untradable",
     "subType": "boots",
@@ -4302,11 +4282,6 @@
         "max": 150,
         "raw": 115
       },
-      "reflection": {
-        "min": 5,
-        "max": 20,
-        "raw": 15
-      },
       "rawIntelligence": 7,
       "xpBonus": {
         "min": 5,
@@ -4342,7 +4317,7 @@
     "base": {
       "baseWaterDefence": 100,
       "baseAirDefence": 100,
-      "baseHealth": 4000
+      "baseHealth": 2000
     },
     "rarity": "rare"
   },
@@ -4361,9 +4336,9 @@
         "raw": 15
       },
       "poison": {
-        "min": 720,
-        "max": 3120,
-        "raw": 2400
+        "min": 420,
+        "max": 1820,
+        "raw": 1400
       },
       "reflection": {
         "min": 3,
@@ -4407,7 +4382,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Sine",
     "subType": "boots",
     "base": {
@@ -4740,7 +4714,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 2,
-    "identified": true,
     "name": "Heartbreak",
     "subType": "boots",
     "base": {
@@ -4777,7 +4750,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Humbark Moccasins",
     "subType": "boots",
     "base": {
@@ -4937,7 +4909,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 3,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Ornate Shadow Cloud",
     "subType": "boots",
@@ -5289,7 +5260,6 @@
       "level": 60,
       "agility": 20
     },
-    "identified": true,
     "name": "Reindeer Paws",
     "subType": "boots",
     "type": "armour",
@@ -5528,9 +5498,9 @@
         "raw": -15
       },
       "poison": {
-        "min": 270,
-        "max": 1170,
-        "raw": 900
+        "min": 150,
+        "max": 650,
+        "raw": 500
       },
       "lifeSteal": {
         "min": 13,
@@ -5627,7 +5597,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Latency",
     "subType": "boots",
     "base": {
@@ -5722,7 +5691,6 @@
       "stealing": 7
     },
     "armourMaterial": "diamond",
-    "identified": true,
     "name": "Mistico",
     "subType": "boots",
     "base": {
@@ -5756,9 +5724,9 @@
         "raw": 30
       },
       "poison": {
-        "min": 1110,
-        "max": 4810,
-        "raw": 3700
+        "min": 600,
+        "max": 2600,
+        "raw": 2000
       },
       "lifeSteal": {
         "min": 50,
@@ -5916,7 +5884,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 3,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Wreathbound Boots",
     "subType": "boots",
@@ -6069,7 +6036,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Portable Buoys",
     "subType": "boots",
     "base": {
@@ -6116,7 +6082,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Skidbladnir",
     "subType": "boots",
     "base": {
@@ -6138,16 +6103,11 @@
     "subType": "boots",
     "type": "armour",
     "identifications": {
-      "exploding": {
-        "min": 4,
-        "max": 16,
-        "raw": 12
-      },
       "rawIntelligence": 5,
       "mainAttackDamage": {
-        "min": -26,
-        "max": -14,
-        "raw": -20
+        "min": -32,
+        "max": -17,
+        "raw": -25
       },
       "rawSpellDamage": {
         "min": 62,
@@ -6155,9 +6115,19 @@
         "raw": 205
       },
       "manaSteal": {
-        "min": 2,
-        "max": 10,
-        "raw": 8
+        "min": 4,
+        "max": 16,
+        "raw": 12
+      },
+      "mainAttackRange": {
+        "min": 8,
+        "max": 35,
+        "raw": 27
+      },
+      "knockback": {
+        "min": 7,
+        "max": 30,
+        "raw": 23
       },
       "thunderDefence": {
         "min": -26,
@@ -6166,9 +6136,9 @@
       }
     },
     "base": {
-      "baseEarthDefence": -100,
+      "baseEarthDefence": -75,
       "baseWaterDefence": 100,
-      "baseFireDefence": -100,
+      "baseFireDefence": -75,
       "baseThunderDefence": -175,
       "baseHealth": 3225
     },
@@ -6415,7 +6385,6 @@
       "rawAgility": 2
     },
     "armourMaterial": "leather",
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Plains Runner",
     "subType": "boots",
@@ -6450,9 +6419,9 @@
         "raw": 10
       },
       "poison": {
-        "min": 345,
-        "max": 1495,
-        "raw": 1150
+        "min": 195,
+        "max": 845,
+        "raw": 650
       },
       "lifeSteal": {
         "min": 21,
@@ -6546,7 +6515,6 @@
       "strength": 10,
       "level": 43
     },
-    "identified": true,
     "name": "Goblin Runners",
     "subType": "boots",
     "type": "armour",
@@ -6584,7 +6552,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 1,
-    "identified": true,
     "name": "Bob's Sacrifice",
     "subType": "boots",
     "base": {
@@ -6619,7 +6586,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Enhanced Gypsum",
     "subType": "boots",
     "base": {
@@ -6704,13 +6670,12 @@
       "damage": 15,
       "walkSpeed": 15,
       "rawStrength": 5,
-      "poison": 630,
+      "poison": 350,
       "knockback": 15,
       "rawMainAttackDamage": 90
     },
     "armourMaterial": "leather",
     "powderSlots": 2,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "The Swarm",
     "subType": "boots",
@@ -6800,7 +6765,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 2,
-    "identified": true,
     "name": "Trouble Tamer",
     "subType": "boots",
     "base": {
@@ -6888,7 +6852,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Enhanced Coalwalkers",
     "subType": "boots",
     "base": {
@@ -6921,7 +6884,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Stingy",
     "subType": "boots",
     "base": {
@@ -6929,6 +6891,54 @@
       "baseHealth": 105
     },
     "rarity": "rare"
+  },
+  "Buoyant Balmorals": {
+    "armourMaterial": "chain",
+    "majorIds": {"Combo Stomp": "<span class='font-ascii' style='color:#55FFFF'>+Combo Stomp: <span class='font-ascii' style='color:#00AAAA'>Landing directly on an enemy with Fierce Stomp sends you back into the air and resets Escape.<\/span><\/span>"},
+    "dropRestriction": "never",
+    "requirements": {
+      "dexterity": 20,
+      "level": 52,
+      "agility": 45
+    },
+    "lore": "These are congealed and rather gross, but they leave you with an undeniable bounce in your step.",
+    "name": "Buoyant Balmorals",
+    "subType": "boots",
+    "type": "armour",
+    "identifications": {
+      "2ndSpellCost": {
+        "min": -5,
+        "max": -23,
+        "raw": -18
+      },
+      "walkSpeed": {
+        "min": 5,
+        "max": 23,
+        "raw": 18
+      },
+      "jumpHeight": {
+        "min": 1,
+        "max": 4,
+        "raw": 3
+      },
+      "spellDamage": {
+        "min": 5,
+        "max": 23,
+        "raw": 18
+      },
+      "knockback": {
+        "min": 9,
+        "max": 40,
+        "raw": 31
+      }
+    },
+    "base": {
+      "baseEarthDefence": -25,
+      "baseAirDefence": 30,
+      "baseThunderDefence": 20,
+      "baseHealth": 450
+    },
+    "rarity": "fabled"
   },
   "Flawed Chain Boots": {
     "armourMaterial": "chain",
@@ -7025,7 +7035,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Enhanced Oxford",
     "subType": "boots",
     "base": {
@@ -7163,7 +7172,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Cloudwalkers",
     "subType": "boots",
     "base": {"baseAirDefence": 100},
@@ -7274,7 +7282,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 1,
-    "identified": true,
     "armourColor": "rgb(153,153,0)",
     "name": "Tribal Boots",
     "subType": "boots",
@@ -7392,7 +7399,6 @@
       "level": 62,
       "intelligence": 25
     },
-    "identified": true,
     "name": "The Silent",
     "subType": "boots",
     "type": "armour",
@@ -7474,7 +7480,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Low World Greaves",
     "subType": "boots",
     "base": {
@@ -7512,7 +7517,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Dragulj Boots",
     "subType": "boots",
     "base": {
@@ -7633,7 +7637,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Silt of the Seafloor",
     "subType": "boots",
     "base": {
@@ -7769,7 +7772,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Fallbreakers",
     "subType": "boots",
     "base": {
@@ -8461,7 +8463,7 @@
       "walkSpeed": 24,
       "earthDamage": 15,
       "thorns": 18,
-      "poison": 8000,
+      "poison": 4500,
       "sprintRegen": 12,
       "spellDamage": 18,
       "sprint": 12,
@@ -8471,7 +8473,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Dust Skaters",
     "subType": "boots",
     "base": {
@@ -8560,7 +8561,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Epilogue",
     "subType": "boots",
     "base": {
@@ -8976,7 +8976,6 @@
       "rawNeutralSpellDamage": -185
     },
     "armourMaterial": "leather",
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Valse Vaincue",
     "subType": "boots",
@@ -9073,9 +9072,9 @@
       },
       "rawDefence": 7,
       "poison": {
-        "min": 780,
-        "max": 3380,
-        "raw": 2600
+        "min": 540,
+        "max": 2340,
+        "raw": 1800
       },
       "fireDefence": {
         "min": -32,
@@ -9251,9 +9250,9 @@
         "raw": 24
       },
       "poison": {
-        "min": 6750,
-        "max": 29250,
-        "raw": 22500
+        "min": 4800,
+        "max": 20800,
+        "raw": 16000
       },
       "thunderDamage": {
         "min": 8,
@@ -9486,9 +9485,9 @@
         "raw": 36
       },
       "poison": {
-        "min": 7500,
-        "max": 32500,
-        "raw": 25000
+        "min": 4800,
+        "max": 20800,
+        "raw": 16000
       },
       "mainAttackDamage": {
         "min": 14,
@@ -9789,7 +9788,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Thanos Legionnaire Greaves",
     "subType": "boots",
     "base": {
@@ -10086,9 +10084,9 @@
       },
       "rawStrength": 8,
       "poison": {
-        "min": 975,
-        "max": 4225,
-        "raw": 3250
+        "min": 750,
+        "max": 3250,
+        "raw": 2500
       },
       "manaSteal": {
         "min": 1,
@@ -10375,9 +10373,9 @@
     "type": "armour",
     "identifications": {
       "poison": {
-        "min": 72,
-        "max": 312,
-        "raw": 240
+        "min": 39,
+        "max": 169,
+        "raw": 130
       },
       "rawAgility": 13
     },
@@ -10415,9 +10413,9 @@
       },
       "rawDefence": 12,
       "poison": {
-        "min": 1800,
-        "max": 7800,
-        "raw": 6000
+        "min": 1500,
+        "max": 6500,
+        "raw": 5000
       },
       "fireDamage": {
         "min": 3,
@@ -10477,7 +10475,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Ramhoof",
     "subType": "boots",
     "base": {
@@ -10561,7 +10558,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 2,
-    "identified": true,
     "armourColor": "rgb(114,178,56)",
     "name": "Elf Shoes",
     "subType": "boots",
@@ -10646,7 +10642,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Canyon Strider",
     "subType": "boots",
     "base": {
@@ -10693,9 +10688,9 @@
         "raw": 5
       },
       "poison": {
-        "min": 645,
-        "max": 2795,
-        "raw": 2150
+        "min": 420,
+        "max": 1820,
+        "raw": 1400
       },
       "lifeSteal": {
         "min": 30,
@@ -11081,7 +11076,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 3,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Swashbuckler's Brogues",
     "subType": "boots",
@@ -11101,7 +11095,6 @@
       "level": 95,
       "defence": 50
     },
-    "identified": true,
     "name": "Charcoal",
     "subType": "boots",
     "type": "armour",
@@ -11257,7 +11250,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Flashstep",
     "subType": "boots",
     "base": {
@@ -11475,9 +11467,9 @@
       },
       "rawDefence": 8,
       "poison": {
-        "min": 5250,
-        "max": 22750,
-        "raw": 17500
+        "min": 3150,
+        "max": 13650,
+        "raw": 10500
       },
       "healingEfficiency": {
         "min": 5,
@@ -11517,7 +11509,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 2,
-    "identified": true,
     "name": "Seal Breaker",
     "subType": "boots",
     "base": {"baseHealth": 335},
@@ -11601,22 +11592,21 @@
     "restrictions": "untradable",
     "type": "armour",
     "identifications": {
+      "rawMaxMana": 40,
       "rawDexterity": -30,
       "healthRegenRaw": 300,
       "earthDamage": 10,
-      "exploding": 20,
       "waterDamage": 10,
       "fireDamage": 10,
       "fireDefence": 25,
       "spellDamage": 15,
       "earthDefence": 25,
       "rawAgility": -30,
-      "manaRegen": 18,
+      "manaRegen": 20,
       "waterDefence": 25
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Gaea-Hewn Boots",
     "subType": "boots",
     "base": {
@@ -11709,9 +11699,9 @@
       },
       "rawDefence": 5,
       "poison": {
-        "min": 930,
-        "max": 4030,
-        "raw": 3100
+        "min": 540,
+        "max": 2340,
+        "raw": 1800
       },
       "rawSpellDamage": {
         "min": 30,
@@ -11769,7 +11759,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 2,
-    "identified": true,
     "name": "Letum",
     "subType": "boots",
     "base": {
@@ -11903,31 +11892,26 @@
     "subType": "boots",
     "type": "armour",
     "identifications": {
-      "healthRegenRaw": {
-        "min": 24,
-        "max": 104,
-        "raw": 80
+      "damage": {
+        "min": -16,
+        "max": -8,
+        "raw": -12
       },
-      "exploding": {
-        "min": 9,
-        "max": 39,
-        "raw": 30
+      "healthRegenRaw": {
+        "min": 30,
+        "max": 130,
+        "raw": 100
+      },
+      "raw2ndSpellCost": {
+        "min": -1,
+        "max": -5,
+        "raw": -4
       },
       "rawDefence": 9,
       "fireDefence": {
-        "min": 5,
-        "max": 20,
-        "raw": 15
-      },
-      "mainAttackDamage": {
-        "min": -16,
-        "max": -8,
-        "raw": -12
-      },
-      "spellDamage": {
-        "min": -16,
-        "max": -8,
-        "raw": -12
+        "min": 7,
+        "max": 29,
+        "raw": 22
       },
       "healthRegen": {
         "min": 8,
@@ -11936,9 +11920,9 @@
       },
       "rawAgility": 9,
       "airDefence": {
-        "min": 5,
-        "max": 20,
-        "raw": 15
+        "min": 7,
+        "max": 29,
+        "raw": 22
       }
     },
     "base": {
@@ -11946,7 +11930,7 @@
       "baseAirDefence": 90,
       "baseFireDefence": 90,
       "baseThunderDefence": -75,
-      "baseHealth": 2350
+      "baseHealth": 2450
     },
     "rarity": "legendary"
   },
@@ -12058,7 +12042,6 @@
       "agility": 10,
       "intelligence": 15
     },
-    "identified": true,
     "name": "Sacred",
     "subType": "boots",
     "type": "armour",
@@ -12148,7 +12131,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 1,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Merchant Sandals",
     "subType": "boots",
@@ -12182,7 +12164,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Mud",
     "subType": "boots",
     "base": {
@@ -12334,9 +12315,9 @@
       },
       "rawStrength": 7,
       "poison": {
-        "min": 1890,
-        "max": 8190,
-        "raw": 6300
+        "min": 1425,
+        "max": 6175,
+        "raw": 4750
       },
       "lifeSteal": {
         "min": 62,
@@ -12376,9 +12357,9 @@
     "type": "armour",
     "identifications": {
       "poison": {
-        "min": 216,
-        "max": 936,
-        "raw": 720
+        "min": 120,
+        "max": 520,
+        "raw": 400
       },
       "lifeSteal": {
         "min": 8,
@@ -12535,7 +12516,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 2,
-    "identified": true,
     "name": "Clock Boots",
     "subType": "boots",
     "base": {"baseHealth": 950},
@@ -12788,7 +12768,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 2,
-    "identified": true,
     "armourColor": "rgb(69,82,89)",
     "name": "Cursed Jackboots",
     "subType": "boots",
@@ -12883,7 +12862,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Thunderous Step",
     "subType": "boots",
     "base": {
@@ -13076,7 +13054,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 3,
-    "identified": true,
     "name": "Cold Snap",
     "subType": "boots",
     "base": {
@@ -13846,7 +13823,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Achilles",
     "subType": "boots",
     "base": {
@@ -13882,7 +13858,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Crocodile",
     "subType": "boots",
     "base": {
@@ -13922,9 +13897,9 @@
         "raw": 10
       },
       "poison": {
-        "min": 150,
-        "max": 650,
-        "raw": 500
+        "min": 84,
+        "max": 364,
+        "raw": 280
       },
       "lifeSteal": {
         "min": -43,
@@ -14075,9 +14050,9 @@
       },
       "rawDefence": -10,
       "poison": {
-        "min": 645,
-        "max": 2795,
-        "raw": 2150
+        "min": 450,
+        "max": 1950,
+        "raw": 1500
       },
       "airDamage": {
         "min": 3,
@@ -14114,12 +14089,11 @@
     "identifications": {
       "walkSpeed": -3,
       "thorns": 7,
-      "poison": 135,
+      "poison": 120,
       "stealing": 2
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Swamp Treads",
     "subType": "boots",
     "base": {"baseHealth": 105},
@@ -14290,9 +14264,9 @@
         "raw": 15
       },
       "poison": {
-        "min": 1350,
-        "max": 5850,
-        "raw": 4500
+        "min": 840,
+        "max": 3640,
+        "raw": 2800
       },
       "earthDefence": {
         "min": 5,
@@ -14372,7 +14346,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 1,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Shajone",
     "subType": "boots",
@@ -14387,7 +14360,6 @@
       "level": 60,
       "quest": "Beneath The Depths"
     },
-    "identified": true,
     "name": "Pirate Luck",
     "subType": "boots",
     "type": "armour",
@@ -14496,7 +14468,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 2,
-    "identified": true,
     "name": "Iron Foot",
     "subType": "boots",
     "base": {
@@ -14854,7 +14825,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 2,
-    "identified": true,
     "name": "Battalion",
     "subType": "boots",
     "base": {

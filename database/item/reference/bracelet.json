@@ -14,7 +14,6 @@
       "level": 80,
       "defence": 40
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -145,7 +144,6 @@
     },
     "dropRestriction": "never",
     "requirements": {"level": 30},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -196,7 +194,6 @@
       "mainAttackDamage": 16,
       "earthDefence": 5
     },
-    "identified": true,
     "name": "Diamond Fiber Bracelet",
     "subType": "bracelet",
     "base": {"baseEarthDefence": 65},
@@ -309,7 +306,6 @@
       "level": 48,
       "defence": 30
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -428,7 +424,6 @@
       "thunderDamage": 8,
       "thunderDefence": 5
     },
-    "identified": true,
     "name": "Silver Static Bracelet",
     "subType": "bracelet",
     "base": {
@@ -469,7 +464,6 @@
       "rawDefence": -2,
       "rawMainAttackDamage": 105
     },
-    "identified": true,
     "name": "Subur Clip",
     "subType": "bracelet",
     "base": {"baseEarthDefence": 60},
@@ -505,7 +499,6 @@
       "thorns": 6,
       "rawDefence": 4
     },
-    "identified": true,
     "name": "Flashfire Gauntlet",
     "subType": "bracelet",
     "base": {
@@ -600,7 +593,6 @@
       "fireDamage": 14,
       "fireDefence": 7
     },
-    "identified": true,
     "name": "Diamond Solar Bracelet",
     "subType": "bracelet",
     "base": {
@@ -682,7 +674,6 @@
       "lootBonus": 4,
       "stealing": 3
     },
-    "identified": true,
     "name": "Weighted Nimble Fingers",
     "subType": "bracelet",
     "base": {"baseHealth": 60},
@@ -820,7 +811,6 @@
       "level": 88,
       "defence": 40
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -854,7 +844,6 @@
       "defence": 10,
       "agility": 10
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -896,7 +885,6 @@
       "agility": 25,
       "intelligence": 25
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -934,7 +922,6 @@
       "quest": "Zhight Island",
       "intelligence": 15
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -1056,9 +1043,9 @@
       },
       "rawStrength": 4,
       "poison": {
-        "min": 450,
-        "max": 1950,
-        "raw": 1500
+        "min": 300,
+        "max": 1300,
+        "raw": 1000
       },
       "rawMainAttackDamage": {
         "min": 17,
@@ -1103,7 +1090,6 @@
       "reflection": 20,
       "healthRegen": 20
     },
-    "identified": true,
     "name": "Clockwork",
     "subType": "bracelet",
     "base": {
@@ -1144,7 +1130,6 @@
       "lootBonus": 10,
       "stealing": 5
     },
-    "identified": true,
     "name": "Bronze Basic Bracelet",
     "subType": "bracelet",
     "base": {"baseHealth": 500},
@@ -1241,7 +1226,6 @@
     "restrictions": "untradable",
     "type": "accessory",
     "identifications": {"elementalDamage": 14},
-    "identified": true,
     "name": "Megabyte",
     "subType": "bracelet",
     "base": {"baseHealth": 512},
@@ -1296,7 +1280,6 @@
       "level": 82,
       "quest": "The Belly Of The Beast"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -1344,9 +1327,9 @@
         "raw": -8
       },
       "damage": {
-        "min": -34,
-        "max": -18,
-        "raw": -26
+        "min": -26,
+        "max": -14,
+        "raw": -20
       },
       "rawAttackSpeed": 1,
       "knockback": {
@@ -1383,7 +1366,6 @@
       "strength": 30,
       "level": 68
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -1679,7 +1661,6 @@
       "rawStrength": 2,
       "mainAttackDamage": 8
     },
-    "identified": true,
     "name": "Silver Fiber Bracelet",
     "subType": "bracelet",
     "base": {"baseEarthDefence": 40},
@@ -1842,7 +1823,6 @@
       "spellDamage": -12,
       "manaRegen": 12
     },
-    "identified": true,
     "name": "Sacramentalia",
     "subType": "bracelet",
     "base": {
@@ -1877,9 +1857,9 @@
         "raw": 5
       },
       "poison": {
-        "min": 104,
-        "max": 450,
-        "raw": 346
+        "min": 72,
+        "max": 312,
+        "raw": 240
       },
       "lifeSteal": {
         "min": 9,
@@ -1905,7 +1885,6 @@
       "level": 50,
       "intelligence": 25
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -1991,9 +1970,9 @@
     "type": "accessory",
     "identifications": {
       "poison": {
-        "min": 9,
-        "max": 40,
-        "raw": 31
+        "min": 5,
+        "max": 20,
+        "raw": 15
       },
       "rawAgility": 4
     },
@@ -2095,7 +2074,6 @@
   "Watch Bracelet": {
     "dropRestriction": "never",
     "requirements": {"level": 86},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -2394,7 +2372,6 @@
       "rawAgility": 2,
       "airDefence": 8
     },
-    "identified": true,
     "name": "Silver Steam Bracelet",
     "subType": "bracelet",
     "base": {"baseAirDefence": 90},
@@ -2611,7 +2588,6 @@
       "level": 93,
       "defence": 55
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -2693,7 +2669,6 @@
   "Red Ornament": {
     "dropRestriction": "never",
     "requirements": {"level": 50},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -2792,7 +2767,6 @@
       "level": 76,
       "quest": "Eye of the Storm"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -2898,7 +2872,6 @@
       "spellDamage": 8,
       "manaSteal": 12
     },
-    "identified": true,
     "name": "Diamond Hydro Bracelet",
     "subType": "bracelet",
     "base": {"baseWaterDefence": 70},
@@ -2976,7 +2949,6 @@
       "rawAgility": 4,
       "airDefence": 10
     },
-    "identified": true,
     "name": "Gold Steam Bracelet",
     "subType": "bracelet",
     "base": {"baseAirDefence": 105},
@@ -3078,7 +3050,6 @@
       "lootBonus": 16,
       "elementalDefence": 16
     },
-    "identified": true,
     "name": "Diamond Fusion Bracelet",
     "subType": "bracelet",
     "base": {
@@ -3265,7 +3236,6 @@
       "level": 45,
       "defence": 20
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -3422,7 +3392,6 @@
       "level": 89,
       "agility": 35
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -3521,7 +3490,6 @@
       "rawStrength": 4,
       "mainAttackDamage": 12
     },
-    "identified": true,
     "name": "Gold Fiber Bracelet",
     "subType": "bracelet",
     "base": {"baseEarthDefence": 50},
@@ -3646,7 +3614,6 @@
       "level": 72,
       "quest": "Eye of the Storm"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -3793,7 +3760,6 @@
       "thunderDamage": 16,
       "thunderDefence": 10
     },
-    "identified": true,
     "name": "Diamond Static Bracelet",
     "subType": "bracelet",
     "base": {
@@ -3923,9 +3889,9 @@
     "type": "accessory",
     "identifications": {
       "poison": {
-        "min": 120,
-        "max": 520,
-        "raw": 400
+        "min": 150,
+        "max": 650,
+        "raw": 500
       },
       "lifeSteal": {
         "min": 9,
@@ -3960,9 +3926,9 @@
     "type": "accessory",
     "identifications": {
       "poison": {
-        "min": 45,
-        "max": 195,
-        "raw": 150
+        "min": 25,
+        "max": 108,
+        "raw": 83
       },
       "lifeSteal": {
         "min": 4,
@@ -3994,7 +3960,6 @@
     },
     "dropRestriction": "never",
     "requirements": {"level": 86},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -4074,7 +4039,6 @@
     },
     "dropRestriction": "never",
     "requirements": {"level": 5},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -4182,7 +4146,6 @@
       "level": 60,
       "agility": 50
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -4298,9 +4261,9 @@
         "raw": -8
       },
       "poison": {
-        "min": 360,
-        "max": 1560,
-        "raw": 1200
+        "min": 225,
+        "max": 975,
+        "raw": 750
       },
       "lifeSteal": {
         "min": 24,
@@ -4356,7 +4319,6 @@
       "rawAgility": 6,
       "airDefence": 12
     },
-    "identified": true,
     "name": "Diamond Steam Bracelet",
     "subType": "bracelet",
     "base": {"baseAirDefence": 135},
@@ -4397,7 +4359,6 @@
       "lootBonus": 8,
       "elementalDefence": 8
     },
-    "identified": true,
     "name": "Silver Fusion Bracelet",
     "subType": "bracelet",
     "base": {
@@ -4440,7 +4401,6 @@
       "agility": 5,
       "intelligence": 5
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -4644,7 +4604,6 @@
       "spellDamage": 3,
       "manaSteal": 4
     },
-    "identified": true,
     "name": "Silver Hydro Bracelet",
     "subType": "bracelet",
     "base": {"baseWaterDefence": 40},
@@ -4864,7 +4823,6 @@
       "thunderDamage": 12,
       "thunderDefence": 7
     },
-    "identified": true,
     "name": "Gold Static Bracelet",
     "subType": "bracelet",
     "base": {
@@ -5057,7 +5015,6 @@
       "lootBonus": 12,
       "elementalDefence": 12
     },
-    "identified": true,
     "name": "Gold Fusion Bracelet",
     "subType": "bracelet",
     "base": {
@@ -5348,7 +5305,6 @@
       "reflection": 15,
       "rawIntelligence": 5
     },
-    "identified": true,
     "name": "Vitre",
     "subType": "bracelet",
     "rarity": "unique"
@@ -5378,9 +5334,9 @@
         "raw": 4
       },
       "poison": {
-        "min": 72,
-        "max": 312,
-        "raw": 240
+        "min": 38,
+        "max": 163,
+        "raw": 125
       },
       "fireDefence": {
         "min": -10,
@@ -5850,7 +5806,6 @@
       "level": 50,
       "intelligence": 10
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -5917,7 +5872,6 @@
     },
     "dropRestriction": "never",
     "requirements": {"level": 30},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -5966,8 +5920,8 @@
       "name": "Altar of Sanctification",
       "coordinates": [
         -911,
-        73,
-        -1068
+        23,
+        -624
       ],
       "type": "altar"
     },
@@ -6162,11 +6116,10 @@
     },
     "type": "accessory",
     "identifications": {
-      "poison": 110,
+      "poison": 66,
       "lifeSteal": 10,
       "healthRegen": -12
     },
-    "identified": true,
     "name": "Diluted Vitriol",
     "subType": "bracelet",
     "base": {
@@ -6278,7 +6231,6 @@
       "spellDamage": 6,
       "manaSteal": 8
     },
-    "identified": true,
     "name": "Gold Hydro Bracelet",
     "subType": "bracelet",
     "base": {"baseWaterDefence": 55},
@@ -6540,7 +6492,6 @@
       "level": 70,
       "intelligence": 10
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -6644,7 +6595,6 @@
       "rawIntelligence": 4,
       "rawAgility": 4
     },
-    "identified": true,
     "name": "Prowess",
     "subType": "bracelet",
     "rarity": "legendary"
@@ -6680,9 +6630,9 @@
         "raw": -10
       },
       "poison": {
-        "min": 225,
-        "max": 975,
-        "raw": 750
+        "min": 150,
+        "max": 650,
+        "raw": 500
       },
       "thunderDamage": {
         "min": 2,
@@ -6785,7 +6735,6 @@
   "Goblin Arm Bracer": {
     "dropRestriction": "never",
     "requirements": {"level": 43},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -6838,7 +6787,6 @@
       "fireDamage": 9,
       "fireDefence": 4
     },
-    "identified": true,
     "name": "Gold Solar Bracelet",
     "subType": "bracelet",
     "base": {
@@ -6948,7 +6896,6 @@
       "quest": "Lost in the Jungle",
       "intelligence": 25
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -7104,7 +7051,6 @@
       "fireDamage": 24,
       "waterDefence": -12
     },
-    "identified": true,
     "name": "Dupliblaze",
     "subType": "bracelet",
     "base": {
@@ -7144,9 +7090,9 @@
         "raw": 11
       },
       "poison": {
-        "min": 600,
-        "max": 2600,
-        "raw": 2000
+        "min": 450,
+        "max": 1950,
+        "raw": 1500
       },
       "thunderDamage": {
         "min": 3,
@@ -7249,7 +7195,6 @@
       "mainAttackDamage": 3,
       "airDamage": 3
     },
-    "identified": true,
     "name": "Used Wolf Paw",
     "subType": "bracelet",
     "base": {
@@ -7344,9 +7289,9 @@
         "raw": 10
       },
       "poison": {
-        "min": 420,
-        "max": 1820,
-        "raw": 1400
+        "min": 600,
+        "max": 2600,
+        "raw": 2000
       },
       "reflection": {
         "min": 3,
@@ -7384,11 +7329,10 @@
     "type": "accessory",
     "identifications": {
       "waterDamage": -25,
-      "poison": 5000,
+      "poison": 3650,
       "mainAttackDamage": 13,
       "healthRegen": -20
     },
-    "identified": true,
     "name": "Dying Lobelia",
     "subType": "bracelet",
     "base": {
@@ -7415,7 +7359,6 @@
       "level": 84,
       "intelligence": 40
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -7451,7 +7394,6 @@
       "quest": "From The Bottom",
       "intelligence": 25
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -7484,7 +7426,6 @@
     },
     "dropRestriction": "never",
     "requirements": {"level": 99},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -7643,7 +7584,6 @@
       "level": 80,
       "agility": 40
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -7677,7 +7617,6 @@
     },
     "dropRestriction": "never",
     "requirements": {"level": 91},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -7702,7 +7641,6 @@
       "defence": 25,
       "intelligence": 25
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -7814,7 +7752,6 @@
       "airDamage": 12,
       "rawMainAttackDamage": 85
     },
-    "identified": true,
     "name": "Vortex Bracer",
     "subType": "bracelet",
     "base": {
@@ -8007,7 +7944,6 @@
       "rawAgility": 2,
       "rawMainAttackDamage": 100
     },
-    "identified": true,
     "name": "Lost Tales",
     "subType": "bracelet",
     "base": {
@@ -8048,7 +7984,6 @@
       "level": 85,
       "defence": 55
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -8104,7 +8039,6 @@
       "strength": 50,
       "level": 93
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -8190,7 +8124,6 @@
       "fireDamage": 6,
       "fireDefence": 2
     },
-    "identified": true,
     "name": "Silver Solar Bracelet",
     "subType": "bracelet",
     "base": {
@@ -8346,7 +8279,6 @@
       "level": 63,
       "quest": "Lost in the Jungle"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -8433,7 +8365,6 @@
       "quest": "Zhight Island",
       "intelligence": 6
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -8624,7 +8555,6 @@
     },
     "dropRestriction": "never",
     "requirements": {"level": 77},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -8662,7 +8592,6 @@
       "defence": 10,
       "quest": "From The Bottom"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {

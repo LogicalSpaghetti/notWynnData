@@ -24,7 +24,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 2,
-    "identified": true,
     "name": "Vis",
     "subType": "helmet",
     "base": {
@@ -62,7 +61,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Pride of the Aerie",
     "subType": "helmet",
     "base": {
@@ -137,7 +135,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 1,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Almuj Turban",
     "subType": "helmet",
@@ -175,7 +172,6 @@
       "healthRegen": -40
     },
     "armourMaterial": "diamond",
-    "identified": true,
     "name": "Dreadnought",
     "subType": "helmet",
     "base": {
@@ -211,9 +207,9 @@
       },
       "rawStrength": 8,
       "poison": {
-        "min": 4050,
-        "max": 17550,
-        "raw": 13500
+        "min": 2550,
+        "max": 11050,
+        "raw": 8500
       },
       "lifeSteal": {
         "min": 89,
@@ -246,7 +242,7 @@
     "dropRestriction": "normal",
     "requirements": {
       "level": 87,
-      "defence": 70,
+      "defence": 55,
       "agility": 55
     },
     "lore": "\\[Community Event Winner\\] The old facemasks of the Eradian guards were forged from raw magma, and enchanted to remain searingly hot, so as to brand the wearer eternally with the mark of Rodoroc's elite.",
@@ -429,7 +425,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 3,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Ornate Shadow Cowl",
     "subType": "helmet",
@@ -513,7 +508,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Ashen Helm",
     "subType": "helmet",
     "base": {
@@ -595,6 +589,7 @@
       "defence": 35,
       "agility": 35
     },
+    "lore": "A silhouette of forgotten strength, its essence lingering like a half remembered dream. It no longer boasts the sharpness it once had, yet the stories etched into its very being refuse to fade.",
     "name": "Obsolescent Panoply",
     "subType": "helmet",
     "type": "armour",
@@ -649,12 +644,11 @@
       "rawMaxMana": 30,
       "earthDamage": 10,
       "waterDamage": 10,
-      "poison": 2200,
+      "poison": 900,
       "healthRegen": -15
     },
     "armourMaterial": "chain",
     "powderSlots": 2,
-    "identified": true,
     "name": "Stagnant",
     "subType": "helmet",
     "base": {
@@ -701,9 +695,9 @@
         "raw": 11
       },
       "poison": {
-        "min": 1200,
-        "max": 5200,
-        "raw": 4000
+        "min": 750,
+        "max": 3250,
+        "raw": 2500
       },
       "reflection": {
         "min": -30,
@@ -856,7 +850,6 @@
       "level": 27,
       "quest": "Creeper Infiltration"
     },
-    "identified": true,
     "icon": {
       "format": "skin",
       "value": "bba8459145d83ffc44ad58c3260e74ca5a0f634c7eeb59a1ad3234849c933c"
@@ -1001,9 +994,9 @@
     "identifications": {
       "rawDexterity": 4,
       "poison": {
-        "min": 120,
-        "max": 520,
-        "raw": 400
+        "min": 90,
+        "max": 390,
+        "raw": 300
       },
       "thunderDamage": {
         "min": 3,
@@ -1039,7 +1032,6 @@
       "thunderDefence": 12
     },
     "armourMaterial": "leather",
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Black Skull",
     "subType": "helmet",
@@ -1173,9 +1165,9 @@
       "rawStrength": 5,
       "rawDefence": 5,
       "poison": {
-        "min": 5250,
-        "max": 22750,
-        "raw": 17500
+        "min": 3300,
+        "max": 14300,
+        "raw": 11000
       },
       "thunderDamage": {
         "min": -26,
@@ -1215,7 +1207,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Corrupted Uth Plume",
     "subType": "helmet",
     "base": {
@@ -1252,7 +1243,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Filter Mask",
     "subType": "helmet",
     "base": {
@@ -1298,12 +1288,12 @@
     "type": "armour",
     "identifications": {
       "rawDexterity": 5,
+      "lifeSteal": 100,
       "thunderDamage": 20,
       "lootBonus": 10,
       "rawMainAttackDamage": 110
     },
     "powderSlots": 2,
-    "identified": true,
     "name": "Mask of Hate",
     "subType": "helmet",
     "base": {
@@ -1326,7 +1316,6 @@
     },
     "armourMaterial": "leather",
     "majorIds": {"Fright or Flight": "<span class='font-ascii' style='color:#55FFFF'>+Fright or Flight: <span class='font-ascii' style='color:#00AAAA'>Plays spooky tunes.<\/span><\/span>"},
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Never-Ending Nightmare",
     "subType": "helmet",
@@ -1628,7 +1617,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Dune Beast Jaw",
     "subType": "helmet",
     "base": {"baseHealth": 400},
@@ -1648,9 +1636,9 @@
         "raw": 20
       },
       "poison": {
-        "min": 1125,
-        "max": 4875,
-        "raw": 3750
+        "min": 660,
+        "max": 2860,
+        "raw": 2200
       },
       "xpBonus": {
         "min": 6,
@@ -1731,7 +1719,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 1,
-    "identified": true,
     "armourColor": "rgb(37,33,33)",
     "name": "Cephalothorax",
     "subType": "helmet",
@@ -2029,7 +2016,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 2,
-    "identified": true,
     "name": "Clock Helm",
     "subType": "helmet",
     "base": {"baseHealth": 1400},
@@ -2051,7 +2037,6 @@
       "level": 64,
       "defence": 20
     },
-    "identified": true,
     "name": "Vampire Blocker",
     "subType": "helmet",
     "type": "armour",
@@ -2155,7 +2140,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Kindled Orchid",
     "subType": "helmet",
     "base": {
@@ -2264,7 +2248,6 @@
   "Replica Hallowynn Mask": {
     "dropRestriction": "never",
     "requirements": {"level": 22},
-    "identified": true,
     "icon": {
       "format": "skin",
       "value": "59dee2e814cd4b5e933d8f2b30a0bc2a583552cbe3dae581bec09fbb6eb07e"
@@ -2416,7 +2399,6 @@
       "level": 27,
       "quest": "Creeper Infiltration"
     },
-    "identified": true,
     "icon": {
       "format": "skin",
       "value": "3795edeeb6b7ed41c268cefeafbe960b7c49550daeb631b56156bf5feb9847"
@@ -2561,12 +2543,12 @@
     "type": "armour",
     "identifications": {
       "walkSpeed": 15,
+      "sprintRegen": 25,
       "lootBonus": 10,
       "airDamage": 20,
       "rawAgility": 5
     },
     "powderSlots": 2,
-    "identified": true,
     "name": "Mask of Fear",
     "subType": "helmet",
     "base": {
@@ -2706,7 +2688,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Black Ripper",
     "subType": "helmet",
     "base": {
@@ -2738,7 +2719,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 1,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Hood of the Resistance",
     "subType": "helmet",
@@ -2770,7 +2750,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 3,
-    "identified": true,
     "name": "Brainfreeze",
     "subType": "helmet",
     "base": {
@@ -2921,7 +2900,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Obsidian-Framed Helmet",
     "subType": "helmet",
     "base": {
@@ -2957,7 +2935,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Ossuary",
     "subType": "helmet",
     "base": {
@@ -2974,9 +2951,9 @@
     "type": "armour",
     "identifications": {
       "poison": {
-        "min": 1950,
-        "max": 8450,
-        "raw": 6500
+        "min": 1425,
+        "max": 6175,
+        "raw": 4750
       },
       "lifeSteal": {
         "min": 42,
@@ -3026,7 +3003,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 2,
-    "identified": true,
     "armourColor": "rgb(114,178,56)",
     "name": "Elf Cap",
     "subType": "helmet",
@@ -3048,7 +3024,6 @@
       "reflection": 20
     },
     "armourMaterial": "leather",
-    "identified": true,
     "armourColor": "rgb(127,153,184)",
     "name": "Breathing Helmet II",
     "subType": "helmet",
@@ -3066,7 +3041,6 @@
       "level": 28,
       "quest": "Creeper Infiltration"
     },
-    "identified": true,
     "icon": {
       "format": "skin",
       "value": "5c7ecbfd6d33e873a1cf9a92f57f146152b52d9d7311694602671111a302f"
@@ -3113,7 +3087,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 1,
-    "identified": true,
     "armourColor": "rgb(153,153,0)",
     "name": "Tribal Cap",
     "subType": "helmet",
@@ -3309,7 +3282,6 @@
     "armourMaterial": "leather",
     "majorIds": {"Festive Spirit": "<span class='font-ascii' style='color:#55FFFF'>+Festive Spirit: <span class='font-ascii' style='color:#00AAAA'>Plays wintery tunes.<\/span><\/span>"},
     "powderSlots": 1,
-    "identified": true,
     "armourColor": "rgb(250,92,92)",
     "name": "Santa Earmuffs",
     "subType": "helmet",
@@ -3360,25 +3332,15 @@
     "subType": "helmet",
     "type": "armour",
     "identifications": {
-      "earthDamage": {
-        "min": -65,
-        "max": -35,
-        "raw": -50
-      },
-      "thorns": {
-        "min": 3,
-        "max": 13,
-        "raw": 10
-      },
       "exploding": {
         "min": 6,
         "max": 26,
         "raw": 20
       },
       "reflection": {
-        "min": 3,
-        "max": 13,
-        "raw": 10
+        "min": 8,
+        "max": 35,
+        "raw": 27
       },
       "fireDamage": {
         "min": 5,
@@ -3395,6 +3357,11 @@
         "max": 20,
         "raw": 15
       },
+      "earthDefence": {
+        "min": -39,
+        "max": -21,
+        "raw": -30
+      },
       "manaRegen": {
         "min": 2,
         "max": 8,
@@ -3404,7 +3371,7 @@
     "base": {
       "baseEarthDefence": -30,
       "baseWaterDefence": -20,
-      "baseHealth": 575
+      "baseHealth": 600
     },
     "rarity": "legendary"
   },
@@ -3543,11 +3510,11 @@
     },
     "dropRestriction": "never",
     "requirements": {
-      "dexterity": 45,
-      "strength": 45,
+      "dexterity": 40,
+      "strength": 40,
       "level": 80,
-      "defence": 45,
-      "agility": 45
+      "defence": 40,
+      "agility": 40
     },
     "restrictions": "untradable",
     "type": "armour",
@@ -3558,7 +3525,6 @@
       "stealing": 8
     },
     "armourMaterial": "diamond",
-    "identified": true,
     "name": "Centipede",
     "subType": "helmet",
     "base": {
@@ -3583,9 +3549,9 @@
     "identifications": {
       "rawDefence": -10,
       "poison": {
-        "min": 7050,
-        "max": 30550,
-        "raw": 23500
+        "min": 4650,
+        "max": 20150,
+        "raw": 15500
       },
       "sprintRegen": {
         "min": -19,
@@ -3632,14 +3598,13 @@
     "restrictions": "untradable",
     "type": "armour",
     "identifications": {
+      "healthRegenRaw": 50,
       "rawDefence": 5,
       "fireDamage": 20,
       "lootBonus": 10,
-      "healthRegen": 20,
-      "rawHealth": 500
+      "healthRegen": 20
     },
     "powderSlots": 2,
-    "identified": true,
     "name": "Mask of Courage",
     "subType": "helmet",
     "base": {
@@ -3691,7 +3656,6 @@
       "level": 26,
       "quest": "Creeper Infiltration"
     },
-    "identified": true,
     "icon": {
       "format": "skin",
       "value": "454d9c488c3fbde5454e38619f9cc5b5ba8c6c0186f8aa1da60900fcbc3ea6"
@@ -3831,7 +3795,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 4,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Frigg's Vow",
     "subType": "helmet",
@@ -3912,6 +3875,58 @@
     "type": "armour",
     "base": {"baseHealth": 920},
     "rarity": "common"
+  },
+  "Dark Matter֎": {
+    "dropRestriction": "normal",
+    "requirements": {
+      "dexterity": 45,
+      "strength": 45,
+      "level": 100,
+      "defence": 50,
+      "agility": 55,
+      "intelligence": 55
+    },
+    "lore": "It permeates around you, so subtly, enveloping your very being with a shroud on the cusp of impalpability.  Nothing can affect you now - the incorporeal hiding in plain sight.",
+    "type": "armour",
+    "identifications": {
+      "rawNeutralDamage": {
+        "min": -260,
+        "max": -140,
+        "raw": -200
+      },
+      "thorns": {
+        "min": 12,
+        "max": 52,
+        "raw": 40
+      },
+      "reflection": {
+        "min": 12,
+        "max": 52,
+        "raw": 40
+      },
+      "spellDamage": {
+        "min": 7,
+        "max": 30,
+        "raw": 23
+      },
+      "manaSteal": {
+        "min": -31,
+        "max": -17,
+        "raw": -24
+      },
+      "rawElementalSpellDamage": {
+        "min": 81,
+        "max": 350,
+        "raw": 269
+      }
+    },
+    "armourMaterial": "diamond",
+    "majorIds": {"Intangible": "<span class='font-ascii' style='color:#55FFFF'>+Intangible: <span class='font-ascii' style='color:#00AAAA'>The knockback you take is drastically reduced, and reflected damage deals large knockback.<\/span><\/span>"},
+    "powderSlots": 4,
+    "name": "Dark Matter֎",
+    "subType": "helmet",
+    "base": {"baseHealth": 3000},
+    "rarity": "fabled"
   },
   "Water Relic Helmet": {
     "dropMeta": {
@@ -4196,9 +4211,9 @@
     "identifications": {
       "rawStrength": 4,
       "poison": {
-        "min": 15,
-        "max": 65,
-        "raw": 50
+        "min": 8,
+        "max": 35,
+        "raw": 27
       },
       "lifeSteal": {
         "min": 2,
@@ -4234,7 +4249,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 2,
-    "identified": true,
     "name": "Advancement",
     "subType": "helmet",
     "base": {"baseHealth": 255},
@@ -4579,7 +4593,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 1,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Memorial",
     "subType": "helmet",
@@ -4751,7 +4764,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 2,
-    "identified": true,
     "name": "Strategist",
     "subType": "helmet",
     "base": {"baseHealth": 380},
@@ -4839,7 +4851,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 3,
-    "identified": true,
     "name": "Autumn Leaves",
     "subType": "helmet",
     "base": {
@@ -5433,7 +5444,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Mining Fever",
     "subType": "helmet",
     "base": {
@@ -5587,9 +5597,9 @@
         "raw": 15
       },
       "poison": {
-        "min": 495,
-        "max": 2145,
-        "raw": 1650
+        "min": 300,
+        "max": 1300,
+        "raw": 1000
       },
       "healthRegen": {
         "min": -19,
@@ -5729,7 +5739,7 @@
   },
   "Nighthawk": {
     "armourMaterial": "diamond",
-    "majorIds": {"Hawkeye": "<span class='font-ascii' style='color:#55FFFF'>+Hawkeye: <span class='font-ascii' style='color:#00AAAA'>Condense Arrow Storm into a tight beam. Arrows deal <span class='font-ascii' style='color:elements.neutral'><span class='font-common'><\/span>10%<\/span><darkAqua>, <span class='font-ascii' style='color:elements.thunder'><span class='font-common'><\/span>1%<\/span><darkAqua>, and <span class='font-ascii' style='color:elements.air'><span class='font-common'><\/span>1%<\/span><darkAqua>.<\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span>"},
+    "majorIds": {"Hawkeye": "<span class='font-ascii' style='color:#55FFFF'>+Hawkeye: <span class='font-ascii' style='color:#00AAAA'>Condense Arrow Storm into a tight beam of 5 arrows per stream that deal <span class='font-ascii' style='color:#ffaa00'><span class='font-common'><\/span>10%<\/span><darkAqua>, <span class='font-ascii' style='color:#ffff55'><span class='font-common'><\/span>1%<\/span><darkAqua>, and <span class='font-ascii' style='color:#ffffff'><span class='font-common'><\/span>1%<\/span><darkAqua>.<\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span>"},
     "powderSlots": 2,
     "dropRestriction": "normal",
     "requirements": {"level": 94},
@@ -5866,7 +5876,6 @@
     "powderSlots": 2,
     "dropRestriction": "never",
     "requirements": {"level": 45},
-    "identified": true,
     "name": "Wooly Cap",
     "subType": "helmet",
     "type": "armour",
@@ -5926,7 +5935,7 @@
     "base": {
       "baseAirDefence": 70,
       "baseFireDefence": -110,
-      "baseHealth": 3000
+      "baseHealth": 2800
     },
     "rarity": "legendary"
   },
@@ -5990,7 +5999,6 @@
       "level": 27,
       "quest": "Creeper Infiltration"
     },
-    "identified": true,
     "icon": {
       "format": "skin",
       "value": "1ea6f932b45fdf3b693d9e44bd05bca364eb5b9aff497226fdb52abb2436422"
@@ -6002,7 +6010,7 @@
       "rawMaxMana": 20,
       "damage": 8,
       "walkSpeed": -8,
-      "poison": 220
+      "poison": 100
     },
     "base": {
       "baseEarthDefence": 8,
@@ -6291,7 +6299,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 2,
-    "identified": true,
     "name": "Woljawh",
     "subType": "helmet",
     "base": {"baseHealth": 425},
@@ -6313,9 +6320,9 @@
       },
       "rawStrength": 8,
       "poison": {
-        "min": 76,
-        "max": 330,
-        "raw": 254
+        "min": 42,
+        "max": 182,
+        "raw": 140
       },
       "lifeSteal": {
         "min": 5,
@@ -6370,7 +6377,6 @@
       "level": 43,
       "quest": "Ice Nations"
     },
-    "identified": true,
     "name": "Greysmith",
     "subType": "helmet",
     "type": "armour",
@@ -6462,7 +6468,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Info Visor",
     "subType": "helmet",
     "base": {
@@ -6539,7 +6544,6 @@
       "exploding": 12
     },
     "armourMaterial": "leather",
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Creeper Mask",
     "subType": "helmet",
@@ -6568,7 +6572,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 2,
-    "identified": true,
     "name": "Reversion",
     "subType": "helmet",
     "base": {
@@ -6821,7 +6824,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 2,
-    "identified": true,
     "name": "Void",
     "subType": "helmet",
     "base": {
@@ -6953,9 +6955,9 @@
         "raw": 10
       },
       "poison": {
-        "min": 435,
-        "max": 1885,
-        "raw": 1450
+        "min": 300,
+        "max": 1300,
+        "raw": 1000
       },
       "rawSpellDamage": {
         "min": 22,
@@ -7261,7 +7263,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 5,
-    "identified": true,
     "name": "The Modulator",
     "subType": "helmet",
     "base": {"baseHealth": 2800},
@@ -7294,7 +7295,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Eradian Full Helm",
     "subType": "helmet",
     "base": {
@@ -7332,7 +7332,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 2,
-    "identified": true,
     "name": "The Judge",
     "subType": "helmet",
     "base": {
@@ -7367,7 +7366,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 2,
-    "identified": true,
     "name": "Butterfly",
     "subType": "helmet",
     "base": {
@@ -7413,7 +7411,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Boreal-Patterned Crown",
     "subType": "helmet",
     "base": {
@@ -7512,7 +7509,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Brise",
     "subType": "helmet",
     "base": {"baseHealth": 170},
@@ -7566,7 +7562,6 @@
       "level": 28,
       "quest": "Creeper Infiltration"
     },
-    "identified": true,
     "icon": {
       "format": "skin",
       "value": "56aab58fa01fce9af469ed747aed811d7ba18c476f5a7f9088e129c31b45f3"
@@ -7846,7 +7841,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Thanos Legionnaire Helm",
     "subType": "helmet",
     "base": {
@@ -8111,9 +8105,9 @@
         "raw": 10
       },
       "poison": {
-        "min": 78,
-        "max": 338,
-        "raw": 260
+        "min": 44,
+        "max": 189,
+        "raw": 145
       }
     },
     "base": {
@@ -8250,9 +8244,9 @@
         "raw": 8
       },
       "poison": {
-        "min": 180,
-        "max": 780,
-        "raw": 600
+        "min": 120,
+        "max": 520,
+        "raw": 400
       },
       "rawAgility": 7
     },
@@ -8398,7 +8392,6 @@
       "manaRegen": 12
     },
     "powderSlots": 2,
-    "identified": true,
     "name": "Mask of Enlightenment",
     "subType": "helmet",
     "base": {
@@ -8431,7 +8424,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "The Crow's Nest",
     "subType": "helmet",
     "base": {
@@ -8675,7 +8667,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Tricorne",
     "subType": "helmet",
     "base": {"baseHealth": 115},
@@ -9167,7 +9158,6 @@
       "rawAgility": 3
     },
     "armourMaterial": "leather",
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Messenger Cap",
     "subType": "helmet",
@@ -9814,9 +9804,9 @@
       },
       "rawDefence": 7,
       "poison": {
-        "min": 975,
-        "max": 4225,
-        "raw": 3250
+        "min": 540,
+        "max": 2340,
+        "raw": 1800
       },
       "lifeSteal": {
         "min": 29,
@@ -9873,7 +9863,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 1,
-    "identified": true,
     "name": "Silencer",
     "subType": "helmet",
     "base": {
@@ -10245,9 +10234,9 @@
         "raw": 8
       },
       "poison": {
-        "min": 9,
-        "max": 40,
-        "raw": 31
+        "min": 5,
+        "max": 20,
+        "raw": 15
       }
     },
     "armourMaterial": "leather",
@@ -10403,30 +10392,30 @@
     "lore": "What lies beneath the brim of all that never was, that overflowing vastness which cannot spill?",
     "type": "armour",
     "identifications": {
+      "damage": {
+        "min": -19,
+        "max": -10,
+        "raw": -15
+      },
       "walkSpeed": {
         "min": 6,
         "max": 26,
         "raw": 20
       },
       "lifeSteal": {
-        "min": 69,
-        "max": 300,
-        "raw": 231
-      },
-      "mainAttackDamage": {
-        "min": -26,
-        "max": -14,
-        "raw": -20
-      },
-      "spellDamage": {
-        "min": -26,
-        "max": -14,
-        "raw": -20
+        "min": 92,
+        "max": 400,
+        "raw": 308
       },
       "manaSteal": {
         "min": 3,
         "max": 12,
         "raw": 9
+      },
+      "mainAttackRange": {
+        "min": 6,
+        "max": 27,
+        "raw": 21
       }
     },
     "armourMaterial": "diamond",
@@ -10562,7 +10551,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Enhanced Salience",
     "subType": "helmet",
     "base": {
@@ -10767,34 +10755,34 @@
     "subType": "helmet",
     "type": "armour",
     "identifications": {
-      "healthRegenRaw": {
+      "thorns": {
         "min": 15,
         "max": 65,
         "raw": 50
       },
-      "thorns": {
-        "min": 20,
-        "max": 85,
-        "raw": 65
-      },
       "lifeSteal": {
-        "min": -97,
-        "max": -52,
-        "raw": -75
+        "min": 25,
+        "max": 108,
+        "raw": 83
       },
       "reflection": {
-        "min": 20,
-        "max": 85,
-        "raw": 65
+        "min": 15,
+        "max": 65,
+        "raw": 50
       },
-      "healthRegen": {
-        "min": 3,
-        "max": 13,
-        "raw": 10
+      "neutralDamage": {
+        "min": 6,
+        "max": 26,
+        "raw": 20
+      },
+      "knockback": {
+        "min": -195,
+        "max": -105,
+        "raw": -150
       },
       "rawAgility": -8
     },
-    "base": {"baseHealth": 700},
+    "base": {"baseHealth": 800},
     "rarity": "legendary"
   },
   "Cypress Amber": {
@@ -10920,7 +10908,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 2,
-    "identified": true,
     "name": "Lobotomy",
     "subType": "helmet",
     "base": {
@@ -11213,9 +11200,9 @@
       },
       "rawStrength": 8,
       "poison": {
-        "min": 675,
-        "max": 2925,
-        "raw": 2250
+        "min": 450,
+        "max": 1950,
+        "raw": 1500
       },
       "mainAttackDamage": {
         "min": 2,
@@ -11487,13 +11474,12 @@
     "identifications": {
       "healthRegenRaw": 120,
       "walkSpeed": -10,
-      "poison": 8800,
+      "poison": 6000,
       "lifeSteal": 175,
       "spellDamage": -20
     },
     "armourMaterial": "leather",
     "powderSlots": 6,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Blob Monster Mask",
     "subType": "helmet",
@@ -11548,7 +11534,6 @@
       "quest": "Troubled Tribesmen",
       "intelligence": 50
     },
-    "identified": true,
     "name": "Gysdep",
     "subType": "helmet",
     "type": "armour",
@@ -11598,7 +11583,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Sparkling Visor",
     "subType": "helmet",
     "base": {
@@ -11664,7 +11648,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 2,
-    "identified": true,
     "name": "Enhanced Umbrella Hat",
     "subType": "helmet",
     "base": {
@@ -11690,7 +11673,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 2,
-    "identified": true,
     "name": "Corrupted Nii Shako",
     "subType": "helmet",
     "base": {
@@ -11784,7 +11766,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 3,
-    "identified": true,
     "name": "Howler",
     "subType": "helmet",
     "base": {
@@ -12061,7 +12042,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Dragon Horned Helmet",
     "subType": "helmet",
     "base": {
@@ -12210,21 +12190,22 @@
     "subType": "helmet",
     "type": "armour",
     "identifications": {
+      "rawMaxMana": {
+        "min": -18,
+        "max": -10,
+        "raw": -14
+      },
       "rawDexterity": 8,
       "walkSpeed": {
         "min": 4,
         "max": 18,
         "raw": 14
       },
-      "fireDamage": {
-        "min": -68,
-        "max": -36,
-        "raw": -52
-      },
+      "jumpHeight": 1,
       "fireDefence": {
-        "min": -34,
-        "max": -18,
-        "raw": -26
+        "min": -39,
+        "max": -21,
+        "raw": -30
       },
       "spellDamage": {
         "min": 2,
@@ -12241,12 +12222,7 @@
         "max": 18,
         "raw": 14
       },
-      "rawAgility": 8,
-      "manaRegen": {
-        "min": -8,
-        "max": -4,
-        "raw": -6
-      }
+      "rawAgility": 8
     },
     "base": {
       "baseAirDefence": 50,
@@ -12475,7 +12451,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 2,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Psychopomp's Pileus",
     "subType": "helmet",
@@ -12555,7 +12530,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Whitecap Crown",
     "subType": "helmet",
     "base": {
@@ -12660,7 +12634,6 @@
   "Bear Mask": {
     "dropRestriction": "never",
     "requirements": {"level": 15},
-    "identified": true,
     "icon": {
       "format": "skin",
       "value": "695bbf9f175b1e76a61b4cd0ba183b18c9467017f41ed1046abf65a4a63c4a0"
@@ -12793,7 +12766,6 @@
       "level": 29,
       "quest": "Creeper Infiltration"
     },
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Black Mask",
     "subType": "helmet",
@@ -12833,7 +12805,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Plated Mining Helm",
     "subType": "helmet",
     "base": {"baseHealth": 2500},
@@ -12923,11 +12894,10 @@
       "manaSteal": 16,
       "rawAttackSpeed": -2,
       "stealing": 8,
-      "rawMainAttackDamage": 700
+      "rawMainAttackDamage": 1500
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Gaze from the Snowbank",
     "subType": "helmet",
     "base": {
@@ -12977,7 +12947,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Dune Storm",
     "subType": "helmet",
     "base": {
@@ -13006,9 +12975,9 @@
         "raw": 10
       },
       "poison": {
-        "min": 5850,
-        "max": 25350,
-        "raw": 19500
+        "min": 4200,
+        "max": 18200,
+        "raw": 14000
       },
       "lifeSteal": {
         "min": 44,
@@ -13146,9 +13115,9 @@
         "raw": -7
       },
       "poison": {
-        "min": 1020,
-        "max": 4420,
-        "raw": 3400
+        "min": 840,
+        "max": 3640,
+        "raw": 2800
       },
       "mainAttackDamage": {
         "min": 2,
@@ -13274,7 +13243,6 @@
       "defence": 20,
       "agility": 20
     },
-    "identified": true,
     "name": "Wynnter Scarf",
     "subType": "helmet",
     "type": "armour",
@@ -13492,7 +13460,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Protector's Parable",
     "subType": "helmet",
     "base": {
@@ -13721,13 +13688,12 @@
     "type": "armour",
     "identifications": {
       "rawDexterity": 4,
-      "poison": 350,
+      "poison": 240,
       "thunderDamage": 7,
       "stealing": 4
     },
     "armourMaterial": "chain",
     "powderSlots": 1,
-    "identified": true,
     "name": "Enhanced Assassin's Hood",
     "subType": "helmet",
     "base": {
@@ -13855,7 +13821,6 @@
       "stealing": 3
     },
     "armourMaterial": "leather",
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Female Pirate Wig",
     "subType": "helmet",
@@ -13961,7 +13926,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 2,
-    "identified": true,
     "name": "Piranha",
     "subType": "helmet",
     "base": {
@@ -14010,9 +13974,9 @@
     "type": "armour",
     "identifications": {
       "poison": {
-        "min": 5760,
-        "max": 24960,
-        "raw": 19200
+        "min": 3600,
+        "max": 15600,
+        "raw": 12000
       },
       "lifeSteal": {
         "min": 116,
@@ -14373,7 +14337,6 @@
       "waterDefence": 25
     },
     "armourMaterial": "diamond",
-    "identified": true,
     "name": "Ambertoise Shell",
     "subType": "helmet",
     "base": {
@@ -14395,9 +14358,9 @@
     "type": "armour",
     "identifications": {
       "poison": {
-        "min": 690,
-        "max": 2990,
-        "raw": 2300
+        "min": 540,
+        "max": 2340,
+        "raw": 1800
       },
       "lifeSteal": {
         "min": 35,
@@ -14494,7 +14457,6 @@
       "level": 26,
       "quest": "Creeper Infiltration"
     },
-    "identified": true,
     "icon": {
       "format": "skin",
       "value": "65d7bed8df714cea063e457ba5e87931141de293dd1d9b9146b0f5ab383866"
@@ -14524,7 +14486,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 3,
-    "identified": true,
     "armourColor": "rgb(207,223,240)",
     "name": "Saint's Shawl",
     "subType": "helmet",
@@ -14819,7 +14780,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 4,
-    "identified": true,
     "name": "Skyfloat",
     "subType": "helmet",
     "base": {
@@ -14853,7 +14813,6 @@
       "agility": 45,
       "intelligence": 60
     },
-    "identified": true,
     "name": "Ski Mask",
     "subType": "helmet",
     "type": "armour",
@@ -15055,10 +15014,10 @@
       "earthDamage": 20,
       "rawStrength": 5,
       "mainAttackDamage": 25,
+      "mainAttackRange": 20,
       "lootBonus": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "name": "Mask of Rage",
     "subType": "helmet",
     "base": {
@@ -15271,13 +15230,12 @@
       "level": 63,
       "defence": 30
     },
-    "identified": true,
     "name": "Opium",
     "subType": "helmet",
     "type": "armour",
     "identifications": {
       "walkSpeed": -10,
-      "poison": 4200,
+      "poison": 1800,
       "lifeSteal": 120,
       "fireDamage": 15,
       "xpBonus": 10
@@ -15636,7 +15594,6 @@
       "strength": 25,
       "level": 41
     },
-    "identified": true,
     "name": "Goblin Hood",
     "subType": "helmet",
     "type": "armour",
@@ -15779,7 +15736,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Enhanced Hilltop",
     "subType": "helmet",
     "base": {
@@ -15946,7 +15902,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 1,
-    "identified": true,
     "name": "Cranial Panel",
     "subType": "helmet",
     "base": {
@@ -16360,7 +16315,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 3,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Rime-Webbed Antlers",
     "subType": "helmet",
@@ -16424,7 +16378,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Sparkweaver",
     "subType": "helmet",
     "base": {
@@ -16525,9 +16478,9 @@
         "raw": 9
       },
       "poison": {
-        "min": 2400,
-        "max": 10400,
-        "raw": 8000
+        "min": 1350,
+        "max": 5850,
+        "raw": 4500
       },
       "mainAttackDamage": {
         "min": 3,

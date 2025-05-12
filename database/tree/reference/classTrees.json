@@ -1629,7 +1629,7 @@
               "<span class='font-ascii' style='color:#AAAAAA'>within <span class='font-ascii' style='color:#FFFFFF'>10s</span><span class='font-ascii' style='color:#AAAAAA'> will apply a damage bonus</span></span>",
               "<span class='font-ascii' style='color:#AAAAAA'>to every player you've healed.</span>",
               "</br>",
-              "<span class='font-ascii' style='color:#FFFF55'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Effect: </span><span class='font-ascii' style='color:#FFFFFF'>50% </span><span class='font-ascii' style='color:#AAAAAA'>Damage Bonus (</span><span class='font-ascii' style='color:#55FF55'><span class='font-default'></span>⚔</span></span><span class='font-ascii' style='color:#AAAAAA'>) to Allies</span></span></span>",
+              "<span class='font-ascii' style='color:#FFFF55'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Effect: </span><span class='font-ascii' style='color:#FFFFFF'>40% </span><span class='font-ascii' style='color:#AAAAAA'>Damage Bonus (</span><span class='font-ascii' style='color:#55FF55'><span class='font-default'></span>⚔</span></span><span class='font-ascii' style='color:#AAAAAA'>) to Allies</span></span></span>",
               "<span class='font-ascii' style='color:#FF55FF'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Duration: </span><span class='font-ascii' style='color:#FFFFFF'>7s</span></span></span>",
               "<span class='font-ascii' style='color:#4dffc3'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Cooldown: </span><span class='font-ascii' style='color:#FFFFFF'>15s</span></span></span>",
               "</br>",
@@ -2232,7 +2232,7 @@
             },
             "description": [
               "</br>",
-              "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Ice Snake<span class='font-ascii' style='color:#AAAAAA'> will add </span><span class='font-ascii' style='color:#55FFFF'>+1 Winded <span class='font-ascii' style='color:#55FFFF'><span class='font-common'></span></span><span class='font-ascii' style='color:#AAAAAA'></span></span></span></span></span>",
+              "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Ice Snake<span class='font-ascii' style='color:#AAAAAA'> will add </span><span class='font-ascii' style='color:#55FFFF'>+3 Winded <span class='font-ascii' style='color:#55FFFF'><span class='font-common'></span></span><span class='font-ascii' style='color:#AAAAAA'></span></span></span></span></span>",
               "<span class='font-ascii' style='color:#AAAAAA'>to enemies and deal more damage.</span>",
               "</br>",
               "<span class='font-ascii' style='color:#FF5555'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Total Damage: </span><span class='font-ascii' style='color:#FFFFFF'>+30% </span><span class='font-ascii' style='color:#555555'>(of your DPS)</span></span></span>",
@@ -8751,7 +8751,7 @@
               "<span class='font-ascii' style='color:#AAAAAA'>shield around you that reduces all</span>",
               "<span class='font-ascii' style='color:#AAAAAA'>incoming damage by <span class='font-ascii' style='color:#FFFFFF'>-70%</span><span class='font-ascii' style='color:#AAAAAA'> for </span><span class='font-ascii' style='color:#FFFFFF'>3</span><span class='font-ascii' style='color:#AAAAAA'> hits.</span></span>",
               "</br>",
-              "<span class='font-ascii' style='color:#4dffc3'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Cooldown: </span><span class='font-ascii' style='color:#FFFFFF'>25s</span></span></span>",
+              "<span class='font-ascii' style='color:#4dffc3'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Cooldown: </span><span class='font-ascii' style='color:#FFFFFF'>20s</span></span></span>",
               "</br>",
               "<span class='font-ascii' style='color:#60c5cd'><span class='font-ascii' style='font-weight:bolder'>Paladin Archetype</span></span>",
               "</br>",
@@ -8784,11 +8784,14 @@
             },
             "description": [
               "</br>",
-              "<span class='font-ascii' style='color:#AAAAAA'>Deals damage around you for each mantle lost</span>",
-              "<span class='font-ascii' style='color:#AAAAAA'>when <span class='font-ascii' style='text-decoration: underline'>Mantle of the Bovemist</span><span class='font-ascii' style='color:#AAAAAA'> loses all charges.</span></span>",
+              "<span class='font-ascii' style='color:#AAAAAA'>You gain a broken mantle whenever</span>",
+              "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Mantle of the Bovemist<span class='font-ascii' style='color:#AAAAAA'> loses a charge.</span></span></span>",
               "</br>",
-              "<span class='font-ascii' style='color:#FF5555'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Total Damage: </span><span class='font-ascii' style='color:#FFFFFF'>100% </span><span class='font-ascii' style='color:#555555'>(of your DPS, per mantle lost)</span></span></span>",
-              "<span class='font-ascii' style='color:#AAAAAA'>  <span class='font-ascii' style='margin-left: 20px'><span class='font-ascii' style='color:#555555'>(<span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span> </span><span class='font-ascii' style='color:#555555'>Damage: </span><span class='font-ascii' style='color:#555555'>70%</span><span class='font-ascii' style='color:#555555'>)</span></span></span></span></span>",
+              "<span class='font-ascii' style='color:#AAAAAA'>Hitting an enemy with <span class='font-ascii' style='text-decoration: underline'>Bash</span><span class='font-ascii' style='color:#AAAAAA'> sends all broken</span></span>",
+              "<span class='font-ascii' style='color:#AAAAAA'>mantles at them, dealing damage to nearby enemies.</span>",
+              "</br>",
+              "<span class='font-ascii' style='color:#FF5555'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Total Damage: </span><span class='font-ascii' style='color:#FFFFFF'>120% </span><span class='font-ascii' style='color:#555555'>(of your DPS, per broken mantle)</span></span></span>",
+              "<span class='font-ascii' style='color:#AAAAAA'>  <span class='font-ascii' style='margin-left: 20px'><span class='font-ascii' style='color:#555555'>(<span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span> </span><span class='font-ascii' style='color:#555555'>Damage: </span><span class='font-ascii' style='color:#555555'>90%</span><span class='font-ascii' style='color:#555555'>)</span></span></span></span></span>",
               "<span class='font-ascii' style='color:#AAAAAA'>  <span class='font-ascii' style='margin-left: 20px'><span class='font-ascii' style='color:#555555'>(<span class='font-ascii' style='color:#ff5555'><span class='font-common'></span> </span><span class='font-ascii' style='color:#555555'>Fire: </span><span class='font-ascii' style='color:#555555'>30%</span><span class='font-ascii' style='color:#555555'>)</span></span></span></span></span>",
               "<span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Area of Effect: </span><span class='font-ascii' style='color:#FFFFFF'>5 Blocks </span><span class='font-ascii' style='color:#AAAAAA'>(Circle-Shaped)</span></span></span>",
               "</br>",
@@ -9361,48 +9364,11 @@
             ],
             "links": [
               "warscreamCost1",
-              "strongerShield",
+              "bashCost2",
               "collide",
               "sacredSurge"
             ],
             "slot": 33,
-            "page": 5,
-            "locks": null
-          },
-          "strongerShield": {
-            "requirements": {
-              "NODE": "shield",
-              "ABILITY_POINTS": 1
-            },
-            "name": "<span class='font-ascii' style='color:#ffffff'><span class='font-ascii' style='font-weight:bolder'>Blessed Bulwark</span></span>",
-            "icon": {
-              "format": "attribute",
-              "value": {
-                "customModelData": "18",
-                "name": "abilityTree.nodeWhite",
-                "id": "minecraft:potion"
-              }
-            },
-            "coordinates": {
-              "x": 9,
-              "y": 4
-            },
-            "description": [
-              "</br>",
-              "<span class='font-ascii' style='color:#AAAAAA'>Add <span class='font-ascii' style='color:#FFFFFF'>+2</span><span class='font-ascii' style='color:#AAAAAA'> additional charges to</span></span>",
-              "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Mantle of the Bovemists<span class='font-ascii' style='color:#AAAAAA'> and</span></span></span>",
-              "<span class='font-ascii' style='color:#AAAAAA'>reduce its cooldown by <span class='font-ascii' style='color:#FFFFFF'>-5s</span><span class='font-ascii' style='color:#AAAAAA'>.</span></span>",
-              "</br>",
-              "<span class='font-ascii' style='color:#60c5cd'><span class='font-ascii' style='font-weight:bolder'>Paladin Archetype</span></span>",
-              "</br>",
-              "<span class='font-ascii' style='color:#AAAAAA'>Ability Points: <span class='font-ascii' style='color:#FFFFFF'>1</span></span>",
-              "<span class='font-ascii' style='color:#AAAAAA'>Required Ability: <span class='font-ascii' style='color:#FFFFFF'>Mantle of the Bovemists</span></span>"
-            ],
-            "links": [
-              "cleansingBreeze",
-              "sacredSurge"
-            ],
-            "slot": 35,
             "page": 5,
             "locks": null
           },
@@ -9597,6 +9563,41 @@
             "page": 5,
             "locks": null
           },
+          "bashCost2": {
+            "requirements": {
+              "NODE": "bash",
+              "ABILITY_POINTS": 1
+            },
+            "name": "<span class='font-ascii' style='color:#ffffff'><span class='font-ascii' style='font-weight:bolder'>Cheaper Bash</span></span>",
+            "icon": {
+              "format": "attribute",
+              "value": {
+                "customModelData": "18",
+                "name": "abilityTree.nodeWhite",
+                "id": "minecraft:potion"
+              }
+            },
+            "coordinates": {
+              "x": 9,
+              "y": 4
+            },
+            "description": [
+              "</br>",
+              "<span class='font-ascii' style='color:#AAAAAA'>Reduce the Mana cost of <span class='font-ascii' style='text-decoration: underline'>Bash</span><span class='font-ascii' style='color:#AAAAAA'>.</span></span>",
+              "</br>",
+              "<span class='font-ascii' style='color:#66e6ff'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Mana Cost: </span><span class='font-ascii' style='color:#FFFFFF'>-5</span></span></span>",
+              "</br>",
+              "<span class='font-ascii' style='color:#AAAAAA'>Ability Points: <span class='font-ascii' style='color:#FFFFFF'>1</span></span>",
+              "<span class='font-ascii' style='color:#AAAAAA'>Required Ability: <span class='font-ascii' style='color:#FFFFFF'>Bash</span></span>"
+            ],
+            "links": [
+              "cleansingBreeze",
+              "sacredSurge"
+            ],
+            "slot": 35,
+            "page": 5,
+            "locks": null
+          },
           "bashDamage1": {
             "requirements": {"ABILITY_POINTS": 1},
             "name": "<span class='font-ascii' style='color:#ffffff'><span class='font-ascii' style='font-weight:bolder'>Crushing Blow</span></span>",
@@ -9713,7 +9714,7 @@
               "<span class='font-ascii' style='color:#AAAAAA'>Min Paladin Archetype: <span class='font-ascii' style='color:#FFFFFF'>5</span></span>"
             ],
             "links": [
-              "strongerShield",
+              "bashCost2",
               "bashDamage1"
             ],
             "slot": 17,
@@ -9888,6 +9889,43 @@
             "page": 6,
             "locks": null
           },
+          "strongerShield": {
+            "requirements": {
+              "NODE": "shield",
+              "ABILITY_POINTS": 1
+            },
+            "name": "<span class='font-ascii' style='color:#ffffff'><span class='font-ascii' style='font-weight:bolder'>Blessed Bulwark</span></span>",
+            "icon": {
+              "format": "attribute",
+              "value": {
+                "customModelData": "18",
+                "name": "abilityTree.nodeWhite",
+                "id": "minecraft:potion"
+              }
+            },
+            "coordinates": {
+              "x": 8,
+              "y": 5
+            },
+            "description": [
+              "</br>",
+              "<span class='font-ascii' style='color:#AAAAAA'>Add <span class='font-ascii' style='color:#FFFFFF'>+2</span><span class='font-ascii' style='color:#AAAAAA'> additional charges</span></span>",
+              "<span class='font-ascii' style='color:#AAAAAA'>to <span class='font-ascii' style='text-decoration: underline'>Mantle of the Bovemists</span><span class='font-ascii' style='color:#AAAAAA'>.</span></span>",
+              "</br>",
+              "<span class='font-ascii' style='color:#60c5cd'><span class='font-ascii' style='font-weight:bolder'>Paladin Archetype</span></span>",
+              "</br>",
+              "<span class='font-ascii' style='color:#AAAAAA'>Ability Points: <span class='font-ascii' style='color:#FFFFFF'>1</span></span>",
+              "<span class='font-ascii' style='color:#AAAAAA'>Required Ability: <span class='font-ascii' style='color:#FFFFFF'>Mantle of the Bovemists</span></span>"
+            ],
+            "links": [
+              "provoke",
+              "protectiveBash",
+              "strongerSacredSurge"
+            ],
+            "slot": 43,
+            "page": 6,
+            "locks": null
+          },
           "chargeCost2": {
             "requirements": {
               "NODE": "charge",
@@ -9955,11 +9993,11 @@
             "description": [
               "</br>",
               "<span class='font-ascii' style='color:#AAAAAA'>While <span class='font-ascii' style='color:#55FFFF'>Corrupted <span class='font-ascii' style='color:#AA0000'><span class='font-common'></span></span><span class='font-ascii' style='color:#AAAAAA'>, losing </span><span class='font-ascii' style='color:#FFFFFF'>30%</span><span class='font-ascii' style='color:#AAAAAA'> Health will make</span></span></span></span>",
-              "<span class='font-ascii' style='color:#AAAAAA'>your next <span class='font-ascii' style='text-decoration: underline'>Uppercut</span><span class='font-ascii' style='color:#AAAAAA'> reduce the enemies'</span></span>",
-              "<span class='font-ascii' style='color:#AAAAAA'>defense stats.</span>",
+              "<span class='font-ascii' style='color:#AAAAAA'>your next <span class='font-ascii' style='text-decoration: underline'>Uppercut</span><span class='font-ascii' style='color:#AAAAAA'> give you a damage boost.</span></span>",
               "</br>",
-              "<span class='font-ascii' style='color:#FFFF55'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Effect: </span><span class='font-ascii' style='color:#FFFFFF'>-20% </span><span class='font-ascii' style='color:#AAAAAA'>Resistance Bonus (</span><span class='font-ascii' style='color:#FF5555'><span class='font-default'></span>✃</span></span><span class='font-ascii' style='color:#AAAAAA'>) to Enemies</span></span></span>",
+              "<span class='font-ascii' style='color:#FFFF55'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Effect: </span><span class='font-ascii' style='color:#FFFFFF'>+20% </span><span class='font-ascii' style='color:#AAAAAA'>Damage Bonus (</span><span class='font-ascii' style='color:#FF5555'><span class='font-default'></span>⚔</span></span><span class='font-ascii' style='color:#AAAAAA'>) to Self</span></span></span>",
               "<span class='font-ascii' style='color:#FF55FF'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Duration: </span><span class='font-ascii' style='color:#FFFFFF'>8s</span></span></span>",
+              "<span class='font-ascii' style='color:#4dffc3'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Cooldown: </span><span class='font-ascii' style='color:#FFFFFF'>12s</span></span></span>",
               "</br>",
               "<span class='font-ascii' style='color:#ffa057'><span class='font-ascii' style='font-weight:bolder'>Fallen Archetype</span></span>",
               "</br>",
@@ -10120,7 +10158,7 @@
             ],
             "links": [
               "lusterPurge",
-              "bashCost2"
+              "strongerShield"
             ],
             "slot": 26,
             "page": 6,
@@ -10165,7 +10203,7 @@
               "<span class='font-ascii' style='color:#AAAAAA'>Required Ability: <span class='font-ascii' style='color:#FFFFFF'>War Scream</span></span>",
               "<span class='font-ascii' style='color:#AAAAAA'>Min Paladin Archetype: <span class='font-ascii' style='color:#FFFFFF'>5</span></span>"
             ],
-            "links": ["bashCost2"],
+            "links": ["strongerShield"],
             "slot": 41,
             "page": 6,
             "locks": null
@@ -10232,45 +10270,9 @@
             ],
             "links": [
               "sparklingHope",
-              "bashCost2"
+              "strongerShield"
             ],
             "slot": 24,
-            "page": 6,
-            "locks": null
-          },
-          "bashCost2": {
-            "requirements": {
-              "NODE": "bash",
-              "ABILITY_POINTS": 1
-            },
-            "name": "<span class='font-ascii' style='color:#ffffff'><span class='font-ascii' style='font-weight:bolder'>Cheaper Bash</span></span>",
-            "icon": {
-              "format": "attribute",
-              "value": {
-                "customModelData": "18",
-                "name": "abilityTree.nodeWhite",
-                "id": "minecraft:potion"
-              }
-            },
-            "coordinates": {
-              "x": 8,
-              "y": 5
-            },
-            "description": [
-              "</br>",
-              "<span class='font-ascii' style='color:#AAAAAA'>Reduce the Mana cost of <span class='font-ascii' style='text-decoration: underline'>Bash</span><span class='font-ascii' style='color:#AAAAAA'>.</span></span>",
-              "</br>",
-              "<span class='font-ascii' style='color:#66e6ff'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Mana Cost: </span><span class='font-ascii' style='color:#FFFFFF'>-5</span></span></span>",
-              "</br>",
-              "<span class='font-ascii' style='color:#AAAAAA'>Ability Points: <span class='font-ascii' style='color:#FFFFFF'>1</span></span>",
-              "<span class='font-ascii' style='color:#AAAAAA'>Required Ability: <span class='font-ascii' style='color:#FFFFFF'>Bash</span></span>"
-            ],
-            "links": [
-              "provoke",
-              "protectiveBash",
-              "strongerSacredSurge"
-            ],
-            "slot": 43,
             "page": 6,
             "locks": null
           },
@@ -10302,7 +10304,7 @@
               "<span class='font-ascii' style='color:#AAAAAA'>launching you upward with enemies.</span>",
               "<span class='font-ascii' style='color:#555555'>(Hold shift to stay grounded)</span>",
               "</br>",
-              "<span class='font-ascii' style='color:#FF5555'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Total Damage: </span><span class='font-ascii' style='color:#FFFFFF'>+{totalDamage}% </span><span class='font-ascii' style='color:#555555'>(of your DPS)</span></span></span>",
+              "<span class='font-ascii' style='color:#FF5555'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Total Damage: </span><span class='font-ascii' style='color:#FFFFFF'>+0% </span><span class='font-ascii' style='color:#555555'>(of your DPS)</span></span></span>",
               "<span class='font-ascii' style='color:#AAAAAA'>  <span class='font-ascii' style='margin-left: 20px'><span class='font-ascii' style='color:#555555'>(<span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span> </span><span class='font-ascii' style='color:#555555'>Damage: </span><span class='font-ascii' style='color:#555555'>-30%</span><span class='font-ascii' style='color:#555555'>)</span></span></span></span></span>",
               "<span class='font-ascii' style='color:#AAAAAA'>  <span class='font-ascii' style='margin-left: 20px'><span class='font-ascii' style='color:#555555'>(<span class='font-ascii' style='color:#ffffff'><span class='font-common'></span> </span><span class='font-ascii' style='color:#555555'>Air: </span><span class='font-ascii' style='color:#555555'>+30%</span><span class='font-ascii' style='color:#555555'>)</span></span></span></span></span>",
               "<span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Area of Effect: </span><span class='font-ascii' style='color:#FFFFFF'>Circle-Shaped</span></span></span>",
@@ -10974,20 +10976,20 @@
       "Fallen's Embodiment of Blind Fury": {
         "tiers": {
           "1": {
-            "description": ["<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Blood Pact<span class='font-ascii' style='color:#AAAAAA'>'s health cost is reduced by </span><span class='font-ascii' style='color:#FFFFFF'>-0.1%</span><span class='font-ascii' style='color:#AAAAAA'>.</span></span></span>"],
+            "description": ["<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Blood Pact<span class='font-ascii' style='color:#AAAAAA'>'s health cost is reduced by </span><span class='font-ascii' style='color:#FFFFFF'>-0.05%</span><span class='font-ascii' style='color:#AAAAAA'>.</span></span></span>"],
             "threshold": 1
           },
           "2": {
             "description": [
-              "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Blood Pact<span class='font-ascii' style='color:#AAAAAA'> adds </span><span class='font-ascii' style='color:#FFFFFF'>+10% </span><span class='font-ascii' style='color:#AAAAAA'>more damage to spells cast using health.</span></span></span>",
-              "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Blood Pact<span class='font-ascii' style='color:#AAAAAA'>'s health cost is reduced by </span><span class='font-ascii' style='color:#FFFFFF'>-0.1%</span><span class='font-ascii' style='color:#AAAAAA'>.</span></span></span>"
+              "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Blood Pact<span class='font-ascii' style='color:#AAAAAA'> adds </span><span class='font-ascii' style='color:#FFFFFF'>+5% </span><span class='font-ascii' style='color:#AAAAAA'>more damage to spells cast using health.</span></span></span>",
+              "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Blood Pact<span class='font-ascii' style='color:#AAAAAA'>'s health cost is reduced by </span><span class='font-ascii' style='color:#FFFFFF'>-0.05%</span><span class='font-ascii' style='color:#AAAAAA'>.</span></span></span>"
             ],
             "threshold": 5
           },
           "3": {
             "description": [
-              "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Blood Pact<span class='font-ascii' style='color:#AAAAAA'> adds </span><span class='font-ascii' style='color:#FFFFFF'>+15% </span><span class='font-ascii' style='color:#AAAAAA'>more damage to spells cast using health.</span></span></span>",
-              "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Blood Pact<span class='font-ascii' style='color:#AAAAAA'>'s health cost is reduced by </span><span class='font-ascii' style='color:#FFFFFF'>-0.1%</span><span class='font-ascii' style='color:#AAAAAA'>.</span></span></span>"
+              "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Blood Pact<span class='font-ascii' style='color:#AAAAAA'> adds </span><span class='font-ascii' style='color:#FFFFFF'>+8% </span><span class='font-ascii' style='color:#AAAAAA'>more damage to spells cast using health.</span></span></span>",
+              "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Blood Pact<span class='font-ascii' style='color:#AAAAAA'>'s health cost is reduced by </span><span class='font-ascii' style='color:#FFFFFF'>-0.05%</span><span class='font-ascii' style='color:#AAAAAA'>.</span></span></span>"
             ],
             "threshold": 15
           }
@@ -14132,7 +14134,7 @@
         },
         "type": "connector",
         "family": [
-          "strongerShield",
+          "bashCost2",
           "rejuvenatingSkin"
         ]
       },
@@ -14371,7 +14373,7 @@
         },
         "type": "connector",
         "family": [
-          "strongerShield",
+          "bashCost2",
           "cleansingBreeze",
           "sacredSurge"
         ]
@@ -14405,59 +14407,7 @@
         "family": [
           "sacredSurge",
           "cleansingBreeze",
-          "strongerShield"
-        ]
-      },
-      {
-        "meta": {
-          "icon": {
-            "format": "attribute",
-            "value": {
-              "customModelData": "18",
-              "name": "abilityTree.nodeWhite",
-              "id": "minecraft:potion"
-            }
-          },
-          "page": 5,
-          "id": "strongerShield"
-        },
-        "coordinates": {
-          "x": 9,
-          "y": 28
-        },
-        "type": "ability",
-        "family": ["strongerShield"]
-      },
-      {
-        "meta": {
-          "icon": "connector_right_down_left",
-          "page": 5
-        },
-        "coordinates": {
-          "x": 8,
-          "y": 28
-        },
-        "type": "connector",
-        "family": [
-          "cleansingBreeze",
-          "strongerShield",
-          "sacredSurge"
-        ]
-      },
-      {
-        "meta": {
-          "icon": "connector_right_down_left",
-          "page": 5
-        },
-        "coordinates": {
-          "x": 8,
-          "y": 28
-        },
-        "type": "connector",
-        "family": [
-          "sacredSurge",
-          "strongerShield",
-          "cleansingBreeze"
+          "bashCost2"
         ]
       },
       {
@@ -14649,6 +14599,58 @@
         },
         "type": "ability",
         "family": ["emboldeningCry"]
+      },
+      {
+        "meta": {
+          "icon": {
+            "format": "attribute",
+            "value": {
+              "customModelData": "18",
+              "name": "abilityTree.nodeWhite",
+              "id": "minecraft:potion"
+            }
+          },
+          "page": 5,
+          "id": "bashCost2"
+        },
+        "coordinates": {
+          "x": 9,
+          "y": 28
+        },
+        "type": "ability",
+        "family": ["bashCost2"]
+      },
+      {
+        "meta": {
+          "icon": "connector_right_down_left",
+          "page": 5
+        },
+        "coordinates": {
+          "x": 8,
+          "y": 28
+        },
+        "type": "connector",
+        "family": [
+          "cleansingBreeze",
+          "bashCost2",
+          "sacredSurge"
+        ]
+      },
+      {
+        "meta": {
+          "icon": "connector_right_down_left",
+          "page": 5
+        },
+        "coordinates": {
+          "x": 8,
+          "y": 28
+        },
+        "type": "connector",
+        "family": [
+          "sacredSurge",
+          "bashCost2",
+          "cleansingBreeze"
+        ]
       },
       {
         "meta": {
@@ -14982,7 +14984,7 @@
         "family": [
           "sparklingHope",
           "lusterPurge",
-          "bashCost2"
+          "strongerShield"
         ]
       },
       {
@@ -14996,7 +14998,7 @@
         },
         "type": "connector",
         "family": [
-          "bashCost2",
+          "strongerShield",
           "lusterPurge",
           "sparklingHope"
         ]
@@ -15012,7 +15014,7 @@
         },
         "type": "connector",
         "family": [
-          "bashCost2",
+          "strongerShield",
           "lusterPurge",
           "sparklingHope"
         ]
@@ -15050,7 +15052,7 @@
         "family": [
           "lusterPurge",
           "sparklingHope",
-          "bashCost2"
+          "strongerShield"
         ]
       },
       {
@@ -15064,7 +15066,7 @@
         },
         "type": "connector",
         "family": [
-          "bashCost2",
+          "strongerShield",
           "sparklingHope",
           "lusterPurge"
         ]
@@ -15080,7 +15082,7 @@
         },
         "type": "connector",
         "family": [
-          "bashCost2",
+          "strongerShield",
           "sparklingHope",
           "lusterPurge"
         ]
@@ -15449,73 +15451,8 @@
         },
         "type": "connector",
         "family": [
-          "bashCost2",
+          "strongerShield",
           "provoke"
-        ]
-      },
-      {
-        "meta": {
-          "icon": {
-            "format": "attribute",
-            "value": {
-              "customModelData": "18",
-              "name": "abilityTree.nodeWhite",
-              "id": "minecraft:potion"
-            }
-          },
-          "page": 6,
-          "id": "bashCost2"
-        },
-        "coordinates": {
-          "x": 8,
-          "y": 35
-        },
-        "type": "ability",
-        "family": ["bashCost2"]
-      },
-      {
-        "meta": {
-          "icon": "connector_right_left",
-          "page": 6
-        },
-        "coordinates": {
-          "x": 7,
-          "y": 35
-        },
-        "type": "connector",
-        "family": [
-          "provoke",
-          "bashCost2"
-        ]
-      },
-      {
-        "meta": {
-          "icon": "connector_down_left",
-          "page": 6
-        },
-        "coordinates": {
-          "x": 9,
-          "y": 35
-        },
-        "type": "connector",
-        "family": [
-          "protectiveBash",
-          "bashCost2"
-        ]
-      },
-      {
-        "meta": {
-          "icon": "connector_up_down",
-          "page": 6
-        },
-        "coordinates": {
-          "x": 8,
-          "y": 36
-        },
-        "type": "connector",
-        "family": [
-          "strongerSacredSurge",
-          "bashCost2"
         ]
       },
       {
@@ -15537,6 +15474,71 @@
         },
         "type": "ability",
         "family": ["protectiveBash"]
+      },
+      {
+        "meta": {
+          "icon": {
+            "format": "attribute",
+            "value": {
+              "customModelData": "18",
+              "name": "abilityTree.nodeWhite",
+              "id": "minecraft:potion"
+            }
+          },
+          "page": 6,
+          "id": "strongerShield"
+        },
+        "coordinates": {
+          "x": 8,
+          "y": 35
+        },
+        "type": "ability",
+        "family": ["strongerShield"]
+      },
+      {
+        "meta": {
+          "icon": "connector_right_left",
+          "page": 6
+        },
+        "coordinates": {
+          "x": 7,
+          "y": 35
+        },
+        "type": "connector",
+        "family": [
+          "provoke",
+          "strongerShield"
+        ]
+      },
+      {
+        "meta": {
+          "icon": "connector_down_left",
+          "page": 6
+        },
+        "coordinates": {
+          "x": 9,
+          "y": 35
+        },
+        "type": "connector",
+        "family": [
+          "protectiveBash",
+          "strongerShield"
+        ]
+      },
+      {
+        "meta": {
+          "icon": "connector_up_down",
+          "page": 6
+        },
+        "coordinates": {
+          "x": 8,
+          "y": 36
+        },
+        "type": "connector",
+        "family": [
+          "strongerSacredSurge",
+          "strongerShield"
+        ]
       },
       {
         "meta": {
@@ -15566,21 +15568,6 @@
         "family": [
           "pushWarscream",
           "chargeCost2"
-        ]
-      },
-      {
-        "meta": {
-          "icon": "connector_up_down",
-          "page": 7
-        },
-        "coordinates": {
-          "x": 8,
-          "y": 37
-        },
-        "type": "connector",
-        "family": [
-          "strongerSacredSurge",
-          "bashCost2"
         ]
       },
       {
@@ -16148,6 +16135,21 @@
         },
         "type": "ability",
         "family": ["secondchance"]
+      },
+      {
+        "meta": {
+          "icon": "connector_up_down",
+          "page": 7
+        },
+        "coordinates": {
+          "x": 8,
+          "y": 37
+        },
+        "type": "connector",
+        "family": [
+          "strongerSacredSurge",
+          "strongerShield"
+        ]
       }
     ]
   },
@@ -18320,7 +18322,7 @@
               "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Shocking Bomb<span class='font-ascii' style='color:#AAAAAA'> will temporarily shock</span></span></span>",
               "<span class='font-ascii' style='color:#AAAAAA'>enemies, reducing their defences.</span>",
               "</br>",
-              "<span class='font-ascii' style='color:#FFFF55'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Effect: </span><span class='font-ascii' style='color:#FFFFFF'>-15% </span><span class='font-ascii' style='color:#AAAAAA'>Resistance Bonus (</span><span class='font-ascii' style='color:#FF5555'><span class='font-default'></span>✃</span></span><span class='font-ascii' style='color:#AAAAAA'>) to Enemies</span></span></span>",
+              "<span class='font-ascii' style='color:#FFFF55'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Effect: </span><span class='font-ascii' style='color:#FFFFFF'>-15% </span><span class='font-ascii' style='color:#AAAAAA'>Resistance Bonus (<red><span class='font-common'></span></span><span class='font-ascii' style='color:#AAAAAA'>) to Enemies</span></span></span></span></span>",
               "<span class='font-ascii' style='color:#FF55FF'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Duration: </span><span class='font-ascii' style='color:#FFFFFF'>4s</span></span></span>",
               "<span class='font-ascii' style='color:#4dffc3'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Cooldown: </span><span class='font-ascii' style='color:#FFFFFF'>12s</span></span></span>",
               "</br>",
@@ -26105,7 +26107,7 @@
               "<span class='font-ascii' style='color:#AAAAAA'>  <span class='font-ascii' style='margin-left: 20px'><span class='font-ascii' style='color:#555555'>(<span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span> </span><span class='font-ascii' style='color:#555555'>Damage: </span><span class='font-ascii' style='color:#555555'>240%</span><span class='font-ascii' style='color:#555555'>)</span></span></span></span></span>",
               "<span class='font-ascii' style='color:#00AA00'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Range: </span><span class='font-ascii' style='color:#FFFFFF'>14 Blocks</span></span></span>",
               "<span class='font-ascii' style='color:#FFFF55'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Effects: </span><span class='font-ascii' style='color:#FFFFFF'>-15%</span><span class='font-ascii' style='color:#FFFFFF'> </span><span class='font-ascii' style='color:#AAAAAA'>Damage Bonus (<span class='font-ascii' style='color:#FF5555'><span class='font-common'></span></span><span class='font-ascii' style='color:#AAAAAA'>) to Enemies </span><span class='font-ascii' style='color:#555555'>(from Lunatic)</span></span></span></span></span>",
-              "<span class='font-ascii' style='color:#AAAAAA'>  <span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'> <span class='font-ascii' style='color:#FFFFFF'>-15% </span><span class='font-ascii' style='color:#AAAAAA'>Resistance Bonus (</span><span class='font-ascii' style='color:#FF5555'><span class='font-default'></span>✃</span></span><span class='font-ascii' style='color:#AAAAAA'>) to Enemies </span><span class='font-ascii' style='color:#555555'>(from Fanatic)</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>",
+              "<span class='font-ascii' style='color:#AAAAAA'>  <span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'> <span class='font-ascii' style='color:#FFFFFF'>-15% </span><span class='font-ascii' style='color:#AAAAAA'>Resistance Bonus (<red><span class='font-common'></span></span><span class='font-ascii' style='color:#AAAAAA'>) to Enemies </span><span class='font-ascii' style='color:#555555'>(from Fanatic)</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>",
               "<span class='font-ascii' style='color:#AAAAAA'>  <span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'> <span class='font-ascii' style='color:#FFFFFF'>+30% </span><span class='font-ascii' style='color:#AAAAAA'>Slowness (<span class='font-ascii' style='color:#FF5555'><span class='font-common'></span></span><span class='font-ascii' style='color:#AAAAAA'>) to Enemies </span><span class='font-ascii' style='color:#555555'>(from Heretic)</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>",
               "<span class='font-ascii' style='color:#FF55FF'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Duration: </span><span class='font-ascii' style='color:#FFFFFF'>4s</span></span></span>",
               "</br>",
@@ -26780,7 +26782,7 @@
               "<span class='font-ascii' style='color:#AAAAAA'>When switching to the <span class='font-ascii' style='color:#55FFFF'>Mask of the Lunatic</span><span class='font-ascii' style='color:#AAAAAA'>,</span></span>",
               "<span class='font-ascii' style='color:#AAAAAA'>reduce the defenses of nearby enemies.</span>",
               "</br>",
-              "<span class='font-ascii' style='color:#FFFF55'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Effect: </span><span class='font-ascii' style='color:#FFFFFF'>-15% </span><span class='font-ascii' style='color:#AAAAAA'>Resistance Bonus (</span><span class='font-ascii' style='color:#FF5555'><span class='font-default'></span>✃</span></span><span class='font-ascii' style='color:#AAAAAA'>) to Enemies</span></span></span>",
+              "<span class='font-ascii' style='color:#FFFF55'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Effect: </span><span class='font-ascii' style='color:#FFFFFF'>-15% </span><span class='font-ascii' style='color:#AAAAAA'>Resistance Bonus (<red><span class='font-common'></span></span><span class='font-ascii' style='color:#AAAAAA'>) to Enemies</span></span></span></span></span>",
               "<span class='font-ascii' style='color:#FF55FF'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Duration: </span><span class='font-ascii' style='color:#FFFFFF'>3s</span></span></span>",
               "<span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Area of Effect: </span><span class='font-ascii' style='color:#FFFFFF'>8 Blocks </span><span class='font-ascii' style='color:#AAAAAA'>(Circle-Shaped)</span></span></span>",
               "<span class='font-ascii' style='color:#4dffc3'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Cooldown: </span><span class='font-ascii' style='color:#FFFFFF'>8s</span></span></span>",
@@ -27379,7 +27381,7 @@
               "<span class='font-ascii' style='color:#AAAAAA'>  <span class='font-ascii' style='margin-left: 20px'><span class='font-ascii' style='color:#555555'>(<span class='font-ascii' style='color:#ff5555'><span class='font-common'></span> </span><span class='font-ascii' style='color:#555555'>Fire: </span><span class='font-ascii' style='color:#555555'>100%</span><span class='font-ascii' style='color:#555555'>)</span></span></span></span></span>",
               "<span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Area of Effect: </span><span class='font-ascii' style='color:#FFFFFF'>24 Blocks </span><span class='font-ascii' style='color:#AAAAAA'>(Circle-Shaped)</span></span></span>",
               "<span class='font-ascii' style='color:#FFFF55'><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>Effects: </span><span class='font-ascii' style='color:#FFFFFF'>+40% </span><span class='font-ascii' style='color:#AAAAAA'>Slowness (<span class='font-ascii' style='color:#FF5555'><span class='font-common'></span></span><span class='font-ascii' style='color:#AAAAAA'>) to Enemies</span></span></span></span></span>",
-              "<span class='font-ascii' style='color:#AAAAAA'> <span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'> <span class='font-ascii' style='color:#FFFFFF'>-20%</span><span class='font-ascii' style='color:#FFFFFF'> </span><span class='font-ascii' style='color:#AAAAAA'>Resistance Bonus (<span class='font-ascii' style='color:#FF5555'><span class='font-default'></span>✃</span></span><span class='font-ascii' style='color:#AAAAAA'>) to Enemies</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>",
+              "<span class='font-ascii' style='color:#AAAAAA'> <span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'><span class='font-ascii' style='margin-left: 7.5px'> <span class='font-ascii' style='color:#FFFFFF'>-20%</span><span class='font-ascii' style='color:#FFFFFF'> </span><span class='font-ascii' style='color:#AAAAAA'>Resistance Bonus (<span class='font-ascii' style='color:#FF5555'><span class='font-common'></span></span><span class='font-ascii' style='color:#AAAAAA'>) to Enemies</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>",
               "</br>",
               "<span class='font-ascii' style='color:#ffa057'><span class='font-ascii' style='font-weight:bolder'>Acolyte Archetype</span></span>",
               "</br>",
@@ -35574,7 +35576,7 @@
             },
             "description": [
               "</br>",
-              "<span class='font-ascii' style='color:#AAAAAA'>You gain <span class='font-ascii' style='color:#FFFFFF'>+1.2 </span><span class='font-ascii' style='color:#AAAAAA'>Mana if you</span></span>",
+              "<span class='font-ascii' style='color:#AAAAAA'>You gain <span class='font-ascii' style='color:#FFFFFF'>+1 </span><span class='font-ascii' style='color:#AAAAAA'>Mana if you</span></span>",
               "<span class='font-ascii' style='color:#AAAAAA'>hit an enemy while airborne.</span>",
               "<span class='font-ascii' style='color:#555555'>(1.25+ blocks off the</span>",
               "<span class='font-ascii' style='color:#555555'>ground to be airborne)</span>",

@@ -29,7 +29,6 @@
       "rawDefence": 6,
       "fireDefence": 10
     },
-    "identified": true,
     "name": "Silver Solar Necklace",
     "subType": "necklace",
     "base": {
@@ -90,7 +89,6 @@
     },
     "dropRestriction": "never",
     "requirements": {"level": 90},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -238,7 +236,6 @@
     },
     "dropRestriction": "never",
     "requirements": {"level": 89},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -374,7 +371,6 @@
       "strength": 30,
       "level": 71
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -389,7 +385,7 @@
     "identifications": {
       "healthRegenRaw": -30,
       "rawStrength": 3,
-      "poison": 2300,
+      "poison": 1200,
       "healthRegen": -10
     },
     "rarity": "rare"
@@ -426,7 +422,6 @@
       "rawAgility": 4,
       "airDefence": 5
     },
-    "identified": true,
     "name": "Silver Steam Necklace",
     "subType": "necklace",
     "base": {
@@ -686,7 +681,6 @@
       "lifeSteal": 200,
       "xpBonus": 10
     },
-    "identified": true,
     "name": "Drain",
     "subType": "necklace",
     "base": {"baseHealth": 375},
@@ -704,7 +698,6 @@
     },
     "dropRestriction": "never",
     "requirements": {"level": 30},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -760,7 +753,6 @@
       "rawIntelligence": 2,
       "rawAgility": 2
     },
-    "identified": true,
     "name": "Silver Fusion Necklace",
     "subType": "necklace",
     "rarity": "legendary"
@@ -879,7 +871,6 @@
       "agility": 25,
       "quest": "Lost in the Jungle"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -1012,7 +1003,6 @@
       "quest": "Lost in the Jungle",
       "intelligence": 25
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -1199,7 +1189,6 @@
       "fireDefence": 15,
       "healthRegen": 10
     },
-    "identified": true,
     "name": "Gold Solar Necklace",
     "subType": "necklace",
     "base": {
@@ -1214,7 +1203,6 @@
       "level": 94,
       "defence": 50
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -1336,7 +1324,6 @@
       "lootBonus": 10,
       "stealing": 5
     },
-    "identified": true,
     "name": "Bronze Basic Necklace",
     "subType": "necklace",
     "base": {"baseHealth": 500},
@@ -1348,7 +1335,6 @@
       "level": 60,
       "defence": 25
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -1597,7 +1583,6 @@
     },
     "dropRestriction": "never",
     "requirements": {"level": 92},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -1646,7 +1631,6 @@
       "rawStrength": 6,
       "earthDefence": 8
     },
-    "identified": true,
     "name": "Silver Fiber Necklace",
     "subType": "necklace",
     "base": {"baseEarthDefence": 50},
@@ -1723,7 +1707,6 @@
       "fireDefence": 20,
       "healthRegen": 20
     },
-    "identified": true,
     "name": "Diamond Solar Necklace",
     "subType": "necklace",
     "base": {
@@ -1912,7 +1895,6 @@
       "rawSpellDamage": 55,
       "manaRegen": 12
     },
-    "identified": true,
     "name": "Diamond Hydro Necklace",
     "subType": "necklace",
     "base": {"baseWaterDefence": 80},
@@ -1972,7 +1954,6 @@
       "level": 32,
       "quest": "Green Gloop"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -2066,7 +2047,6 @@
       "quest": "Zhight Island",
       "intelligence": 20
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -2304,9 +2284,9 @@
         "raw": 4
       },
       "poison": {
-        "min": 23,
-        "max": 98,
-        "raw": 75
+        "min": 12,
+        "max": 52,
+        "raw": 40
       },
       "healthRegen": {
         "min": -5,
@@ -2394,7 +2374,6 @@
       "level": 75,
       "intelligence": 50
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -2439,9 +2418,9 @@
         "raw": -80
       },
       "poison": {
-        "min": 1800,
-        "max": 7800,
-        "raw": 6000
+        "min": 1200,
+        "max": 5200,
+        "raw": 4000
       },
       "manaSteal": {
         "min": 1,
@@ -2535,7 +2514,6 @@
       "level": 75,
       "quest": "WynnExcavation Site D"
     },
-    "identified": true,
     "lore": "An exclusive amulet given to the most honored knights of Wynn. It crackles with a chaotic energy.",
     "icon": {
       "format": "attribute",
@@ -2611,7 +2589,6 @@
       "level": 80,
       "quest": "Aldorei^s Secret Part II"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -2688,7 +2665,6 @@
       "level": 80,
       "agility": 50
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -2753,9 +2729,9 @@
     "type": "accessory",
     "identifications": {
       "poison": {
-        "min": 263,
-        "max": 1138,
-        "raw": 875
+        "min": 240,
+        "max": 1040,
+        "raw": 800
       },
       "lifeSteal": {
         "min": 25,
@@ -2949,7 +2925,6 @@
       "rawSpellDamage": 50,
       "healthRegen": -10
     },
-    "identified": true,
     "name": "Pulse Stopper",
     "subType": "necklace",
     "base": {
@@ -3044,7 +3019,6 @@
       "level": 75,
       "quest": "WynnExcavation Site D"
     },
-    "identified": true,
     "lore": "An exclusive amulet given to the most honored knights of Wynn. It whistles with an invigorating tune.",
     "icon": {
       "format": "attribute",
@@ -3306,7 +3280,6 @@
       "1stSpellCost": 100,
       "4thSpellCost": 100
     },
-    "identified": true,
     "name": "Ambivalence",
     "subType": "necklace",
     "base": {
@@ -3341,9 +3314,9 @@
       },
       "rawStrength": 10,
       "poison": {
-        "min": 270,
-        "max": 1170,
-        "raw": 900
+        "min": 210,
+        "max": 910,
+        "raw": 700
       }
     },
     "base": {
@@ -3476,7 +3449,6 @@
       "agility": 50,
       "quest": "The Belly Of The Beast"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -3511,7 +3483,6 @@
     },
     "dropRestriction": "never",
     "requirements": {"level": 5},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -3720,7 +3691,6 @@
       "level": 31,
       "quest": "Green Gloop"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -3874,7 +3844,6 @@
       "level": 34,
       "quest": "Green Gloop"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -4054,7 +4023,6 @@
       "level": 37,
       "quest": "Green Gloop"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -4129,7 +4097,6 @@
   "Goblin Luck Charm": {
     "dropRestriction": "never",
     "requirements": {"level": 43},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -4164,9 +4131,9 @@
     "type": "accessory",
     "identifications": {
       "poison": {
-        "min": 420,
-        "max": 1820,
-        "raw": 1400
+        "min": 390,
+        "max": 1690,
+        "raw": 1300
       },
       "lifeSteal": {
         "min": 20,
@@ -4252,7 +4219,6 @@
   "Clock Amulet": {
     "dropRestriction": "never",
     "requirements": {"level": 86},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -4391,7 +4357,6 @@
       "level": 81,
       "quest": "From The Bottom"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -4569,7 +4534,6 @@
     },
     "dropRestriction": "never",
     "requirements": {"level": 49},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -4604,7 +4568,6 @@
       "level": 55,
       "quest": "Zhight Island"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -4650,7 +4613,6 @@
       "xpBonus": 10,
       "lootBonus": 5
     },
-    "identified": true,
     "name": "Slainte",
     "subType": "necklace",
     "base": {"baseHealth": 100},
@@ -4748,9 +4710,9 @@
       },
       "rawStrength": 3,
       "poison": {
-        "min": 44,
-        "max": 189,
-        "raw": 145
+        "min": 24,
+        "max": 104,
+        "raw": 80
       }
     },
     "base": {
@@ -4848,7 +4810,6 @@
       "thunderDamage": 7,
       "healthRegen": 10
     },
-    "identified": true,
     "name": "Pulse Starter",
     "subType": "necklace",
     "base": {
@@ -4887,11 +4848,10 @@
     "identifications": {
       "healthRegenRaw": 115,
       "walkSpeed": 12,
-      "poison": 3500,
+      "poison": 2150,
       "lifeSteal": 170,
       "manaRegen": 8
     },
-    "identified": true,
     "name": "Contrast",
     "subType": "necklace",
     "base": {"baseHealth": 525},
@@ -5137,7 +5097,6 @@
       "agility": 25,
       "quest": "Lost in the Jungle"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -5362,7 +5321,6 @@
       "level": 75,
       "quest": "WynnExcavation Site D"
     },
-    "identified": true,
     "lore": "An exclusive amulet given to the most honored knights of Wynn. It glows with a comforting warmth.",
     "icon": {
       "format": "attribute",
@@ -5390,7 +5348,6 @@
       "level": 31,
       "quest": "Green Gloop"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -5443,7 +5400,6 @@
       "rawAgility": 3,
       "manaRegen": -4
     },
-    "identified": true,
     "name": "Gigabyte",
     "subType": "necklace",
     "base": {"baseHealth": -512},
@@ -5465,7 +5421,6 @@
       "level": 80,
       "intelligence": 30
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -5540,7 +5495,6 @@
       "raw1stSpellCost": -2,
       "raw4thSpellCost": -2
     },
-    "identified": true,
     "name": "Xebec",
     "subType": "necklace",
     "base": {
@@ -5607,7 +5561,6 @@
       "dexterity": 40,
       "level": 92
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -5863,7 +5816,6 @@
       "earthDamage": 8,
       "thunderDamage": -10
     },
-    "identified": true,
     "name": "Golemlus Core",
     "subType": "necklace",
     "base": {
@@ -6103,7 +6055,6 @@
   "Green Ornament": {
     "dropRestriction": "never",
     "requirements": {"level": 55},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -6192,7 +6143,6 @@
       "rawSpellDamage": 40,
       "manaRegen": 6
     },
-    "identified": true,
     "name": "Gold Hydro Necklace",
     "subType": "necklace",
     "base": {"baseWaterDefence": 65},
@@ -6204,7 +6154,6 @@
       "level": 60,
       "defence": 50
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -6242,7 +6191,6 @@
       "level": 80,
       "agility": 30
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -6274,7 +6222,6 @@
     },
     "dropRestriction": "never",
     "requirements": {"level": 69},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -6299,7 +6246,6 @@
       "level": 57,
       "intelligence": 45
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -6374,7 +6320,6 @@
       "level": 85,
       "agility": 40
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -6404,7 +6349,6 @@
       "level": 32,
       "quest": "Green Gloop"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -6419,7 +6363,7 @@
     "type": "accessory",
     "identifications": {
       "rawStrength": 3,
-      "poison": 110
+      "poison": 60
     },
     "base": {"baseEarthDefence": 3},
     "rarity": "unique"
@@ -6452,7 +6396,6 @@
       "earthDamage": -5,
       "spellDamage": 10
     },
-    "identified": true,
     "name": "Lightning Flash",
     "subType": "necklace",
     "base": {"baseThunderDefence": 50},
@@ -6531,7 +6474,6 @@
       "level": 81,
       "agility": 20
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -6639,7 +6581,6 @@
       "level": 32,
       "quest": "Green Gloop"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -6771,9 +6712,9 @@
         "raw": 6
       },
       "poison": {
-        "min": 27,
-        "max": 117,
-        "raw": 90
+        "min": 15,
+        "max": 65,
+        "raw": 50
       },
       "lifeSteal": {
         "min": 3,
@@ -6802,7 +6743,6 @@
       "level": 88,
       "agility": 30
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -6816,7 +6756,7 @@
     "type": "accessory",
     "identifications": {
       "walkSpeed": 10,
-      "poison": 3475,
+      "poison": 2250,
       "rawAgility": 2,
       "airMainAttackDamage": 20
     },
@@ -6914,7 +6854,6 @@
       "thunderDamage": 2,
       "rawMainAttackDamage": 20
     },
-    "identified": true,
     "name": "Silver Static Necklace",
     "subType": "necklace",
     "base": {"baseThunderDefence": 30},
@@ -6954,7 +6893,6 @@
       "level": 32,
       "quest": "Green Gloop"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -7029,7 +6967,6 @@
       "level": 75,
       "quest": "WynnExcavation Site D"
     },
-    "identified": true,
     "lore": "An exclusive amulet given to the most honored knights of Wynn. It pulsates with a calming aura.",
     "icon": {
       "format": "attribute",
@@ -7082,7 +7019,6 @@
       "thunderDamage": 4,
       "rawMainAttackDamage": 25
     },
-    "identified": true,
     "name": "Gold Static Necklace",
     "subType": "necklace",
     "base": {"baseThunderDefence": 40},
@@ -7190,7 +7126,6 @@
       "defence": 50,
       "quest": "From The Bottom"
     },
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -7221,7 +7156,6 @@
       "level": 75,
       "quest": "WynnExcavation Site D"
     },
-    "identified": true,
     "lore": "An exclusive amulet given to the most honored knights of Wynn. It shines with a powerful strength.",
     "icon": {
       "format": "attribute",
@@ -7271,7 +7205,6 @@
       "xpBonus": 8,
       "lootBonus": 5
     },
-    "identified": true,
     "name": "Witherhead's Talisman",
     "subType": "necklace",
     "rarity": "legendary"
@@ -7460,7 +7393,6 @@
     },
     "dropRestriction": "never",
     "requirements": {"level": 87},
-    "identified": true,
     "icon": {
       "format": "attribute",
       "value": {
@@ -7520,7 +7452,6 @@
       "rawIntelligence": 3,
       "rawAgility": 3
     },
-    "identified": true,
     "name": "Gold Fusion Necklace",
     "subType": "necklace",
     "base": {
@@ -7565,7 +7496,6 @@
       "rawAgility": 8,
       "airDefence": 10
     },
-    "identified": true,
     "name": "Gold Steam Necklace",
     "subType": "necklace",
     "base": {
@@ -7605,7 +7535,6 @@
       "rawStrength": 10,
       "earthDefence": 16
     },
-    "identified": true,
     "name": "Diamond Fiber Necklace",
     "subType": "necklace",
     "base": {"baseEarthDefence": 80},
@@ -7819,7 +7748,6 @@
       "rawIntelligence": 3,
       "rawSpellDamage": 35
     },
-    "identified": true,
     "name": "Silver Hydro Necklace",
     "subType": "necklace",
     "base": {"baseWaterDefence": 55},
@@ -7856,7 +7784,6 @@
       "rawStrength": 8,
       "earthDefence": 12
     },
-    "identified": true,
     "name": "Gold Fiber Necklace",
     "subType": "necklace",
     "base": {"baseEarthDefence": 60},
@@ -7924,7 +7851,6 @@
       "rawAgility": 10,
       "airDefence": 16
     },
-    "identified": true,
     "name": "Diamond Steam Necklace",
     "subType": "necklace",
     "base": {
@@ -8054,9 +7980,9 @@
         "raw": 8
       },
       "poison": {
-        "min": 135,
-        "max": 585,
-        "raw": 450
+        "min": 72,
+        "max": 312,
+        "raw": 240
       },
       "fireDefence": {
         "min": -23,
@@ -8196,7 +8122,6 @@
       "thunderDamage": 6,
       "rawMainAttackDamage": 29
     },
-    "identified": true,
     "name": "Diamond Static Necklace",
     "subType": "necklace",
     "base": {"baseThunderDefence": 50},
@@ -8291,7 +8216,6 @@
       "rawIntelligence": 4,
       "rawAgility": 4
     },
-    "identified": true,
     "name": "Diamond Fusion Necklace",
     "subType": "necklace",
     "base": {

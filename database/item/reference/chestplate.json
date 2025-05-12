@@ -34,9 +34,9 @@
         "raw": 15
       },
       "poison": {
-        "min": 2175,
-        "max": 9425,
-        "raw": 7250
+        "min": 1500,
+        "max": 6500,
+        "raw": 5000
       },
       "mainAttackDamage": {
         "min": 7,
@@ -143,7 +143,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Darkiron Aegis",
     "subType": "chestplate",
     "base": {
@@ -185,7 +184,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 2,
-    "identified": true,
     "name": "Hourslip",
     "subType": "chestplate",
     "base": {
@@ -448,7 +446,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Insulated Plate Mail",
     "subType": "chestplate",
     "base": {
@@ -719,7 +716,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 2,
-    "identified": true,
     "name": "Nodguj Warrior Chestplate",
     "subType": "chestplate",
     "base": {
@@ -778,9 +774,9 @@
     "powderSlots": 2,
     "dropRestriction": "normal",
     "requirements": {
-      "strength": 20,
+      "strength": 25,
       "level": 50,
-      "defence": 5
+      "defence": 15
     },
     "lore": "One of the few remaining standard issue mails that were used against the first hordes to emerge from the infamous portal over 1000 years ago.",
     "name": "Ragni's Mail",
@@ -788,30 +784,30 @@
     "type": "armour",
     "identifications": {
       "earthDamage": {
-        "min": 3,
-        "max": 13,
-        "raw": 10
+        "min": 4,
+        "max": 16,
+        "raw": 12
       },
       "waterDamage": {
-        "min": -32,
-        "max": -17,
-        "raw": -25
+        "min": -26,
+        "max": -14,
+        "raw": -20
       },
       "rawDefence": 7,
       "fireDamage": {
-        "min": 3,
-        "max": 13,
-        "raw": 10
+        "min": 4,
+        "max": 16,
+        "raw": 12
       },
       "mainAttackDamage": {
-        "min": 3,
-        "max": 13,
-        "raw": 10
+        "min": 8,
+        "max": 34,
+        "raw": 26
       },
       "spellDamage": {
-        "min": -13,
-        "max": -7,
-        "raw": -10
+        "min": -19,
+        "max": -10,
+        "raw": -15
       },
       "xpBonus": {
         "min": 3,
@@ -1332,9 +1328,9 @@
         "raw": 11
       },
       "poison": {
-        "min": 127,
-        "max": 550,
-        "raw": 423
+        "min": 69,
+        "max": 300,
+        "raw": 231
       },
       "lifeSteal": {
         "min": 9,
@@ -1380,7 +1376,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 3,
-    "identified": true,
     "name": "Magic Cloak",
     "subType": "chestplate",
     "base": {
@@ -1458,7 +1453,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 3,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Ornate Shadow Garb",
     "subType": "chestplate",
@@ -1536,7 +1530,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 1,
-    "identified": true,
     "name": "Heavy Aegis",
     "subType": "chestplate",
     "base": {
@@ -1569,7 +1562,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 1,
-    "identified": true,
     "name": "Hearthfire",
     "subType": "chestplate",
     "base": {
@@ -1786,9 +1778,9 @@
         "raw": 15
       },
       "poison": {
-        "min": 780,
-        "max": 3380,
-        "raw": 2600
+        "min": 750,
+        "max": 3250,
+        "raw": 2500
       },
       "manaSteal": {
         "min": 1,
@@ -1835,6 +1827,7 @@
       "level": 97,
       "defence": 45
     },
+    "lore": "In the marbling of wood grain. Drying moisture in the cobbles. Clumps of flowers. Tree bark, birth marks, the pattern of this plate - unflinching faces trapped, now revealed. The question pierces your mind: what shape will I be hewn into, one day?",
     "name": "Blank Stare",
     "subType": "chestplate",
     "type": "armour",
@@ -2370,7 +2363,6 @@
       "waterSpellDamage": 15
     },
     "armourMaterial": "leather",
-    "identified": true,
     "armourColor": "rgb(167,50,38)",
     "name": "Phantasmal Hostage",
     "subType": "chestplate",
@@ -2642,7 +2634,7 @@
       }
     },
     "armourMaterial": "diamond",
-    "majorIds": {"Sorcery": "<span class='font-ascii' style='color:#55FFFF'>+Sorcery: <span class='font-ascii' style='color:#00AAAA'>30% chance for spells and attacks to cast a second time at no additional cost.<\/span><\/span>"},
+    "majorIds": {"Sorcery": "<span class='font-ascii' style='color:#55FFFF'>+Sorcery: <span class='font-ascii' style='color:#00AAAA'>25% chance for spells and attacks to cast a second time at no additional cost.<\/span><\/span>"},
     "powderSlots": 3,
     "name": "Time Rift",
     "subType": "chestplate",
@@ -2745,6 +2737,11 @@
         "min": -91,
         "max": -49,
         "raw": -70
+      },
+      "knockback": {
+        "min": 5,
+        "max": 23,
+        "raw": 18
       },
       "rawAgility": -2,
       "rawMainAttackDamage": {
@@ -2904,7 +2901,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 1,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Ragni Fatigues",
     "subType": "chestplate",
@@ -3091,7 +3087,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 3,
-    "identified": true,
     "armourColor": "rgb(207,223,240)",
     "name": "Saint's Tunic",
     "subType": "chestplate",
@@ -3154,7 +3149,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 2,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Ice-cold Robe",
     "subType": "chestplate",
@@ -3302,7 +3296,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Dead Samurai's Plate",
     "subType": "chestplate",
     "base": {
@@ -3412,7 +3405,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Ornamental Plate",
     "subType": "chestplate",
     "base": {
@@ -3587,9 +3579,9 @@
       "rawStrength": 5,
       "rawDefence": 5,
       "poison": {
-        "min": 7050,
-        "max": 30550,
-        "raw": 23500
+        "min": 4800,
+        "max": 20800,
+        "raw": 16000
       },
       "lifeSteal": {
         "min": 84,
@@ -3662,7 +3654,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Anima-Infused Cuirass",
     "subType": "chestplate",
     "base": {
@@ -3795,7 +3786,6 @@
       "manaRegen": 6
     },
     "armourMaterial": "diamond",
-    "identified": true,
     "name": "Conduit of Spirit",
     "subType": "chestplate",
     "base": {
@@ -4609,7 +4599,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 2,
-    "identified": true,
     "armourColor": "rgb(156,73,0)",
     "name": "Untimely Demise",
     "subType": "chestplate",
@@ -4829,7 +4818,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 2,
-    "identified": true,
     "name": "Dujgon Warrior Chestplate",
     "subType": "chestplate",
     "base": {
@@ -5040,7 +5028,7 @@
       }
     },
     "armourMaterial": "golden",
-    "majorIds": {"Superconductor": "<span class='font-ascii' style='color:#AAAAAA'><aqua>+Superconductor:<\/span> <darkAqua>Chain Lightning channels three massive lightning bolts through you, arcing to enemies within 8 blocks for<\/span> <span class='font-ascii' style='color:#ffff55'><span class='font-common'><\/span>225%<\/span> <darkAqua>and stunning them for 1s. You take 15% more damage for 4s.<\/span><\/span><\/span>"},
+    "majorIds": {"Superconductor": "<span class='font-ascii' style='color:#AAAAAA'><aqua>+Superconductor:<\/span> <darkAqua>Chain Lightning channels three massive lightning bolts through you, arcing to enemies within 8 blocks for<\/span> <span class='font-ascii' style='color:#ffff55'><span class='font-common'><\/span>225%<\/span> <darkAqua>and stunning them for 1s. You take 10% more damage for 4s.<\/span><\/span><\/span>"},
     "powderSlots": 4,
     "name": "Insignia",
     "subType": "chestplate",
@@ -5113,7 +5101,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 2,
-    "identified": true,
     "name": "Blasphemy",
     "subType": "chestplate",
     "base": {
@@ -5144,7 +5131,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Fisher's Mail",
     "subType": "chestplate",
     "base": {
@@ -5168,9 +5154,9 @@
         "raw": 10
       },
       "poison": {
-        "min": 240,
-        "max": 1040,
-        "raw": 800
+        "min": 135,
+        "max": 585,
+        "raw": 450
       }
     },
     "base": {
@@ -5282,7 +5268,6 @@
       "defence": 50,
       "agility": 40
     },
-    "identified": true,
     "name": "Warming Heart",
     "subType": "chestplate",
     "type": "armour",
@@ -5387,13 +5372,14 @@
     "powderSlots": 2,
     "dropRestriction": "never",
     "requirements": {"level": 43},
-    "identified": true,
     "name": "Solid Quartz Chestplate",
     "subType": "chestplate",
     "type": "armour",
     "identifications": {
       "rawMaxMana": 30,
-      "xpBonus": 8
+      "spellDamage": 10,
+      "xpBonus": 8,
+      "rawSpellDamage": 40
     },
     "base": {"baseHealth": 360},
     "rarity": "unique"
@@ -5483,7 +5469,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 4,
-    "identified": true,
     "name": "Argos",
     "subType": "chestplate",
     "base": {"baseHealth": 3900},
@@ -5599,9 +5584,9 @@
         "raw": -6
       },
       "poison": {
-        "min": 270,
-        "max": 1170,
-        "raw": 900
+        "min": 150,
+        "max": 650,
+        "raw": 500
       }
     },
     "base": {
@@ -5679,7 +5664,6 @@
       "agility": 20,
       "intelligence": 20
     },
-    "identified": true,
     "name": "Sealskin Parka",
     "subType": "chestplate",
     "type": "armour",
@@ -5928,7 +5912,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Gert Veryhard Chestclothes",
     "subType": "chestplate",
     "base": {
@@ -5948,7 +5931,6 @@
       "strength": 30,
       "level": 45
     },
-    "identified": true,
     "name": "Goblin Cloak",
     "subType": "chestplate",
     "type": "armour",
@@ -6071,7 +6053,6 @@
       "defence": 50,
       "quest": "Troubled Tribesmen"
     },
-    "identified": true,
     "name": "Hembwal",
     "subType": "chestplate",
     "type": "armour",
@@ -6102,7 +6083,6 @@
       "level": 66,
       "intelligence": 20
     },
-    "identified": true,
     "name": "Antihero",
     "restrictions": "untradable",
     "subType": "chestplate",
@@ -6110,7 +6090,7 @@
     "identifications": {
       "rawDexterity": 5,
       "damage": 15,
-      "poison": 3600,
+      "poison": 2000,
       "lifeSteal": 135,
       "healingEfficiency": -25,
       "manaSteal": 7
@@ -6157,7 +6137,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Web Plate",
     "subType": "chestplate",
     "base": {
@@ -6366,7 +6345,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 1,
-    "identified": true,
     "armourColor": "rgb(153,153,0)",
     "name": "Tribal Tunic",
     "subType": "chestplate",
@@ -6406,7 +6384,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Thanos Legionnaire Plate",
     "subType": "chestplate",
     "base": {
@@ -6671,7 +6648,7 @@
       "rawDexterity": 7,
       "exploding": 10,
       "rawDefence": 8,
-      "poison": 16000,
+      "poison": 10000,
       "fireDamage": 20,
       "fireDefence": -25,
       "rawAttackSpeed": -17,
@@ -6679,7 +6656,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Coal Duster",
     "subType": "chestplate",
     "base": {
@@ -6756,7 +6732,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Metal Body Suit",
     "subType": "chestplate",
     "base": {
@@ -6820,9 +6795,9 @@
     "type": "armour",
     "identifications": {
       "poison": {
-        "min": 101,
-        "max": 436,
-        "raw": 335
+        "min": 60,
+        "max": 260,
+        "raw": 200
       },
       "lifeSteal": {
         "min": 5,
@@ -6859,7 +6834,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 2,
-    "identified": true,
     "name": "Arcanic",
     "subType": "chestplate",
     "base": {
@@ -6956,7 +6930,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 1,
-    "identified": true,
     "name": "Granite Plate",
     "subType": "chestplate",
     "base": {
@@ -7098,7 +7071,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Soulflare",
     "subType": "chestplate",
     "base": {
@@ -7237,9 +7209,9 @@
         "raw": 15
       },
       "poison": {
-        "min": 1890,
-        "max": 8190,
-        "raw": 6300
+        "min": 1050,
+        "max": 4550,
+        "raw": 3500
       },
       "fireDefence": {
         "min": -13,
@@ -7318,7 +7290,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 2,
-    "identified": true,
     "name": "Calor",
     "subType": "chestplate",
     "base": {
@@ -7510,7 +7481,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 2,
-    "identified": true,
     "name": "Admiral",
     "subType": "chestplate",
     "base": {
@@ -7590,17 +7560,17 @@
     "restrictions": "untradable",
     "type": "armour",
     "identifications": {
-      "rawDexterity": 9,
-      "rawDefence": 9,
+      "rawDexterity": 8,
+      "rawDefence": 6,
       "fireDamage": {
-        "min": 9,
-        "max": 39,
-        "raw": 30
+        "min": 7,
+        "max": 30,
+        "raw": 23
       },
       "mainAttackDamage": {
-        "min": 10,
-        "max": 44,
-        "raw": 34
+        "min": 12,
+        "max": 52,
+        "raw": 40
       },
       "xpBonus": {
         "min": 3,
@@ -7609,9 +7579,9 @@
       },
       "rawAttackSpeed": -1,
       "thunderDamage": {
-        "min": 9,
-        "max": 39,
-        "raw": 30
+        "min": 7,
+        "max": 30,
+        "raw": 23
       },
       "waterDefence": {
         "min": -32,
@@ -7992,7 +7962,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 2,
-    "identified": true,
     "name": "Nilrem's Curse",
     "subType": "chestplate",
     "base": {
@@ -8377,7 +8346,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Twilight-Gilded Cloak",
     "subType": "chestplate",
     "base": {
@@ -8426,18 +8394,18 @@
         "raw": -15
       },
       "rawMainAttackDamage": {
-        "min": 450,
-        "max": 1950,
-        "raw": 1500
+        "min": 600,
+        "max": 2600,
+        "raw": 2000
       },
       "airMainAttackDamage": {
-        "min": 11,
-        "max": 46,
-        "raw": 35
+        "min": 15,
+        "max": 65,
+        "raw": 50
       }
     },
     "armourMaterial": "diamond",
-    "majorIds": {"Sorcery": "<span class='font-ascii' style='color:#55FFFF'>+Sorcery: <span class='font-ascii' style='color:#00AAAA'>30% chance for spells and attacks to cast a second time at no additional cost.<\/span><\/span>"},
+    "majorIds": {"Sorcery": "<span class='font-ascii' style='color:#55FFFF'>+Sorcery: <span class='font-ascii' style='color:#00AAAA'>25% chance for spells and attacks to cast a second time at no additional cost.<\/span><\/span>"},
     "powderSlots": 2,
     "name": "Echoes of the Lost",
     "subType": "chestplate",
@@ -8530,7 +8498,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Golden Scarab",
     "subType": "chestplate",
     "base": {
@@ -8616,7 +8583,6 @@
       "fireDefence": 20
     },
     "armourMaterial": "golden",
-    "identified": true,
     "name": "Garoth's Hope",
     "subType": "chestplate",
     "base": {
@@ -9077,7 +9043,6 @@
       "level": 85,
       "agility": 35
     },
-    "identified": true,
     "name": "Toy Maker",
     "subType": "chestplate",
     "type": "armour",
@@ -9355,7 +9320,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Stillwater Blue",
     "subType": "chestplate",
     "base": {
@@ -9392,7 +9356,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 2,
-    "identified": true,
     "name": "Enhanced Zeal",
     "subType": "chestplate",
     "base": {"baseHealth": 455},
@@ -9488,7 +9451,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 4,
-    "identified": true,
     "name": "Ahms' Remains",
     "subType": "chestplate",
     "base": {
@@ -9562,7 +9524,6 @@
     "armourMaterial": "leather",
     "majorIds": {"Phoenix-Born": "<span class='font-ascii' style='color:#AAAAAA'><aqua>+Phoenix-Born:<\/span> <darkAqua>Health Regeneration is increased by 1% for every 1% Health missing.<\/span><\/span>"},
     "powderSlots": 2,
-    "identified": true,
     "armourColor": "rgb(216,88,0)",
     "name": "Firebird",
     "subType": "chestplate",
@@ -9652,7 +9613,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Mercurial Chestplate",
     "subType": "chestplate",
     "base": {
@@ -9765,7 +9725,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Mithril Mantle",
     "subType": "chestplate",
     "base": {
@@ -9840,7 +9799,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 2,
-    "identified": true,
     "name": "Hurricane",
     "subType": "chestplate",
     "base": {
@@ -10190,7 +10148,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 1,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Mail of the Berserker",
     "subType": "chestplate",
@@ -10342,7 +10299,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 3,
-    "identified": true,
     "name": "Clock Mail",
     "subType": "chestplate",
     "base": {"baseHealth": 1800},
@@ -10481,7 +10437,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Brigantine",
     "subType": "chestplate",
     "base": {
@@ -10577,7 +10532,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 2,
-    "identified": true,
     "name": "Marshmallow",
     "subType": "chestplate",
     "base": {
@@ -10724,7 +10678,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 3,
-    "identified": true,
     "armourColor": "rgb(114,178,56)",
     "name": "Elf Robe",
     "subType": "chestplate",
@@ -10820,9 +10773,9 @@
         "raw": 20
       },
       "poison": {
-        "min": 645,
-        "max": 2795,
-        "raw": 2150
+        "min": 420,
+        "max": 1820,
+        "raw": 1400
       },
       "mainAttackDamage": {
         "min": 2,
@@ -10918,7 +10871,6 @@
       "lootBonus": 8
     },
     "armourMaterial": "leather",
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Jeweled Vestments",
     "subType": "chestplate",
@@ -10953,7 +10905,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 1,
-    "identified": true,
     "armourColor": "rgb(37,33,33)",
     "name": "Abdomen",
     "subType": "chestplate",
@@ -11294,7 +11245,6 @@
       "elementalDefence": -33
     },
     "armourMaterial": "leather",
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Future Shock Plating",
     "subType": "chestplate",
@@ -11527,7 +11477,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 2,
-    "identified": true,
     "name": "Elysium-Engraved Aegis",
     "subType": "chestplate",
     "base": {
@@ -11612,7 +11561,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 2,
-    "identified": true,
     "name": "Secondsaver",
     "subType": "chestplate",
     "base": {"baseHealth": 270},
@@ -11693,7 +11641,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 2,
-    "identified": true,
     "name": "Shade",
     "subType": "chestplate",
     "base": {
@@ -11784,7 +11731,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 2,
-    "identified": true,
     "name": "Springtrap",
     "subType": "chestplate",
     "base": {
@@ -11822,7 +11768,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Gale's Freedom",
     "subType": "chestplate",
     "base": {
@@ -11974,7 +11919,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 2,
-    "identified": true,
     "name": "Corrupted Nii Plate",
     "subType": "chestplate",
     "base": {
@@ -12236,9 +12180,9 @@
         "raw": 6
       },
       "poison": {
-        "min": 90,
-        "max": 390,
-        "raw": 300
+        "min": 48,
+        "max": 208,
+        "raw": 160
       },
       "airDamage": {
         "min": 2,
@@ -12320,7 +12264,6 @@
     "armourMaterial": "leather",
     "majorIds": {"Transcendence": "<span class='font-ascii' style='color:#55FFFF'>+Transcendence: <span class='font-ascii' style='color:#00AAAA'>30% chance for spells to cost no mana when casted.<\/span><\/span>"},
     "powderSlots": 5,
-    "identified": true,
     "armourColor": "rgb(216,88,0)",
     "name": "Quilted Carapace",
     "subType": "chestplate",
@@ -12457,13 +12400,12 @@
     "identifications": {
       "rawDexterity": 2,
       "walkSpeed": 6,
-      "poison": 420,
+      "poison": 280,
       "xpBonus": 7,
       "rawAgility": 2
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Vagabond",
     "subType": "chestplate",
     "base": {
@@ -12671,7 +12613,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Enhanced Icarus",
     "subType": "chestplate",
     "base": {
@@ -12968,7 +12909,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 1,
-    "identified": true,
     "name": "Enhanced Copper Plate",
     "subType": "chestplate",
     "base": {
@@ -13366,6 +13306,7 @@
       "level": 98,
       "intelligence": 65
     },
+    "lore": "Forged from the storm-touched ether, this chest piece calls its wearer to rise above the sky. With every step, the pull of the earth weakens. Jump, and for a moment, you are weightless\u2014caught between the clouds and the stars. Leap, and the heavens may answer.",
     "name": "Stratosphere",
     "subType": "chestplate",
     "type": "armour",
@@ -13571,9 +13512,9 @@
       },
       "rawDefence": -20,
       "poison": {
-        "min": 2175,
-        "max": 9425,
-        "raw": 7250
+        "min": 1500,
+        "max": 6500,
+        "raw": 5000
       },
       "spellDamage": {
         "min": 9,
@@ -13885,9 +13826,9 @@
       },
       "rawDefence": 15,
       "poison": {
-        "min": 330,
-        "max": 1430,
-        "raw": 1100
+        "min": 180,
+        "max": 780,
+        "raw": 600
       },
       "manaSteal": {
         "min": 2,
@@ -13933,7 +13874,6 @@
       "xpBonus": 5
     },
     "armourMaterial": "leather",
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Solidified Chestplate",
     "subType": "chestplate",
@@ -14012,7 +13952,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 2,
-    "identified": true,
     "name": "Homemade Fur Coat",
     "subType": "chestplate",
     "base": {
@@ -14149,7 +14088,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Gaping Cavity",
     "subType": "chestplate",
     "base": {"baseFireDefence": -80},
@@ -14218,7 +14156,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 1,
-    "identified": true,
     "name": "Sorrow",
     "subType": "chestplate",
     "base": {
@@ -14249,7 +14186,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 1,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Ribcage",
     "subType": "chestplate",
@@ -14335,7 +14271,6 @@
     "armourMaterial": "leather",
     "majorIds": {"Saviour\u2019s Sacrifice": "<span class='font-ascii' style='color:#55FFFF'>+Saviour<span class='font-default'><\/span>\u2019<\/span>s Sacrifice: <span class='font-ascii' style='color:#00AAAA'>While under 50% maximum health, nearby allies gain 15% bonus damage and defence.<\/span><\/span>"},
     "powderSlots": 2,
-    "identified": true,
     "armourColor": "rgb(216,88,0)",
     "name": "Eleventh Hour",
     "subType": "chestplate",
@@ -14426,7 +14361,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 4,
-    "identified": true,
     "name": "Atakebune",
     "subType": "chestplate",
     "base": {
@@ -14512,7 +14446,6 @@
       "rawMainAttackDamage": 155
     },
     "armourMaterial": "diamond",
-    "identified": true,
     "name": "Discharge",
     "subType": "chestplate",
     "base": {
@@ -14758,7 +14691,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 2,
-    "identified": true,
     "name": "Gladiator",
     "subType": "chestplate",
     "base": {
@@ -14890,7 +14822,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 3,
-    "identified": true,
     "name": "Anti-Static",
     "subType": "chestplate",
     "base": {
@@ -15592,7 +15523,6 @@
     "armourMaterial": "leather",
     "dropRestriction": "never",
     "requirements": {"level": 16},
-    "identified": true,
     "armourColor": "rgb(87,42,42)",
     "name": "Bear Body",
     "subType": "chestplate",
@@ -15659,9 +15589,9 @@
         "raw": 20
       },
       "poison": {
-        "min": 975,
-        "max": 4225,
-        "raw": 3250
+        "min": 600,
+        "max": 2600,
+        "raw": 2000
       },
       "reflection": {
         "min": 5,
@@ -15708,9 +15638,9 @@
         "raw": 50
       },
       "poison": {
-        "min": 3300,
-        "max": 14300,
-        "raw": 11000
+        "min": 2100,
+        "max": 9100,
+        "raw": 7000
       },
       "healthRegen": {
         "min": -130,
@@ -15819,7 +15749,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 2,
-    "identified": true,
     "name": "Seafarer's Coat",
     "subType": "chestplate",
     "base": {
@@ -15958,7 +15887,6 @@
     },
     "armourMaterial": "diamond",
     "powderSlots": 1,
-    "identified": true,
     "name": "Beetle Aegis",
     "subType": "chestplate",
     "base": {
@@ -15999,7 +15927,6 @@
     },
     "armourMaterial": "golden",
     "powderSlots": 2,
-    "identified": true,
     "name": "Enhanced Phosphene",
     "subType": "chestplate",
     "base": {"baseHealth": 600},
@@ -16218,7 +16145,6 @@
       "defence": 35,
       "quest": "From The Bottom"
     },
-    "identified": true,
     "name": "Ironbody",
     "subType": "chestplate",
     "type": "armour",
@@ -16407,9 +16333,9 @@
         "raw": -100
       },
       "poison": {
-        "min": 1080,
-        "max": 4680,
-        "raw": 3600
+        "min": 660,
+        "max": 2860,
+        "raw": 2200
       },
       "lifeSteal": {
         "min": 44,
@@ -16459,7 +16385,6 @@
     },
     "armourMaterial": "iron",
     "powderSlots": 2,
-    "identified": true,
     "name": "Werepelt",
     "subType": "chestplate",
     "base": {
@@ -16499,7 +16424,6 @@
     },
     "armourMaterial": "chain",
     "powderSlots": 2,
-    "identified": true,
     "name": "Seabreeze",
     "subType": "chestplate",
     "base": {
@@ -16568,7 +16492,6 @@
     },
     "armourMaterial": "leather",
     "powderSlots": 2,
-    "identified": true,
     "armourColor": "rgb(160,101,64)",
     "name": "Spider Leg Suit",
     "subType": "chestplate",

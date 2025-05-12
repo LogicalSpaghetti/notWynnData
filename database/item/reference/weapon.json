@@ -194,7 +194,6 @@
       "waterDefence": 40
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 600,
     "attackSpeed": "slow",
     "name": "Manna",
@@ -318,7 +317,6 @@
       "thunderDefence": 15
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 269,
     "attackSpeed": "fast",
     "name": "Halation",
@@ -441,7 +439,6 @@
       "waterDefence": 30
     },
     "powderSlots": 4,
-    "identified": true,
     "averageDps": 506,
     "attackSpeed": "fast",
     "name": "Gift of the Magi",
@@ -741,7 +738,6 @@
       "4thSpellCost": -20
     },
     "powderSlots": 4,
-    "identified": true,
     "averageDps": 350,
     "attackSpeed": "fast",
     "name": "Spearmint",
@@ -910,11 +906,10 @@
     "type": "weapon",
     "identifications": {
       "walkSpeed": 20,
-      "poison": 900,
+      "poison": 550,
       "airDamage": 20
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 41,
     "attackSpeed": "normal",
     "name": "Hymn of the Dead",
@@ -961,7 +956,6 @@
       "manaRegen": 12
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 77,
     "attackSpeed": "normal",
     "name": "Karma",
@@ -1028,14 +1022,13 @@
     "type": "weapon",
     "identifications": {
       "rawStrength": 25,
-      "poison": 50000,
+      "poison": 35000,
       "raw1stSpellCost": -20,
       "healthRegen": -80,
       "rawHealth": 2250,
       "rawMainAttackDamage": 550
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 140,
     "attackSpeed": "very_fast",
     "name": "The Evolved",
@@ -1466,7 +1459,6 @@
       "rawHealth": 2250
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 496,
     "attackSpeed": "very_fast",
     "name": "Comrade",
@@ -1603,15 +1595,15 @@
     "type": "weapon",
     "identifications": {
       "rawDexterity": 9,
-      "mainAttackDamage": {
-        "min": 2,
-        "max": 9,
-        "raw": 7
-      },
       "thunderDamage": {
         "min": 3,
         "max": 13,
         "raw": 10
+      },
+      "rawMainAttackDamage": {
+        "min": 7,
+        "max": 30,
+        "raw": 23
       }
     },
     "powderSlots": 1,
@@ -1850,7 +1842,6 @@
       "waterDefence": -10
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 296,
     "attackSpeed": "slow",
     "name": "Plate Shock",
@@ -2320,7 +2311,6 @@
       "rawMainAttackDamage": 200
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 315,
     "attackSpeed": "slow",
     "name": "Grave Digger",
@@ -2373,7 +2363,6 @@
       "rawHealth": -30
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 40,
     "attackSpeed": "fast",
     "name": "Frankenstein",
@@ -2418,7 +2407,6 @@
       "waterDefence": 15
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 113,
     "attackSpeed": "normal",
     "name": "Holly",
@@ -2465,9 +2453,9 @@
         "raw": 15
       },
       "poison": {
-        "min": 270,
-        "max": 1170,
-        "raw": 900
+        "min": 150,
+        "max": 650,
+        "raw": 500
       },
       "slowEnemy": {
         "min": 2,
@@ -2537,7 +2525,6 @@
       "thunderDamage": 30,
       "rawAgility": -30
     },
-    "identified": true,
     "averageDps": 384,
     "attackSpeed": "very_slow",
     "name": "Yellow Rose",
@@ -3023,7 +3010,6 @@
       "lootBonus": 22
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 144,
     "attackSpeed": "normal",
     "name": "Abolition",
@@ -3271,7 +3257,6 @@
       "waterDefence": -10
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 112,
     "attackSpeed": "fast",
     "name": "Yuletide",
@@ -3389,13 +3374,12 @@
     "restrictions": "untradable",
     "type": "weapon",
     "identifications": {
-      "poison": 14000,
+      "poison": 8000,
       "rawAttackSpeed": 1,
       "rawThunderMainAttackDamage": 120,
       "manaRegen": -12
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 525,
     "attackSpeed": "super_fast",
     "name": "Gert Swingpoke Cuttyrock",
@@ -3816,10 +3800,10 @@
     "type": "weapon",
     "identifications": {
       "rawDexterity": 3,
-      "healthRegenRaw": {
+      "lifeSteal": {
         "min": 1,
-        "max": 3,
-        "raw": 2
+        "max": 4,
+        "raw": 3
       },
       "spellDamage": {
         "min": 1,
@@ -4310,9 +4294,9 @@
         "raw": 14
       },
       "poison": {
-        "min": 4333,
-        "max": 18775,
-        "raw": 14442
+        "min": 2400,
+        "max": 10400,
+        "raw": 8000
       },
       "mainAttackDamage": {
         "min": 5,
@@ -4371,7 +4355,6 @@
       "healthRegen": 30
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 433,
     "attackSpeed": "normal",
     "name": "Firestarter",
@@ -4411,9 +4394,9 @@
         "raw": 20
       },
       "poison": {
-        "min": 11400,
-        "max": 49400,
-        "raw": 38000
+        "min": 7200,
+        "max": 31200,
+        "raw": 24000
       },
       "rawIntelligence": 20,
       "healingEfficiency": {
@@ -4738,7 +4721,6 @@
       "rawAgility": 20
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 302,
     "attackSpeed": "super_slow",
     "name": "Compiler",
@@ -4864,7 +4846,6 @@
       "airDefence": -100
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 709,
     "attackSpeed": "slow",
     "name": "Orange Lily",
@@ -4924,7 +4905,6 @@
       "airDefence": 30
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 519,
     "attackSpeed": "fast",
     "name": "Stormcloud",
@@ -4949,8 +4929,6 @@
       "level": 1,
       "classRequirement": "mage"
     },
-    "averageDps": 15,
-    "attackSpeed": "fast",
     "icon": {
       "format": "attribute",
       "value": {
@@ -4959,18 +4937,21 @@
         "id": "minecraft:iron_horse_armor"
       }
     },
-    "name": "Quartzite Wand",
-    "subType": "wand",
     "type": "weapon",
     "identifications": {"xpBonus": {
       "min": 1,
       "max": 5,
       "raw": 4
     }},
+    "powderSlots": 1,
+    "averageDps": 10,
+    "attackSpeed": "fast",
+    "name": "Quartzite Wand",
+    "subType": "wand",
     "base": {"baseDamage": {
-      "min": 5,
-      "max": 7,
-      "raw": 5
+      "min": 3,
+      "max": 5,
+      "raw": 3
     }},
     "rarity": "unique"
   },
@@ -5074,9 +5055,9 @@
         "raw": 30
       },
       "poison": {
-        "min": 4860,
-        "max": 21060,
-        "raw": 16200
+        "min": 3000,
+        "max": 13000,
+        "raw": 10000
       },
       "lifeSteal": {
         "min": 221,
@@ -5208,7 +5189,6 @@
       "mainAttackRange": 20
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 330,
     "attackSpeed": "slow",
     "name": "Wolf Tagger",
@@ -5447,9 +5427,9 @@
         "raw": 6
       },
       "poison": {
-        "min": 27,
-        "max": 117,
-        "raw": 90
+        "min": 15,
+        "max": 65,
+        "raw": 50
       }
     },
     "powderSlots": 1,
@@ -5503,7 +5483,6 @@
       "manaRegen": 12
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 562,
     "attackSpeed": "fast",
     "name": "Pressure Blaster",
@@ -5904,7 +5883,6 @@
       "stealing": 3
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 118,
     "attackSpeed": "normal",
     "name": "Silver Short Spear",
@@ -6236,7 +6214,6 @@
       "sprint": -10
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 251,
     "attackSpeed": "slow",
     "name": "Wardrummer",
@@ -6468,7 +6445,6 @@
       "stealing": 5
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 708,
     "attackSpeed": "very_slow",
     "name": "Vagabond's Disgrace",
@@ -6801,7 +6777,6 @@
       "rawAgility": 3
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 77,
     "attackSpeed": "slow",
     "name": "Web Spitter",
@@ -7410,7 +7385,6 @@
       "earthDefence": 20
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 240,
     "attackSpeed": "slow",
     "name": "Vine Machete",
@@ -7928,7 +7902,6 @@
       "lootBonus": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 144,
     "attackSpeed": "normal",
     "name": "Quartz Driller",
@@ -8466,9 +8439,9 @@
       },
       "rawStrength": 5,
       "poison": {
-        "min": 698,
-        "max": 3025,
-        "raw": 2327
+        "min": 390,
+        "max": 1690,
+        "raw": 1300
       },
       "airDamage": {
         "min": 8,
@@ -8664,6 +8637,56 @@
     },
     "rarity": "fabled"
   },
+  "Avocado": {
+    "dropRestriction": "normal",
+    "requirements": {
+      "strength": 10,
+      "level": 29,
+      "classRequirement": "shaman",
+      "intelligence": 10
+    },
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "418",
+        "name": "relik.water1",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "type": "weapon",
+    "identifications": {
+      "healthRegenRaw": {
+        "min": 3,
+        "max": 13,
+        "raw": 10
+      },
+      "rawStrength": 7,
+      "rawIntelligence": 7,
+      "rawHealth": {
+        "min": 20,
+        "max": 85,
+        "raw": 65
+      }
+    },
+    "powderSlots": 1,
+    "averageDps": 111,
+    "attackSpeed": "normal",
+    "name": "Avocado",
+    "subType": "relik",
+    "base": {
+      "baseEarthDamage": {
+        "min": 25,
+        "max": 29,
+        "raw": 25
+      },
+      "baseWaterDamage": {
+        "min": 25,
+        "max": 29,
+        "raw": 25
+      }
+    },
+    "rarity": "unique"
+  },
   "Luna": {
     "dropRestriction": "normal",
     "requirements": {
@@ -8717,56 +8740,6 @@
     },
     "rarity": "unique"
   },
-  "Avocado": {
-    "dropRestriction": "normal",
-    "requirements": {
-      "strength": 10,
-      "level": 29,
-      "classRequirement": "shaman",
-      "intelligence": 10
-    },
-    "icon": {
-      "format": "attribute",
-      "value": {
-        "customModelData": "418",
-        "name": "relik.water1",
-        "id": "minecraft:iron_horse_armor"
-      }
-    },
-    "type": "weapon",
-    "identifications": {
-      "healthRegenRaw": {
-        "min": 3,
-        "max": 13,
-        "raw": 10
-      },
-      "rawStrength": 7,
-      "rawIntelligence": 7,
-      "rawHealth": {
-        "min": 20,
-        "max": 85,
-        "raw": 65
-      }
-    },
-    "powderSlots": 1,
-    "averageDps": 111,
-    "attackSpeed": "normal",
-    "name": "Avocado",
-    "subType": "relik",
-    "base": {
-      "baseEarthDamage": {
-        "min": 25,
-        "max": 29,
-        "raw": 25
-      },
-      "baseWaterDamage": {
-        "min": 25,
-        "max": 29,
-        "raw": 25
-      }
-    },
-    "rarity": "unique"
-  },
   "Poison Ivy": {
     "dropRestriction": "normal",
     "requirements": {
@@ -8796,9 +8769,9 @@
         "raw": 18
       },
       "poison": {
-        "min": 8192,
-        "max": 35500,
-        "raw": 27308
+        "min": 6000,
+        "max": 26000,
+        "raw": 20000
       },
       "mainAttackDamage": {
         "min": 5,
@@ -9009,27 +8982,17 @@
     "rarity": "mythic"
   },
   "Thunder Relic Daggers": {
-    "dropMeta": {
-      "name": "Relic Guardian",
-      "coordinates": [
-        -862,
-        22,
-        -310,
-        120
-      ],
-      "type": "miniboss"
-    },
     "dropRestriction": "never",
     "requirements": {
-      "dexterity": 25,
+      "dexterity": 30,
       "level": 65,
       "classRequirement": "assassin"
     },
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "271",
-        "name": "dagger.thunder2",
+        "customModelData": "201",
+        "name": "bow.thunder2",
         "id": "minecraft:iron_horse_armor"
       }
     },
@@ -9179,13 +9142,12 @@
     "type": "weapon",
     "identifications": {
       "rawDexterity": 5,
-      "poison": 6500,
+      "poison": 3000,
       "rawSpellDamage": -50,
       "weakenEnemy": 5,
       "rawThunderMainAttackDamage": 110
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 300,
     "attackSpeed": "fast",
     "name": "Heart Piercer",
@@ -9666,7 +9628,6 @@
       "thunderDamage": 30
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 478,
     "attackSpeed": "super_slow",
     "name": "Infidel",
@@ -9784,7 +9745,6 @@
       "airDamage": 15
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 49,
     "attackSpeed": "fast",
     "name": "Pursuit",
@@ -9833,9 +9793,9 @@
       },
       "rawDefence": 12,
       "poison": {
-        "min": 4373,
-        "max": 18950,
-        "raw": 14577
+        "min": 1200,
+        "max": 5200,
+        "raw": 4000
       },
       "lifeSteal": {
         "min": 36,
@@ -10204,9 +10164,9 @@
       "rawDexterity": 4,
       "rawStrength": 4,
       "poison": {
-        "min": 83,
-        "max": 360,
-        "raw": 277
+        "min": 46,
+        "max": 200,
+        "raw": 154
       },
       "lifeSteal": {
         "min": -19,
@@ -10407,9 +10367,9 @@
         "raw": 10
       },
       "poison": {
-        "min": 135,
-        "max": 585,
-        "raw": 450
+        "min": 75,
+        "max": 325,
+        "raw": 250
       },
       "lifeSteal": {
         "min": 8,
@@ -10492,7 +10452,6 @@
       "knockback": 50
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 137,
     "attackSpeed": "very_slow",
     "name": "Sprout",
@@ -10902,7 +10861,6 @@
       "rawMainAttackDamage": 59
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 188,
     "attackSpeed": "fast",
     "name": "Splinter",
@@ -11692,7 +11650,6 @@
       "4thSpellCost": -20
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 566,
     "attackSpeed": "super_slow",
     "name": "Mountain's Song",
@@ -11744,9 +11701,9 @@
         "raw": 175
       },
       "poison": {
-        "min": 8077,
-        "max": 35000,
-        "raw": 26923
+        "min": 4800,
+        "max": 20800,
+        "raw": 16000
       },
       "rawAttackSpeed": 1,
       "manaRegen": {
@@ -12048,9 +12005,9 @@
         "raw": 20
       },
       "poison": {
-        "min": 2430,
-        "max": 10530,
-        "raw": 8100
+        "min": 1575,
+        "max": 6825,
+        "raw": 5250
       },
       "thunderDamage": {
         "min": -19,
@@ -12299,7 +12256,6 @@
       "lifeSteal": 5
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 34,
     "attackSpeed": "very_fast",
     "name": "Puncturing Dirk",
@@ -12486,9 +12442,9 @@
       "rawStrength": 7,
       "rawDefence": -7,
       "poison": {
-        "min": 945,
-        "max": 4095,
-        "raw": 3150
+        "min": 600,
+        "max": 2600,
+        "raw": 2000
       },
       "lifeSteal": {
         "min": 39,
@@ -12622,7 +12578,6 @@
       "airDefence": -20
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 273,
     "attackSpeed": "normal",
     "name": "Thaw",
@@ -13088,7 +13043,6 @@
       "waterDefence": -12
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 469,
     "attackSpeed": "normal",
     "name": "Shortout",
@@ -13152,9 +13106,9 @@
     "type": "weapon",
     "identifications": {
       "poison": {
-        "min": 75,
-        "max": 325,
-        "raw": 250
+        "min": 42,
+        "max": 182,
+        "raw": 140
       },
       "lootBonus": {
         "min": 4,
@@ -13195,11 +13149,11 @@
   "Inquisitor's Zeal": {
     "dropRestriction": "normal",
     "requirements": {
-      "dexterity": 30,
+      "dexterity": 40,
       "level": 77,
       "classRequirement": "warrior",
-      "defence": 30,
-      "intelligence": 45
+      "defence": 40,
+      "intelligence": 30
     },
     "icon": {
       "format": "attribute",
@@ -13212,41 +13166,46 @@
     "type": "weapon",
     "identifications": {
       "raw3rdSpellCost": {
-        "min": 7,
-        "max": 4,
-        "raw": 5
+        "min": -1,
+        "max": -4,
+        "raw": -3
       },
-      "waterDamage": {
+      "fireDamage": {
         "min": 9,
-        "max": 39,
-        "raw": 30
+        "max": 40,
+        "raw": 31
       },
-      "lifeSteal": {
-        "min": 75,
-        "max": 325,
-        "raw": 250
+      "manaSteal": {
+        "min": 3,
+        "max": 13,
+        "raw": 10
       },
-      "rawSpellDamage": {
-        "min": 60,
-        "max": 260,
-        "raw": 200
+      "weakenEnemy": {
+        "min": 3,
+        "max": 13,
+        "raw": 10
       },
       "raw1stSpellCost": {
         "min": 5,
         "max": 3,
         "raw": 4
+      },
+      "rawFireSpellDamage": {
+        "min": 63,
+        "max": 273,
+        "raw": 210
       }
     },
     "powderSlots": 3,
-    "averageDps": 332,
+    "averageDps": 343,
     "attackSpeed": "super_slow",
     "name": "Inquisitor's Zeal",
     "subType": "spear",
     "base": {
       "baseThunderDamage": {
-        "min": 75,
-        "max": 325,
-        "raw": 75
+        "min": 175,
+        "max": 355,
+        "raw": 175
       },
       "baseDamage": {
         "min": 35,
@@ -13254,14 +13213,14 @@
         "raw": 35
       },
       "baseWaterDamage": {
-        "min": 150,
-        "max": 250,
-        "raw": 150
+        "min": 125,
+        "max": 245,
+        "raw": 125
       },
       "baseFireDamage": {
-        "min": 125,
-        "max": 275,
-        "raw": 125
+        "min": 45,
+        "max": 300,
+        "raw": 45
       }
     },
     "rarity": "legendary"
@@ -13550,7 +13509,6 @@
       "mainAttackRange": 25
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 158,
     "attackSpeed": "super_slow",
     "name": "Death's Reach",
@@ -13666,7 +13624,6 @@
       "waterDefence": -10
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 556,
     "attackSpeed": "very_slow",
     "name": "Stricken Bolt",
@@ -13704,9 +13661,9 @@
       },
       "rawStrength": 25,
       "poison": {
-        "min": 3600,
-        "max": 15600,
-        "raw": 12000
+        "min": 2400,
+        "max": 10400,
+        "raw": 8000
       },
       "lifeSteal": {
         "min": 218,
@@ -13775,7 +13732,6 @@
       "airDefence": 36
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 168,
     "attackSpeed": "very_slow",
     "name": "Foehn Wind",
@@ -13823,7 +13779,6 @@
       "rawAttackSpeed": -1,
       "rawMainAttackDamage": 710
     },
-    "identified": true,
     "averageDps": 790,
     "attackSpeed": "super_slow",
     "name": "Gert Shootstick Tossflinger",
@@ -14013,9 +13968,9 @@
         "raw": 120
       },
       "poison": {
-        "min": 1845,
-        "max": 7995,
-        "raw": 6150
+        "min": 1020,
+        "max": 4420,
+        "raw": 3400
       },
       "rawIntelligence": 5,
       "healingEfficiency": {
@@ -14514,7 +14469,6 @@
       "airDefence": 15
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 338,
     "attackSpeed": "fast",
     "name": "Stringhollow",
@@ -14847,7 +14801,6 @@
       "waterDefence": -12
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 232,
     "attackSpeed": "very_fast",
     "name": "Forge Stoker",
@@ -15058,7 +15011,6 @@
       "rawAgility": 10
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 525,
     "attackSpeed": "fast",
     "name": "Bob's Mythic Daggers",
@@ -15123,7 +15075,6 @@
       "rawMainAttackDamage": 70
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 301,
     "attackSpeed": "super_fast",
     "name": "Wishing Star",
@@ -15378,7 +15329,6 @@
       "rawHealth": 1200
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 527,
     "attackSpeed": "very_fast",
     "name": "Dragonspit",
@@ -15827,7 +15777,6 @@
       "rawHealth": 2500
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 278,
     "attackSpeed": "normal",
     "name": "Restorator",
@@ -16462,7 +16411,6 @@
       "rawHealth": 2750
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 510,
     "attackSpeed": "slow",
     "name": "Skyline Cries",
@@ -16713,7 +16661,6 @@
       "4thSpellCost": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 103,
     "attackSpeed": "normal",
     "name": "Battle Staff",
@@ -16765,7 +16712,6 @@
       "elementalDamage": 20
     },
     "powderSlots": 5,
-    "identified": true,
     "averageDps": 462,
     "attackSpeed": "fast",
     "name": "Infused Hive Spear",
@@ -17224,7 +17170,6 @@
       "rawMainAttackDamage": 43
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 200,
     "attackSpeed": "fast",
     "name": "Upgraded Flare Blitz",
@@ -17293,9 +17238,9 @@
         "raw": -10
       },
       "poison": {
-        "min": 467,
-        "max": 2025,
-        "raw": 1558
+        "min": 270,
+        "max": 1170,
+        "raw": 900
       },
       "fireDamage": {
         "min": 7,
@@ -17864,7 +17809,6 @@
       "mainAttackRange": -24
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 99,
     "attackSpeed": "super_fast",
     "name": "Upgraded Scalpel",
@@ -17916,7 +17860,6 @@
       "4thSpellCost": -20
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 412,
     "attackSpeed": "normal",
     "name": "Anthem",
@@ -18308,7 +18251,6 @@
       "thunderDefence": -10
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 82,
     "attackSpeed": "very_slow",
     "name": "Harpoon",
@@ -18359,7 +18301,6 @@
       "manaRegen": 12
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 206,
     "attackSpeed": "normal",
     "name": "Storyteller",
@@ -18595,7 +18536,6 @@
       "waterDefence": -20
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 550,
     "attackSpeed": "slow",
     "name": "Stone Crunch",
@@ -19209,7 +19149,6 @@
       "thunderDefence": 50
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 493,
     "attackSpeed": "very_fast",
     "name": "Wick",
@@ -19694,7 +19633,6 @@
       "airDefence": 20
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 278,
     "attackSpeed": "normal",
     "name": "Whirlwind",
@@ -20206,13 +20144,12 @@
       "rawDexterity": 6,
       "rawStrength": 6,
       "rawDefence": 6,
-      "poison": 10000,
+      "poison": 5000,
       "lifeSteal": 240,
       "xpBonus": 15,
       "manaSteal": 12
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 382,
     "attackSpeed": "very_slow",
     "name": "Fuunyet",
@@ -20301,7 +20238,6 @@
       "airDefence": 15
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 87,
     "attackSpeed": "very_fast",
     "name": "Cathedral",
@@ -20768,7 +20704,6 @@
       "waterDefence": -25
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 109,
     "attackSpeed": "fast",
     "name": "Current",
@@ -21462,7 +21397,6 @@
       "waterDefence": -20
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 615,
     "attackSpeed": "fast",
     "name": "Thanos Stonesinger",
@@ -21888,9 +21822,9 @@
     "identifications": {
       "rawDefence": 11,
       "fireDamage": {
-        "min": 3,
-        "max": 14,
-        "raw": 11
+        "min": 7,
+        "max": 30,
+        "raw": 23
       },
       "mainAttackDamage": {
         "min": -14,
@@ -22249,7 +22183,6 @@
       "xpBonus": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 147,
     "attackSpeed": "normal",
     "name": "Damnation",
@@ -22295,7 +22228,6 @@
       "rawAgility": -3,
       "rawHealth": 500
     },
-    "identified": true,
     "averageDps": 222,
     "attackSpeed": "super_slow",
     "name": "Warlord",
@@ -22420,9 +22352,9 @@
         "raw": 35
       },
       "poison": {
-        "min": 7569,
-        "max": 32800,
-        "raw": 25231
+        "min": 4200,
+        "max": 18200,
+        "raw": 14000
       },
       "lifeSteal": {
         "min": 90,
@@ -22540,7 +22472,6 @@
       "waterDefence": -8
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 170,
     "attackSpeed": "very_fast",
     "name": "Candy Cane",
@@ -23657,7 +23588,6 @@
       "manaRegen": 8
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 101,
     "attackSpeed": "very_fast",
     "name": "Ice Fishing Spear",
@@ -23712,7 +23642,6 @@
       "mainAttackRange": 20
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 152,
     "attackSpeed": "normal",
     "name": "Searchlight",
@@ -23912,7 +23841,7 @@
         "raw": -230
       }
     },
-    "majorIds": {"Rally": "<span class='font-ascii' style='color:#55FFFF'>+Rally: <span class='font-ascii' style='color:#00AAAA'>Charge heals you by 10% and nearby allies by 15% on impact, but becomes harmless.<\/span><\/span>"},
+    "majorIds": {"Rally": "<span class='font-ascii' style='color:#55FFFF'>+Rally: <span class='font-ascii' style='color:#00AAAA'>Cleansing Breeze causes Charge to heal you for 7.5% and nearby allies for 15% on impact, but becomes harmless.<\/span><\/span>"},
     "powderSlots": 1,
     "averageDps": 236,
     "attackSpeed": "super_fast",
@@ -24130,7 +24059,6 @@
       "manaRegen": 6
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 121,
     "attackSpeed": "fast",
     "name": "Calamaro's Spear",
@@ -24455,7 +24383,6 @@
       "stealing": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 544,
     "attackSpeed": "very_slow",
     "name": "Scrooge",
@@ -24583,7 +24510,6 @@
       "rawHealth": 1075
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 330,
     "attackSpeed": "normal",
     "name": "Thanos Ironstaff",
@@ -24712,7 +24638,6 @@
       "rawAgility": 5
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 138,
     "attackSpeed": "fast",
     "name": "Jungle Spirit",
@@ -24964,7 +24889,6 @@
       "manaRegen": 6
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 152,
     "attackSpeed": "fast",
     "name": "Calamaro's Bow",
@@ -25078,7 +25002,6 @@
       "rawMainAttackDamage": 130
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 325,
     "attackSpeed": "fast",
     "name": "Wood Hammer",
@@ -25225,7 +25148,6 @@
       "mainAttackRange": 12
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 37,
     "attackSpeed": "very_slow",
     "name": "Skull Breaker",
@@ -25273,7 +25195,6 @@
       "manaRegen": -24
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 700,
     "attackSpeed": "fast",
     "name": "Salpinx",
@@ -25735,9 +25656,9 @@
         "raw": 40
       },
       "poison": {
-        "min": 3600,
-        "max": 15600,
-        "raw": 12000
+        "min": 2580,
+        "max": 11180,
+        "raw": 8600
       },
       "thunderDamage": {
         "min": 15,
@@ -25884,9 +25805,9 @@
         "raw": -15
       },
       "poison": {
-        "min": 542,
-        "max": 2350,
-        "raw": 1808
+        "min": 300,
+        "max": 1300,
+        "raw": 1000
       },
       "lifeSteal": {
         "min": 25,
@@ -26069,7 +25990,7 @@
         "raw": 40
       }
     },
-    "majorIds": {"Hawkeye": "<span class='font-ascii' style='color:#55FFFF'>+Hawkeye: <span class='font-ascii' style='color:#00AAAA'>Condense Arrow Storm into a tight beam. Arrows deal <span class='font-ascii' style='color:elements.neutral'><span class='font-common'><\/span>10%<\/span><darkAqua>, <span class='font-ascii' style='color:elements.thunder'><span class='font-common'><\/span>1%<\/span><darkAqua>, and <span class='font-ascii' style='color:elements.air'><span class='font-common'><\/span>1%<\/span><darkAqua>.<\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span>"},
+    "majorIds": {"Hawkeye": "<span class='font-ascii' style='color:#55FFFF'>+Hawkeye: <span class='font-ascii' style='color:#00AAAA'>Condense Arrow Storm into a tight beam of 5 arrows per stream that deal <span class='font-ascii' style='color:#ffaa00'><span class='font-common'><\/span>10%<\/span><darkAqua>, <span class='font-ascii' style='color:#ffff55'><span class='font-common'><\/span>1%<\/span><darkAqua>, and <span class='font-ascii' style='color:#ffffff'><span class='font-common'><\/span>1%<\/span><darkAqua>.<\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span>"},
     "powderSlots": 1,
     "averageDps": 295,
     "attackSpeed": "super_slow",
@@ -26400,7 +26321,6 @@
       "airDamage": 30
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 360,
     "attackSpeed": "slow",
     "name": "Gert Whooshy Bonkpole",
@@ -26492,9 +26412,9 @@
     "identifications": {
       "rawStrength": 12,
       "poison": {
-        "min": 5265,
-        "max": 22815,
-        "raw": 17550
+        "min": 3600,
+        "max": 15600,
+        "raw": 12000
       },
       "manaSteal": {
         "min": 3,
@@ -26633,9 +26553,9 @@
         "raw": 70
       },
       "poison": {
-        "min": 6000,
-        "max": 26000,
-        "raw": 20000
+        "min": 3750,
+        "max": 16250,
+        "raw": 12500
       },
       "lifeSteal": {
         "min": 183,
@@ -26770,7 +26690,6 @@
       "rawAgility": 15
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 150,
     "attackSpeed": "very_fast",
     "name": "Wipe",
@@ -26889,7 +26808,6 @@
       "waterDefence": -15
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 292,
     "attackSpeed": "slow",
     "name": "Firewood",
@@ -27010,9 +26928,9 @@
       },
       "rawStrength": 40,
       "poison": {
-        "min": 22500,
-        "max": 97500,
-        "raw": 75000
+        "min": 15000,
+        "max": 65000,
+        "raw": 50000
       },
       "lifeSteal": {
         "min": 150,
@@ -27467,9 +27385,9 @@
       },
       "rawStrength": 10,
       "poison": {
-        "min": 5077,
-        "max": 22000,
-        "raw": 16923
+        "min": 3000,
+        "max": 13000,
+        "raw": 10000
       },
       "slowEnemy": {
         "min": 3,
@@ -27587,7 +27505,6 @@
       "manaRegen": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 381,
     "attackSpeed": "fast",
     "name": "Black Ice",
@@ -27839,7 +27756,6 @@
       "thunderDefence": 10
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 294,
     "attackSpeed": "very_fast",
     "name": "Genetor",
@@ -27962,7 +27878,6 @@
       "thunderDefence": 20
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 475,
     "attackSpeed": "fast",
     "name": "Shard of Sky",
@@ -28221,7 +28136,6 @@
       "airDefence": 5
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 108,
     "attackSpeed": "normal",
     "name": "Upgraded Melange",
@@ -28664,7 +28578,6 @@
       "airDefence": -40
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 270,
     "attackSpeed": "fast",
     "name": "Hydrocharger",
@@ -29061,7 +28974,6 @@
       "rawMainAttackDamage": 410
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 1148,
     "attackSpeed": "slow",
     "name": "Gert Bangswing Manypointystick",
@@ -29497,7 +29409,6 @@
       "rawMainAttackDamage": 320
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 585,
     "attackSpeed": "slow",
     "name": "Olit Vaniek",
@@ -30173,9 +30084,9 @@
         "raw": 15
       },
       "poison": {
-        "min": 6923,
-        "max": 30000,
-        "raw": 23077
+        "min": 4154,
+        "max": 18000,
+        "raw": 13846
       },
       "mainAttackRange": {
         "min": 8,
@@ -30235,7 +30146,6 @@
       "healthRegen": -20
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 369,
     "attackSpeed": "slow",
     "name": "Strikedown",
@@ -30435,9 +30345,9 @@
       "rawStrength": 12,
       "rawDefence": -100,
       "poison": {
-        "min": 1080,
-        "max": 4680,
-        "raw": 3600
+        "min": 600,
+        "max": 2600,
+        "raw": 2000
       },
       "earthSpellDamage": {
         "min": 11,
@@ -30740,7 +30650,6 @@
       "airDefence": -25
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 645,
     "attackSpeed": "slow",
     "name": "Closure",
@@ -31206,7 +31115,6 @@
       "manaRegen": 12
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 181,
     "attackSpeed": "normal",
     "name": "Tempo Totem",
@@ -31248,7 +31156,6 @@
       "rawHealth": -1250
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 454,
     "attackSpeed": "very_slow",
     "name": "Voidstone Arpes",
@@ -31300,10 +31207,9 @@
     "type": "weapon",
     "identifications": {
       "walkSpeed": 6,
-      "poison": 125,
+      "poison": 60,
       "rawAgility": 3
     },
-    "identified": true,
     "averageDps": 9,
     "attackSpeed": "very_fast",
     "name": "Serpent's Kiss",
@@ -31707,9 +31613,9 @@
         "raw": -8
       },
       "poison": {
-        "min": 66,
-        "max": 285,
-        "raw": 219
+        "min": 30,
+        "max": 130,
+        "raw": 100
       },
       "rawSpellDamage": {
         "min": 10,
@@ -32004,7 +31910,6 @@
       "manaRegen": 6
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 25,
     "attackSpeed": "normal",
     "name": "The Magician",
@@ -32058,7 +31963,6 @@
       "manaRegen": 12
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 209,
     "attackSpeed": "super_slow",
     "name": "Frozen Earth",
@@ -32198,7 +32102,6 @@
       "manaSteal": 12,
       "rawAirDamage": 425
     },
-    "identified": true,
     "averageDps": 2,
     "attackSpeed": "slow",
     "name": "The Nothing",
@@ -32411,7 +32314,6 @@
       "rawHealth": -1200
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 563,
     "attackSpeed": "super_fast",
     "name": "Highrise",
@@ -32589,7 +32491,6 @@
       "healthRegen": -30
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 415,
     "attackSpeed": "very_slow",
     "name": "Gert Rock Smashbanger",
@@ -32628,7 +32529,6 @@
       "rawHealth": 400
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 225,
     "attackSpeed": "slow",
     "name": "Conifer",
@@ -32684,7 +32584,6 @@
       "lifeSteal": 10
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 48,
     "attackSpeed": "slow",
     "name": "Sting",
@@ -32800,9 +32699,9 @@
         "raw": 100
       },
       "poison": {
-        "min": 2435,
-        "max": 10550,
-        "raw": 8115
+        "min": 1350,
+        "max": 5850,
+        "raw": 4500
       },
       "rawIntelligence": 20,
       "manaRegen": {
@@ -32990,7 +32889,6 @@
       "xpBonus": 6
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 18,
     "attackSpeed": "normal",
     "name": "Staff of Wisdom",
@@ -33390,7 +33288,6 @@
       "airDefence": 20
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 288,
     "attackSpeed": "normal",
     "name": "Windmill",
@@ -33718,9 +33615,9 @@
       },
       "rawStrength": 7,
       "poison": {
-        "min": 666,
-        "max": 2885,
-        "raw": 2219
+        "min": 370,
+        "max": 1604,
+        "raw": 1234
       },
       "earthMainAttackDamage": {
         "min": 7,
@@ -33953,7 +33850,6 @@
       "earthDefence": 15
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 558,
     "attackSpeed": "very_fast",
     "name": "Pine Bow",
@@ -34023,9 +33919,9 @@
       },
       "rawStrength": 5,
       "poison": {
-        "min": 1530,
-        "max": 6630,
-        "raw": 5100
+        "min": 848,
+        "max": 3673,
+        "raw": 2825
       },
       "lifeSteal": {
         "min": 35,
@@ -34090,7 +33986,6 @@
       "rawHealth": -1250
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 685,
     "attackSpeed": "very_slow",
     "name": "Voidstone Lersing",
@@ -34133,7 +34028,6 @@
     "restrictions": "untradable",
     "type": "weapon",
     "identifications": {"spellDamage": -1},
-    "identified": true,
     "averageDps": 3,
     "attackSpeed": "slow",
     "name": "Gert Super Special Magic Ultistick",
@@ -34395,7 +34289,6 @@
       "4thSpellCost": -10
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 80,
     "attackSpeed": "fast",
     "name": "Cracheur",
@@ -34449,7 +34342,6 @@
       "airDefence": -15
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 484,
     "attackSpeed": "super_fast",
     "name": "Shale Edge",
@@ -34572,7 +34464,6 @@
       "earthDefence": -30
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 546,
     "attackSpeed": "very_fast",
     "name": "The Airway",
@@ -34985,7 +34876,6 @@
       "rawAgility": 10
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 628,
     "attackSpeed": "normal",
     "name": "Ancient Runic Relik",
@@ -35033,7 +34923,6 @@
       "rawHealth": 2875
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 323,
     "attackSpeed": "super_slow",
     "name": "Final Compulsion",
@@ -35181,9 +35070,9 @@
         "raw": 30
       },
       "poison": {
-        "min": 4500,
-        "max": 19500,
-        "raw": 15000
+        "min": 3600,
+        "max": 15600,
+        "raw": 12000
       },
       "rawSpellDamage": {
         "min": -182,
@@ -35281,7 +35170,6 @@
       "rawHealth": 360
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 124,
     "attackSpeed": "normal",
     "name": "Sol",
@@ -36104,7 +35992,7 @@
         "raw": -70
       }
     },
-    "majorIds": {"Hellfire": "<span class='font-ascii' style='color:#55FFFF'>+Hellfire: <span class='font-ascii' style='color:#00AAAA'>Bash is replaced by a single hit, gaining +3 radius and dealing <span class='font-ascii' style='color:elements.neutral'><span class='font-common'><\/span>225%<\/span><darkAqua>, <span class='font-ascii' style='color:elements.earth'><span class='font-common'><\/span>40%<\/span><darkAqua>, and <span class='font-ascii' style='color:elements.fire'><span class='font-common'><\/span>60%<\/span><darkAqua>. Boiling Blood burns faster for <span class='font-ascii' style='color:elements.neutral'><span class='font-common'><\/span>+40%<\/span><darkAqua> and <span class='font-ascii' style='color:elements.fire'><span class='font-common'><\/span>+50%<\/span><darkAqua> but can't slow.<\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span>"},
+    "majorIds": {"Hellfire": "<span class='font-ascii' style='color:#55FFFF'>+Hellfire: <span class='font-ascii' style='color:#00AAAA'>Bash is replaced by a single hit, gaining +3 radius and dealing <span class='font-ascii' style='color:#ffaa00'><span class='font-common'><\/span>225%<\/span><darkAqua>, <span class='font-ascii' style='color:#00aa00'><span class='font-common'><\/span>40%<\/span><darkAqua>, and <span class='font-ascii' style='color:#ff5555'><span class='font-common'><\/span>60%<\/span><darkAqua>. Boiling Blood burns faster for <span class='font-ascii' style='color:#ffaa00'><span class='font-common'><\/span>+40%<\/span><darkAqua> and <span class='font-ascii' style='color:#ff5555'><span class='font-common'><\/span>+50%<\/span><darkAqua> but can't slow.<\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span>"},
     "powderSlots": 3,
     "averageDps": 574,
     "attackSpeed": "super_slow",
@@ -36408,9 +36296,9 @@
         "raw": 15
       },
       "poison": {
-        "min": 750,
-        "max": 3250,
-        "raw": 2500
+        "min": 480,
+        "max": 2080,
+        "raw": 1600
       },
       "lifeSteal": {
         "min": 39,
@@ -36618,7 +36506,6 @@
       "earthDefence": 20
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 332,
     "attackSpeed": "very_slow",
     "name": "Rocher",
@@ -36673,7 +36560,6 @@
       "manaRegen": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 499,
     "attackSpeed": "very_fast",
     "name": "Windwhistle",
@@ -36913,7 +36799,6 @@
       "manaRegen": 12
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 93,
     "attackSpeed": "normal",
     "name": "Tempo Ticker",
@@ -36977,9 +36862,9 @@
       },
       "jumpHeight": -1,
       "poison": {
-        "min": 1200,
-        "max": 5200,
-        "raw": 4000
+        "min": 662,
+        "max": 2870,
+        "raw": 2208
       },
       "rawSpellDamage": {
         "min": 39,
@@ -37061,7 +36946,7 @@
         "raw": 1800
       }
     },
-    "majorIds": {"Rally": "<span class='font-ascii' style='color:#55FFFF'>+Rally: <span class='font-ascii' style='color:#00AAAA'>Charge heals you by 10% and nearby allies by 15% on impact, but becomes harmless.<\/span><\/span>"},
+    "majorIds": {"Rally": "<span class='font-ascii' style='color:#55FFFF'>+Rally: <span class='font-ascii' style='color:#00AAAA'>Cleansing Breeze causes Charge to heal you for 7.5% and nearby allies for 15% on impact, but becomes harmless.<\/span><\/span>"},
     "powderSlots": 2,
     "averageDps": 512,
     "attackSpeed": "very_fast",
@@ -37720,7 +37605,6 @@
       "rawAgility": -5
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 168,
     "attackSpeed": "slow",
     "name": "Upgraded Long Bow",
@@ -37876,7 +37760,6 @@
       "stealing": 10
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 557,
     "attackSpeed": "super_slow",
     "name": "Redbeard's Hand Cannon",
@@ -38247,7 +38130,6 @@
       "manaRegen": 12
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 182,
     "attackSpeed": "slow",
     "name": "Tempo Trebuchet",
@@ -38674,7 +38556,6 @@
       "rawMainAttackDamage": -25
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 118,
     "attackSpeed": "very_fast",
     "name": "Upgraded Archpriest",
@@ -38927,7 +38808,6 @@
       "manaRegen": 12
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 360,
     "attackSpeed": "very_fast",
     "name": "Brace of the Ninth",
@@ -39640,7 +39520,6 @@
       "rawHealth": -255
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 120,
     "attackSpeed": "slow",
     "name": "Viking Breath",
@@ -40071,7 +39950,6 @@
       "airDefence": -18
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 464,
     "attackSpeed": "super_fast",
     "name": "Lycanthropy",
@@ -40701,7 +40579,6 @@
       "manaSteal": 12
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 375,
     "attackSpeed": "fast",
     "name": "Sharpened Seaglass",
@@ -40790,7 +40667,6 @@
       "rawHealth": 400
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 240,
     "attackSpeed": "fast",
     "name": "Holiday Spirit",
@@ -41395,7 +41271,6 @@
       "airDefence": 20
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 250,
     "attackSpeed": "fast",
     "name": "Foreword",
@@ -41503,7 +41378,6 @@
       "rawAgility": 12
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 431,
     "attackSpeed": "slow",
     "name": "Nightmare",
@@ -41589,9 +41463,9 @@
         "raw": 20
       },
       "poison": {
-        "min": 1050,
-        "max": 4550,
-        "raw": 3500
+        "min": 570,
+        "max": 2470,
+        "raw": 1900
       },
       "lifeSteal": {
         "min": 53,
@@ -42029,7 +41903,6 @@
       "rawHealth": 25
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 48,
     "attackSpeed": "very_slow",
     "name": "Reinforced Composite Bow",
@@ -42529,9 +42402,9 @@
       },
       "rawStrength": 8,
       "poison": {
-        "min": 3000,
-        "max": 13000,
-        "raw": 10000
+        "min": 1950,
+        "max": 8450,
+        "raw": 6500
       },
       "manaSteal": {
         "min": 2,
@@ -42603,7 +42476,6 @@
       "airDefence": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 258,
     "attackSpeed": "normal",
     "name": "Moonlight",
@@ -42723,7 +42595,6 @@
       "elementalDamage": 10
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 624,
     "attackSpeed": "super_fast",
     "name": "Sawtooth",
@@ -43179,7 +43050,6 @@
       "rawAgility": 5
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 82,
     "attackSpeed": "fast",
     "name": "Drywind",
@@ -43345,9 +43215,9 @@
     "type": "weapon",
     "identifications": {
       "poison": {
-        "min": 23,
-        "max": 100,
-        "raw": 77
+        "min": 12,
+        "max": 52,
+        "raw": 40
       },
       "manaRegen": {
         "min": 2,
@@ -43466,7 +43336,6 @@
       "thunderDefence": 15
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 420,
     "attackSpeed": "slow",
     "name": "Grounder",
@@ -43628,7 +43497,6 @@
       "manaRegen": 8
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 128,
     "attackSpeed": "normal",
     "name": "Hillich",
@@ -43740,7 +43608,6 @@
       "rawAirDamage": 200
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 538,
     "attackSpeed": "fast",
     "name": "Packet",
@@ -43777,9 +43644,9 @@
     "identifications": {
       "rawStrength": 5,
       "poison": {
-        "min": 23,
-        "max": 100,
-        "raw": 77
+        "min": 12,
+        "max": 52,
+        "raw": 40
       },
       "xpBonus": {
         "min": 3,
@@ -43842,7 +43709,6 @@
       "rawHealth": -800
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 278,
     "attackSpeed": "very_slow",
     "name": "Cicada",
@@ -43900,7 +43766,6 @@
       "waterSpellDamage": 30
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 183,
     "attackSpeed": "super_fast",
     "name": "Hashr Claw",
@@ -44031,7 +43896,6 @@
       "rawHealth": 1300
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 288,
     "attackSpeed": "very_slow",
     "name": "Fulminate Staff",
@@ -44214,7 +44078,6 @@
       "manaRegen": 12
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 152,
     "attackSpeed": "fast",
     "name": "Tempo Tanto",
@@ -44260,7 +44123,6 @@
       "airDefence": -18
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 182,
     "attackSpeed": "fast",
     "name": "Upgraded Cursed Bow",
@@ -45067,7 +44929,6 @@
       "manaRegen": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 304,
     "attackSpeed": "normal",
     "name": "Ouragan",
@@ -45283,7 +45144,7 @@
         "raw": -50
       }
     },
-    "majorIds": {"Sorcery": "<span class='font-ascii' style='color:#55FFFF'>+Sorcery: <span class='font-ascii' style='color:#00AAAA'>30% chance for spells and attacks to cast a second time at no additional cost.<\/span><\/span>"},
+    "majorIds": {"Sorcery": "<span class='font-ascii' style='color:#55FFFF'>+Sorcery: <span class='font-ascii' style='color:#00AAAA'>25% chance for spells and attacks to cast a second time at no additional cost.<\/span><\/span>"},
     "powderSlots": 3,
     "averageDps": 397,
     "attackSpeed": "normal",
@@ -45434,9 +45295,9 @@
         "raw": 10
       },
       "poison": {
-        "min": 375,
-        "max": 1625,
-        "raw": 1250
+        "min": 210,
+        "max": 910,
+        "raw": 700
       },
       "rawEarthMainAttackDamage": {
         "min": 9,
@@ -46066,9 +45927,9 @@
     "type": "weapon",
     "identifications": {
       "poison": {
-        "min": 7200,
-        "max": 31200,
-        "raw": 24000
+        "min": 4200,
+        "max": 18200,
+        "raw": 14000
       },
       "lifeSteal": {
         "min": 102,
@@ -46697,7 +46558,6 @@
       "rawAgility": 6
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 237,
     "attackSpeed": "very_slow",
     "name": "Reciprocator",
@@ -46947,7 +46807,6 @@
       "rawHealth": 900
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 248,
     "attackSpeed": "slow",
     "name": "Torch",
@@ -47251,7 +47110,6 @@
       "elementalDefence": -15
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 406,
     "attackSpeed": "fast",
     "name": "Enerxia",
@@ -47452,7 +47310,6 @@
       "elementalDamage": 20
     },
     "powderSlots": 5,
-    "identified": true,
     "averageDps": 575,
     "attackSpeed": "fast",
     "name": "Infused Hive Dagger",
@@ -47497,7 +47354,6 @@
       "healthRegen": 12
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 136,
     "attackSpeed": "slow",
     "name": "Upgraded Radiance",
@@ -47584,7 +47440,6 @@
       "raw1stSpellCost": -5
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 349,
     "attackSpeed": "normal",
     "name": "Sacrificial",
@@ -47631,9 +47486,9 @@
         "raw": 75
       },
       "poison": {
-        "min": 404,
-        "max": 1750,
-        "raw": 1346
+        "min": 225,
+        "max": 975,
+        "raw": 750
       },
       "xpBonus": {
         "min": 5,
@@ -47808,14 +47663,13 @@
       "earthDamage": 10,
       "rawStrength": 5,
       "thorns": 10,
-      "poison": 250,
+      "poison": 1400,
       "rawIntelligence": 5,
       "xpBonus": 15,
       "manaRegen": 6,
       "waterDefence": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 185,
     "attackSpeed": "normal",
     "name": "Olux's Prized Wand",
@@ -47938,7 +47792,6 @@
       "spellDamage": 15
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 356,
     "attackSpeed": "very_fast",
     "name": "Sheet Ice",
@@ -47994,7 +47847,6 @@
       "rawAgility": 8
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 465,
     "attackSpeed": "very_fast",
     "name": "Ascension",
@@ -48045,7 +47897,6 @@
       "manaSteal": 8,
       "raw1stSpellCost": -4
     },
-    "identified": true,
     "averageDps": 322,
     "attackSpeed": "super_fast",
     "name": "Snowstorm",
@@ -49076,7 +48927,6 @@
       "airDefence": 24
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 509,
     "attackSpeed": "fast",
     "name": "Diamond Blade",
@@ -49134,7 +48984,6 @@
       "rawAgility": 30
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 490,
     "attackSpeed": "super_slow",
     "name": "Salticidae",
@@ -49436,7 +49285,6 @@
       "rawHealth": 1600
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 465,
     "attackSpeed": "slow",
     "name": "Solar Sword",
@@ -49534,9 +49382,9 @@
         "raw": -15
       },
       "poison": {
-        "min": 233,
-        "max": 1010,
-        "raw": 777
+        "min": 131,
+        "max": 566,
+        "raw": 435
       },
       "fireDamage": {
         "min": 4,
@@ -49923,9 +49771,9 @@
         "raw": 12
       },
       "poison": {
-        "min": 1154,
-        "max": 5000,
-        "raw": 3846
+        "min": 692,
+        "max": 3000,
+        "raw": 2308
       },
       "rawSpellDamage": {
         "min": -214,
@@ -49990,9 +49838,9 @@
       "rawDexterity": 12,
       "rawStrength": 12,
       "poison": {
-        "min": 1200,
-        "max": 5200,
-        "raw": 4000
+        "min": 660,
+        "max": 2860,
+        "raw": 2200
       },
       "mainAttackDamage": {
         "min": 6,
@@ -50060,9 +49908,9 @@
     "type": "weapon",
     "identifications": {
       "poison": {
-        "min": 4500,
-        "max": 19500,
-        "raw": 15000
+        "min": 2100,
+        "max": 9100,
+        "raw": 7000
       },
       "rawSpellDamage": {
         "min": 120,
@@ -50119,7 +49967,6 @@
       "fireDamage": 6
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 40,
     "attackSpeed": "slow",
     "name": "Macabre",
@@ -50186,14 +50033,13 @@
       "earthDamage": 10,
       "rawStrength": 5,
       "thorns": 10,
-      "poison": 2500,
+      "poison": 1400,
       "rawIntelligence": 5,
       "xpBonus": 15,
       "manaRegen": 6,
       "waterDefence": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 375,
     "attackSpeed": "slow",
     "name": "Olux's Prized Bow",
@@ -50641,7 +50487,6 @@
       "spellDamage": 10
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 47,
     "attackSpeed": "normal",
     "name": "Stale",
@@ -50836,7 +50681,6 @@
       "elementalDefence": -20
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 400,
     "attackSpeed": "fast",
     "name": "Courser",
@@ -51571,9 +51415,9 @@
     "type": "weapon",
     "identifications": {
       "poison": {
-        "min": 1500,
-        "max": 6500,
-        "raw": 5000
+        "min": 840,
+        "max": 3640,
+        "raw": 2800
       },
       "mainAttackDamage": {
         "min": 8,
@@ -51725,7 +51569,6 @@
       "rawHealth": 1500
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 480,
     "attackSpeed": "slow",
     "name": "Black Amaranth",
@@ -51777,7 +51620,6 @@
       "elementalDamage": 20
     },
     "powderSlots": 5,
-    "identified": true,
     "averageDps": 688,
     "attackSpeed": "fast",
     "name": "Infused Hive Bow",
@@ -52075,7 +51917,6 @@
       "raw1stSpellCost": -3
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 45,
     "attackSpeed": "slow",
     "name": "Mage-Crafted Staff",
@@ -52267,7 +52108,6 @@
       "thunderDefence": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 631,
     "attackSpeed": "super_slow",
     "name": "Silent Night",
@@ -52498,9 +52338,9 @@
         "raw": -60
       },
       "poison": {
-        "min": 6923,
-        "max": 30000,
-        "raw": 23077
+        "min": 5400,
+        "max": 23400,
+        "raw": 18000
       },
       "lifeSteal": {
         "min": 140,
@@ -52584,7 +52424,6 @@
       "manaRegen": -24
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 529,
     "attackSpeed": "very_fast",
     "name": "The Forsaken",
@@ -52671,7 +52510,6 @@
       "thunderDefence": -15
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 452,
     "attackSpeed": "super_fast",
     "name": "Fir Needle",
@@ -53101,7 +52939,6 @@
       "airDefence": 10
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 112,
     "attackSpeed": "fast",
     "name": "Upgraded Whisper",
@@ -53211,7 +53048,6 @@
       "stealing": 5
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 215,
     "attackSpeed": "very_fast",
     "name": "Rumble",
@@ -53293,7 +53129,6 @@
       "rawAgility": 7
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 396,
     "attackSpeed": "normal",
     "name": "Jewel Cutter",
@@ -53344,7 +53179,6 @@
       "airDefence": 15
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 74,
     "attackSpeed": "normal",
     "name": "Remembrance",
@@ -53559,7 +53393,6 @@
       "waterDefence": 15
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 110,
     "attackSpeed": "very_slow",
     "name": "The Saltwater Rune",
@@ -53639,7 +53472,6 @@
       "1stSpellCost": -10
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 105,
     "attackSpeed": "slow",
     "name": "Sanies",
@@ -54011,7 +53843,6 @@
       "rawAgility": 10
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 622,
     "attackSpeed": "slow",
     "name": "Bob's Mythic Bow",
@@ -54279,7 +54110,6 @@
       "rawAgility": 3
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 194,
     "attackSpeed": "fast",
     "name": "Miasma",
@@ -54420,7 +54250,6 @@
       "airDamage": 20
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 148,
     "attackSpeed": "normal",
     "name": "Celsius",
@@ -54474,7 +54303,6 @@
       "damage": 7,
       "rawIntelligence": 4
     },
-    "identified": true,
     "averageDps": 72,
     "attackSpeed": "slow",
     "name": "The Naturalist",
@@ -54814,7 +54642,6 @@
       "rawMainAttackDamage": 6
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 16,
     "attackSpeed": "fast",
     "name": "Black Wand",
@@ -54860,7 +54687,6 @@
       "airDefence": 15
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 238,
     "attackSpeed": "fast",
     "name": "Zenith",
@@ -54962,9 +54788,9 @@
         "raw": 15
       },
       "poison": {
-        "min": 542,
-        "max": 2350,
-        "raw": 1808
+        "min": 300,
+        "max": 1300,
+        "raw": 1000
       },
       "xpBonus": {
         "min": 5,
@@ -55134,7 +54960,6 @@
       "rawThunderMainAttackDamage": 250
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 438,
     "attackSpeed": "normal",
     "name": "Forge's Shock",
@@ -55180,7 +55005,6 @@
       "airDamage": 15
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 291,
     "attackSpeed": "super_slow",
     "name": "Snow Shovel",
@@ -56160,9 +55984,9 @@
         "raw": 15
       },
       "poison": {
-        "min": 2308,
-        "max": 10000,
-        "raw": 7692
+        "min": 1050,
+        "max": 4550,
+        "raw": 3500
       },
       "earthDefence": {
         "min": 10,
@@ -56219,7 +56043,6 @@
       "rawHealth": -1250
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 674,
     "attackSpeed": "very_slow",
     "name": "Voidstone Elrik",
@@ -56320,7 +56143,6 @@
       "rawMainAttackDamage": 10
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 40,
     "attackSpeed": "fast",
     "name": "Pike of Fury",
@@ -56354,9 +56176,9 @@
         "raw": -10
       },
       "poison": {
-        "min": 225,
-        "max": 975,
-        "raw": 750
+        "min": 150,
+        "max": 650,
+        "raw": 500
       },
       "lifeSteal": {
         "min": 7,
@@ -56406,7 +56228,6 @@
       "waterDefence": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 103,
     "attackSpeed": "normal",
     "name": "Ablution",
@@ -56658,9 +56479,9 @@
         "raw": 10
       },
       "poison": {
-        "min": 11400,
-        "max": 49400,
-        "raw": 38000
+        "min": 6750,
+        "max": 29250,
+        "raw": 22500
       },
       "lifeSteal": {
         "min": 84,
@@ -57191,7 +57012,6 @@
       "mainAttackRange": 8
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 36,
     "attackSpeed": "slow",
     "name": "Refined Longbow",
@@ -57286,7 +57106,6 @@
       "earthDefence": -12
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 39,
     "attackSpeed": "fast",
     "name": "Upgraded Dark Needle",
@@ -57338,7 +57157,6 @@
       "waterSpellDamage": 25
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 95,
     "attackSpeed": "fast",
     "name": "Styx's Grab",
@@ -57668,7 +57486,6 @@
       "lootBonus": 6
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 38,
     "attackSpeed": "fast",
     "name": "Windcatcher Totem",
@@ -57768,9 +57585,9 @@
         "raw": 10
       },
       "poison": {
-        "min": 120,
-        "max": 520,
-        "raw": 400
+        "min": 66,
+        "max": 286,
+        "raw": 220
       },
       "lifeSteal": {
         "min": 6,
@@ -57843,7 +57660,6 @@
       "rawHealth": -10
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 27,
     "attackSpeed": "slow",
     "name": "War Spear",
@@ -57909,7 +57725,6 @@
       "xpBonus": 8
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 176,
     "attackSpeed": "slow",
     "name": "Hotline",
@@ -58114,7 +57929,7 @@
         "raw": 10
       }
     },
-    "majorIds": {"Fixate": "<span class='font-ascii' style='color:#55FFFF'>+Fixate: <span class='font-ascii' style='color:#00AAAA'>Winded damage effects are multiplied by 1.33 and Devitalize gains 0.5% weaken per stack. Winded cooldown is increased by 0.25s.<\/span><\/span>"},
+    "majorIds": {"Fixate": "<span class='font-ascii' style='color:#55FFFF'>+Fixate: <span class='font-ascii' style='color:#00AAAA'>Devitalize causes Winded damage effects to be multiplied by 1.33 and gain 0.5% weaken per stack. Winded cooldown is increased by 0.25s.<\/span><\/span>"},
     "powderSlots": 3,
     "averageDps": 413,
     "attackSpeed": "super_fast",
@@ -58435,9 +58250,9 @@
         "raw": 15
       },
       "poison": {
-        "min": 162,
-        "max": 702,
-        "raw": 540
+        "min": 90,
+        "max": 390,
+        "raw": 300
       },
       "rawIntelligence": 5,
       "earthDefence": {
@@ -58502,7 +58317,6 @@
       "lootBonus": 15
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 33,
     "attackSpeed": "normal",
     "name": "Bountiful",
@@ -58792,7 +58606,6 @@
       "rawAgility": 4
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 85,
     "attackSpeed": "fast",
     "name": "Blessing",
@@ -59340,7 +59153,6 @@
       "rawHealth": 1200
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 304,
     "attackSpeed": "normal",
     "name": "Depth",
@@ -59845,7 +59657,6 @@
       "rawHealth": -1250
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 336,
     "attackSpeed": "very_slow",
     "name": "Voidstone Recteps",
@@ -60157,7 +59968,7 @@
         "raw": 12
       }
     },
-    "majorIds": {"Sorcery": "<span class='font-ascii' style='color:#55FFFF'>+Sorcery: <span class='font-ascii' style='color:#00AAAA'>30% chance for spells and attacks to cast a second time at no additional cost.<\/span><\/span>"},
+    "majorIds": {"Sorcery": "<span class='font-ascii' style='color:#55FFFF'>+Sorcery: <span class='font-ascii' style='color:#00AAAA'>25% chance for spells and attacks to cast a second time at no additional cost.<\/span><\/span>"},
     "powderSlots": 2,
     "averageDps": 559,
     "attackSpeed": "super_fast",
@@ -60512,7 +60323,6 @@
       "thunderDefence": 20
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 212,
     "attackSpeed": "fast",
     "name": "Barbed",
@@ -60622,7 +60432,7 @@
     },
     "type": "weapon",
     "identifications": {
-      "poison": 7200,
+      "poison": 4000,
       "rawIntelligence": 10,
       "manaSteal": -6,
       "earthDefence": 25,
@@ -60630,7 +60440,6 @@
       "waterDefence": 25
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 338,
     "attackSpeed": "fast",
     "name": "Poinsettia",
@@ -60760,9 +60569,9 @@
         "raw": 9
       },
       "poison": {
-        "min": 120,
-        "max": 520,
-        "raw": 400
+        "min": 66,
+        "max": 286,
+        "raw": 220
       },
       "rawMainAttackDamage": {
         "min": 7,
@@ -60864,14 +60673,13 @@
       "earthDamage": 10,
       "rawStrength": 5,
       "thorns": 10,
-      "poison": 2500,
+      "poison": 1400,
       "rawIntelligence": 5,
       "xpBonus": 15,
       "manaRegen": 6,
       "waterDefence": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 312,
     "attackSpeed": "fast",
     "name": "Olux's Prized Dagger",
@@ -60929,7 +60737,6 @@
       "elementalDefence": 20
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 124,
     "attackSpeed": "slow",
     "name": "Boundary",
@@ -61671,7 +61478,6 @@
       "rawHealth": 65
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 50,
     "attackSpeed": "slow",
     "name": "The Fallen",
@@ -61920,7 +61726,6 @@
       "lootBonus": 10
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 191,
     "attackSpeed": "very_slow",
     "name": "Stonebreaker",
@@ -62181,7 +61986,6 @@
       "waterDefence": -20
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 386,
     "attackSpeed": "very_slow",
     "name": "Corkian War Pick",
@@ -62455,9 +62259,9 @@
         "raw": -31
       },
       "poison": {
-        "min": 950,
-        "max": 4115,
-        "raw": 3165
+        "min": 630,
+        "max": 2730,
+        "raw": 2100
       },
       "rawIntelligence": -13,
       "healingEfficiency": {
@@ -62931,7 +62735,6 @@
       "rawAgility": 25,
       "manaRegen": 12
     },
-    "identified": true,
     "averageDps": 838,
     "attackSpeed": "fast",
     "name": "Royal Hydrangea",
@@ -63047,9 +62850,9 @@
         "raw": -20
       },
       "poison": {
-        "min": 542,
-        "max": 2350,
-        "raw": 1808
+        "min": 300,
+        "max": 1300,
+        "raw": 1000
       },
       "lifeSteal": {
         "min": 15,
@@ -63430,7 +63233,6 @@
       "airDefence": 15
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 550,
     "attackSpeed": "fast",
     "name": "Thermals",
@@ -63470,13 +63272,12 @@
     "identifications": {
       "thorns": 30,
       "rawDefence": 15,
-      "poison": 20000,
+      "poison": 10000,
       "lifeSteal": 250,
       "1stSpellCost": 50,
       "weakenEnemy": 8
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 64,
     "attackSpeed": "slow",
     "name": "Widow",
@@ -64034,7 +63835,6 @@
       "manaRegen": -6
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 475,
     "attackSpeed": "fast",
     "name": "Frostburn",
@@ -64093,7 +63893,6 @@
       "4thSpellCost": -30
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 432,
     "attackSpeed": "slow",
     "name": "Miotal",
@@ -64246,7 +64045,6 @@
       "rawMainAttackDamage": -75
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 381,
     "attackSpeed": "normal",
     "name": "Bane of War",
@@ -64423,7 +64221,6 @@
       "earthDefence": 30
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 465,
     "attackSpeed": "slow",
     "name": "Thanos Warhammer",
@@ -64683,9 +64480,9 @@
         "raw": -6
       },
       "poison": {
-        "min": 30,
-        "max": 130,
-        "raw": 100
+        "min": 17,
+        "max": 74,
+        "raw": 57
       },
       "lifeSteal": {
         "min": 5,
@@ -64730,7 +64527,6 @@
       "manaRegen": 6
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 136,
     "attackSpeed": "fast",
     "name": "Calamaro's Sword",
@@ -64791,7 +64587,6 @@
       "lootBonus": 30
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 387,
     "attackSpeed": "super_fast",
     "name": "Judas",
@@ -64853,6 +64648,65 @@
       "raw": 140
     }},
     "rarity": "rare"
+  },
+  "Ballista": {
+    "dropRestriction": "normal",
+    "requirements": {
+      "strength": 30,
+      "level": 55,
+      "classRequirement": "archer"
+    },
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "195",
+        "name": "bow.earth2",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "type": "weapon",
+    "identifications": {
+      "rawDexterity": -4,
+      "walkSpeed": {
+        "min": -13,
+        "max": -7,
+        "raw": -10
+      },
+      "rawStrength": 10,
+      "exploding": {
+        "min": 3,
+        "max": 13,
+        "raw": 10
+      },
+      "mainAttackDamage": {
+        "min": 7,
+        "max": 30,
+        "raw": 23
+      },
+      "mainAttackRange": {
+        "min": 7,
+        "max": 30,
+        "raw": 23
+      }
+    },
+    "powderSlots": 2,
+    "averageDps": 249,
+    "attackSpeed": "very_slow",
+    "name": "Ballista",
+    "subType": "bow",
+    "base": {
+      "baseEarthDamage": {
+        "min": 75,
+        "max": 150,
+        "raw": 75
+      },
+      "baseDamage": {
+        "min": 125,
+        "max": 250,
+        "raw": 125
+      }
+    },
+    "rarity": "unique"
   },
   "Thunder Relic Wand": {
     "dropMeta": {
@@ -64932,65 +64786,6 @@
     },
     "rarity": "rare"
   },
-  "Ballista": {
-    "dropRestriction": "normal",
-    "requirements": {
-      "strength": 30,
-      "level": 55,
-      "classRequirement": "archer"
-    },
-    "icon": {
-      "format": "attribute",
-      "value": {
-        "customModelData": "195",
-        "name": "bow.earth2",
-        "id": "minecraft:iron_horse_armor"
-      }
-    },
-    "type": "weapon",
-    "identifications": {
-      "rawDexterity": -4,
-      "walkSpeed": {
-        "min": -13,
-        "max": -7,
-        "raw": -10
-      },
-      "rawStrength": 10,
-      "exploding": {
-        "min": 3,
-        "max": 13,
-        "raw": 10
-      },
-      "mainAttackDamage": {
-        "min": 7,
-        "max": 30,
-        "raw": 23
-      },
-      "mainAttackRange": {
-        "min": 7,
-        "max": 30,
-        "raw": 23
-      }
-    },
-    "powderSlots": 2,
-    "averageDps": 249,
-    "attackSpeed": "very_slow",
-    "name": "Ballista",
-    "subType": "bow",
-    "base": {
-      "baseEarthDamage": {
-        "min": 75,
-        "max": 150,
-        "raw": 75
-      },
-      "baseDamage": {
-        "min": 125,
-        "max": 250,
-        "raw": 125
-      }
-    },
-    "rarity": "unique"
-  },
   "Nivla's Arch": {
     "dropRestriction": "normal",
     "requirements": {
@@ -65023,9 +64818,9 @@
         "raw": 10
       },
       "poison": {
-        "min": 240,
-        "max": 1040,
-        "raw": 800
+        "min": 180,
+        "max": 780,
+        "raw": 600
       }
     },
     "powderSlots": 2,
@@ -65259,7 +65054,6 @@
       "rawAgility": 8
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 338,
     "attackSpeed": "fast",
     "name": "Tankard Basher",
@@ -65297,9 +65091,9 @@
     "type": "weapon",
     "identifications": {
       "poison": {
-        "min": 496,
-        "max": 2150,
-        "raw": 1654
+        "min": 300,
+        "max": 1300,
+        "raw": 1000
       },
       "slowEnemy": {
         "min": 2,
@@ -65538,7 +65332,6 @@
       "rawHealth": -1000
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 406,
     "attackSpeed": "fast",
     "name": "Double-Edge",
@@ -65759,7 +65552,6 @@
       "waterDefence": 30
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 278,
     "attackSpeed": "normal",
     "name": "Icejewel",
@@ -65887,7 +65679,6 @@
       "knockback": 25
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 158,
     "attackSpeed": "very_slow",
     "name": "Jaw Breaker",
@@ -66157,7 +65948,6 @@
       "mainAttackRange": 25
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 491,
     "attackSpeed": "super_slow",
     "name": "Wall Breaker",
@@ -66349,9 +66139,9 @@
         "raw": -100
       },
       "poison": {
-        "min": 120,
-        "max": 520,
-        "raw": 400
+        "min": 66,
+        "max": 286,
+        "raw": 220
       },
       "airDamage": {
         "min": -26,
@@ -66421,7 +66211,6 @@
       "elementalDefence": 35
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 327,
     "attackSpeed": "super_fast",
     "name": "Peaceful Rest",
@@ -66461,14 +66250,13 @@
       "earthDamage": 10,
       "rawStrength": 5,
       "thorns": 10,
-      "poison": 2500,
+      "poison": 1400,
       "rawIntelligence": 5,
       "xpBonus": 15,
       "manaRegen": 6,
       "waterDefence": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 365,
     "attackSpeed": "normal",
     "name": "Olux's Prized Relik",
@@ -66683,9 +66471,9 @@
         "raw": 8
       },
       "poison": {
-        "min": 96,
-        "max": 416,
-        "raw": 320
+        "min": 54,
+        "max": 235,
+        "raw": 181
       },
       "spellDamage": {
         "min": -9,
@@ -66890,7 +66678,6 @@
       "rawHealth": 70
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 58,
     "attackSpeed": "slow",
     "name": "Blade of Instinct",
@@ -66935,7 +66722,6 @@
       "elementalDamage": 20
     },
     "powderSlots": 5,
-    "identified": true,
     "averageDps": 344,
     "attackSpeed": "fast",
     "name": "Infused Hive Wand",
@@ -67301,12 +67087,11 @@
     "type": "weapon",
     "identifications": {
       "walkSpeed": 30,
-      "poison": 1000,
+      "poison": 600,
       "mainAttackRange": 15,
       "rawAgility": 10
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 206,
     "attackSpeed": "very_fast",
     "name": "Chaser",
@@ -67788,9 +67573,9 @@
         "raw": 11
       },
       "poison": {
-        "min": 125,
-        "max": 540,
-        "raw": 415
+        "min": 69,
+        "max": 300,
+        "raw": 231
       },
       "spellDamage": {
         "min": 5,
@@ -67899,7 +67684,6 @@
       "airDefence": 40
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 458,
     "attackSpeed": "slow",
     "name": "Snowdrift",
@@ -68090,7 +67874,6 @@
       "rawHealth": -500
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 247,
     "attackSpeed": "normal",
     "name": "Tragedy",
@@ -68210,9 +67993,9 @@
         "raw": 65
       },
       "poison": {
-        "min": 4200,
-        "max": 18200,
-        "raw": 14000
+        "min": 1200,
+        "max": 5200,
+        "raw": 4000
       },
       "weakenEnemy": {
         "min": 2,
@@ -68379,7 +68162,6 @@
       "manaRegen": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 344,
     "attackSpeed": "super_fast",
     "name": "Sleek",
@@ -68557,7 +68339,6 @@
       "rawSpellDamage": 100
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 363,
     "attackSpeed": "super_fast",
     "name": "Icicle",
@@ -68716,7 +68497,6 @@
       "thunderDamage": 15
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 649,
     "attackSpeed": "slow",
     "name": "Sleet",
@@ -68982,7 +68762,6 @@
       "rawMainAttackDamage": 400
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 386,
     "attackSpeed": "very_slow",
     "name": "Demonio",
@@ -69029,9 +68808,9 @@
         "raw": 25
       },
       "poison": {
-        "min": 433,
-        "max": 1875,
-        "raw": 1442
+        "min": 180,
+        "max": 780,
+        "raw": 600
       },
       "manaSteal": {
         "min": 2,
@@ -69318,6 +69097,7 @@
       "classRequirement": "shaman",
       "intelligence": 35
     },
+    "lore": "The radiance of your foes burns bright. You must emanate your brilliance in return. Cloak them in a blinding glow. Smother their luminance with yours. Then after all of their light has faded, yours will too.",
     "icon": {
       "format": "attribute",
       "value": {
@@ -69640,8 +69420,7 @@
       "classRequirement": "mage",
       "intelligence": 14
     },
-    "averageDps": 74,
-    "attackSpeed": "very_fast",
+    "lore": "They say the first sip of the ocean's wrath fizzes like champagne. The second burns with a sharp saltiness. By the third, the bubbles rise from your own drowning lungs as the sea claims its aperitif.",
     "icon": {
       "format": "attribute",
       "value": {
@@ -69650,8 +69429,6 @@
         "id": "minecraft:iron_horse_armor"
       }
     },
-    "name": "Effervescence",
-    "subType": "wand",
     "type": "weapon",
     "identifications": {
       "healthRegenRaw": {
@@ -69671,6 +69448,10 @@
         "raw": 8
       }
     },
+    "averageDps": 74,
+    "attackSpeed": "very_fast",
+    "name": "Effervescence",
+    "subType": "wand",
     "base": {
       "baseDamage": {
         "min": 0,
@@ -69783,7 +69564,6 @@
       "rawMainAttackDamage": 48
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 164,
     "attackSpeed": "very_fast",
     "name": "Short Cutter",
@@ -69904,7 +69684,6 @@
       "manaRegen": 12
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 120,
     "attackSpeed": "slow",
     "name": "Tempo Trident",
@@ -70008,7 +69787,6 @@
       "manaRegen": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 215,
     "attackSpeed": "fast",
     "name": "Medecin",
@@ -70174,7 +69952,6 @@
       "healthRegen": 25
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 518,
     "attackSpeed": "slow",
     "name": "The Hearth",
@@ -70443,9 +70220,9 @@
     "type": "weapon",
     "identifications": {
       "poison": {
-        "min": 21,
-        "max": 91,
-        "raw": 70
+        "min": 12,
+        "max": 52,
+        "raw": 40
       },
       "rawSpellDamage": {
         "min": 2,
@@ -71050,7 +70827,6 @@
       "rawAgility": 2
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 162,
     "attackSpeed": "fast",
     "name": "Sleigher",
@@ -71286,9 +71062,9 @@
     "identifications": {
       "rawDefence": 7,
       "poison": {
-        "min": 1290,
-        "max": 5590,
-        "raw": 4300
+        "min": 750,
+        "max": 3250,
+        "raw": 2500
       },
       "fireDefence": {
         "min": 6,
@@ -71409,7 +71185,6 @@
       "airDefence": 15
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 225,
     "attackSpeed": "fast",
     "name": "Sleigh Bell",
@@ -71831,7 +71606,6 @@
       "stealing": 10
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 645,
     "attackSpeed": "slow",
     "name": "Crook's March",
@@ -71889,7 +71663,6 @@
       "manaSteal": 8
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 519,
     "attackSpeed": "very_slow",
     "name": "Metal Breaker",
@@ -72112,7 +71885,6 @@
       "fireDamage": 15,
       "rawThunderMainAttackDamage": 12
     },
-    "identified": true,
     "averageDps": 103,
     "attackSpeed": "super_fast",
     "name": "Pyrexia",
@@ -72164,7 +71936,6 @@
       "weakenEnemy": 4
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 57,
     "attackSpeed": "normal",
     "name": "Fangs",
@@ -72216,7 +71987,6 @@
       "rawMainAttackDamage": -91
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 425,
     "attackSpeed": "very_fast",
     "name": "Regar",
@@ -72461,7 +72231,6 @@
       "airDefence": 30
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 212,
     "attackSpeed": "fast",
     "name": "Ivoire",
@@ -72661,9 +72430,9 @@
         "raw": 25
       },
       "poison": {
-        "min": 433,
-        "max": 1875,
-        "raw": 1442
+        "min": 240,
+        "max": 1040,
+        "raw": 800
       },
       "manaSteal": {
         "min": 2,
@@ -72880,9 +72649,9 @@
       },
       "rawStrength": 10,
       "poison": {
-        "min": 3600,
-        "max": 15600,
-        "raw": 12000
+        "min": 2400,
+        "max": 10400,
+        "raw": 8000
       },
       "manaSteal": {
         "min": 2,
@@ -72953,7 +72722,6 @@
       "waterDefence": 25
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 505,
     "attackSpeed": "normal",
     "name": "Silver Bay",
@@ -73062,7 +72830,6 @@
       "rawAgility": 10
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 314,
     "attackSpeed": "normal",
     "name": "Bob's Mythic Wand",
@@ -73367,9 +73134,9 @@
         "raw": 70
       },
       "poison": {
-        "min": 990,
-        "max": 4290,
-        "raw": 3300
+        "min": 600,
+        "max": 2600,
+        "raw": 2000
       },
       "lifeSteal": {
         "min": 66,
@@ -73443,7 +73210,6 @@
       "rawAgility": 3
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 22,
     "attackSpeed": "normal",
     "name": "Sketiq",
@@ -74025,7 +73791,6 @@
       "manaRegen": 8
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 43,
     "attackSpeed": "normal",
     "name": "Spiritual Siphoner",
@@ -74292,7 +74057,6 @@
       "rawAgility": 10
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 420,
     "attackSpeed": "slow",
     "name": "Bob's Mythic Spear",
@@ -74322,9 +74086,9 @@
     "identifications": {
       "rawStrength": 7,
       "poison": {
-        "min": 20,
-        "max": 85,
-        "raw": 65
+        "min": 11,
+        "max": 46,
+        "raw": 35
       }
     },
     "powderSlots": 1,
@@ -74882,7 +74646,6 @@
       "manaRegen": -5
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 72,
     "attackSpeed": "super_slow",
     "name": "Maul",
@@ -75120,7 +74883,6 @@
       "rawAgility": 6
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 275,
     "attackSpeed": "fast",
     "name": "Kal Hei",
@@ -75186,7 +74948,6 @@
       "rawAgility": 11
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 190,
     "attackSpeed": "fast",
     "name": "Tremolo",
@@ -75293,7 +75054,6 @@
       "waterDefence": -25
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 593,
     "attackSpeed": "very_slow",
     "name": "Magma Flinger",
@@ -75333,7 +75093,6 @@
       "lootBonus": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 266,
     "attackSpeed": "slow",
     "name": "Joyous",
@@ -75410,7 +75169,6 @@
       "4thSpellCost": -25
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 625,
     "attackSpeed": "super_slow",
     "name": "Shine Lamp",
@@ -75478,7 +75236,6 @@
       "thunderDamage": 22
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 260,
     "attackSpeed": "fast",
     "name": "Ciel",
@@ -75704,7 +75461,6 @@
       "thunderDefence": 15
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 161,
     "attackSpeed": "very_fast",
     "name": "Thriller",
@@ -75937,7 +75693,6 @@
       "spellDamage": 6
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 43,
     "attackSpeed": "normal",
     "name": "Gavel Imported Bow",
@@ -76159,9 +75914,9 @@
       "rawDexterity": 3,
       "rawStrength": 3,
       "poison": {
-        "min": 27,
-        "max": 117,
-        "raw": 90
+        "min": 15,
+        "max": 65,
+        "raw": 50
       }
     },
     "powderSlots": 1,
@@ -76206,9 +75961,9 @@
       },
       "rawStrength": 75,
       "poison": {
-        "min": 6364,
-        "max": 27576,
-        "raw": 21212
+        "min": 3636,
+        "max": 15757,
+        "raw": 12121
       },
       "mainAttackDamage": {
         "min": 9,
@@ -76807,7 +76562,6 @@
       "rawAirDamage": 90
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 294,
     "attackSpeed": "very_fast",
     "name": "Diabloviento",
@@ -76932,7 +76686,6 @@
       "rawHealth": 1275
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 622,
     "attackSpeed": "slow",
     "name": "Thanos Siege Bow",
@@ -77211,11 +76964,10 @@
     "identifications": {
       "damage": -5,
       "jumpHeight": 1,
-      "poison": 220,
+      "poison": 120,
       "rawAgility": 3
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 62,
     "attackSpeed": "normal",
     "name": "Frog",
@@ -77536,7 +77288,6 @@
       "airDefence": 35
     },
     "powderSlots": 4,
-    "identified": true,
     "averageDps": 622,
     "attackSpeed": "super_slow",
     "name": "Plague",
@@ -77708,7 +77459,6 @@
       "airDefence": 30
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 482,
     "attackSpeed": "slow",
     "name": "White Craftmas",
@@ -77974,7 +77724,6 @@
       "rawMainAttackDamage": 9
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 32,
     "attackSpeed": "fast",
     "name": "Defibrillator",
@@ -78013,7 +77762,6 @@
       "healthRegen": -100,
       "rawAgility": 5
     },
-    "identified": true,
     "attackSpeed": "fast",
     "name": "Wybel Paw",
     "subType": "dagger",
@@ -78340,7 +78088,6 @@
       "rawHealth": -1000
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 507,
     "attackSpeed": "super_fast",
     "name": "Desperation",
@@ -78393,7 +78140,6 @@
       "healthRegen": 16
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 87,
     "attackSpeed": "slow",
     "name": "Upgraded Phoenix",
@@ -78450,7 +78196,6 @@
       "rawMainAttackDamage": 200
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 575,
     "attackSpeed": "fast",
     "name": "Thanos Warsword",
@@ -78882,7 +78627,6 @@
       "waterDefence": 20
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 72,
     "attackSpeed": "fast",
     "name": "Fishing Hook",
@@ -79111,12 +78855,11 @@
     "identifications": {
       "walkSpeed": 15,
       "exploding": 15,
-      "poison": 10000,
+      "poison": 5000,
       "rawIntelligence": -10,
       "raw4thSpellCost": -5
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 100,
     "attackSpeed": "fast",
     "name": "Kerasot Spreader",
@@ -79250,7 +78993,6 @@
       "airDefence": 30
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 210,
     "attackSpeed": "fast",
     "name": "North Pole",
@@ -79309,7 +79051,6 @@
       "manaRegen": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 536,
     "attackSpeed": "slow",
     "name": "Scytodidae",
@@ -79651,7 +79392,6 @@
       "stealing": 5
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 212,
     "attackSpeed": "fast",
     "name": "Nativitate",
@@ -79914,9 +79654,9 @@
         "raw": 10
       },
       "poison": {
-        "min": 27,
-        "max": 117,
-        "raw": 90
+        "min": 15,
+        "max": 65,
+        "raw": 50
       }
     },
     "base": {"baseDamage": {
@@ -80123,7 +79863,6 @@
       "rawHealth": 400
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 178,
     "attackSpeed": "very_slow",
     "name": "Defender",
@@ -80170,11 +79909,10 @@
     "type": "weapon",
     "identifications": {
       "thorns": 18,
-      "poison": 500,
+      "poison": 220,
       "1stSpellCost": 40,
       "rawAgility": 4
     },
-    "identified": true,
     "averageDps": 2,
     "attackSpeed": "slow",
     "name": "Hourglass",
@@ -80294,7 +80032,6 @@
       "rawAirDamage": 16
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 75,
     "attackSpeed": "fast",
     "name": "Silk Slasher",
@@ -80386,7 +80123,7 @@
         "raw": 15
       }
     },
-    "majorIds": {"Efflorescence": "<span class='font-ascii' style='color:#55FFFF'>+Efflorescence: <span class='font-ascii' style='color:#00AAAA'>Jasmine Bloom deals <span class='font-ascii' style='color:elements.neutral'><span class='font-common'><\/span>15%<\/span><darkAqua> and \n<span class='font-ascii' style='color:elements.earth'><span class='font-common'><\/span><span class='font-ascii' style='color:elements.thunder'><span class='font-common'><\/span><span class='font-ascii' style='color:elements.water'><span class='font-common'><\/span><span class='font-ascii' style='color:elements.fire'><span class='font-common'><\/span><span class='font-ascii' style='color:elements.air'><span class='font-common'><\/span>15%<\/span><darkAqua> at the cost of 6 blocks of vertical range. \nSwan Dive with a maximum size Jasmine Bloom deals <span class='font-ascii' style='color:elements.neutral'><span class='font-common'><\/span>450%<\/span><darkAqua> and <span class='font-ascii' style='color:elements.earth'><span class='font-common'><\/span><span class='font-ascii' style='color:elements.thunder'><span class='font-common'><\/span><span class='font-ascii' style='color:elements.water'><span class='font-common'><\/span><span class='font-ascii' style='color:elements.fire'><span class='font-common'><\/span><span class='font-ascii' style='color:elements.air'><span class='font-common'><\/span>150%<\/span><darkAqua>.<\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span>"},
+    "majorIds": {"Efflorescence": "<span class='font-ascii' style='color:#55FFFF'>+Efflorescence: <span class='font-ascii' style='color:#00AAAA'>Jasmine Bloom deals <span class='font-ascii' style='color:#ffaa00'><span class='font-common'><\/span>15%<\/span><darkAqua> and \n<span class='font-ascii' style='color:#00aa00'><span class='font-common'><\/span><span class='font-ascii' style='color:#ffff55'><span class='font-common'><\/span><span class='font-ascii' style='color:#55ffff'><span class='font-common'><\/span><span class='font-ascii' style='color:#ff5555'><span class='font-common'><\/span><span class='font-ascii' style='color:#ffffff'><span class='font-common'><\/span>15%<\/span><darkAqua> at the cost of 6 blocks of vertical range. \nSwan Dive with a maximum size Jasmine Bloom deals <span class='font-ascii' style='color:#ffaa00'><span class='font-common'><\/span>90%<\/span><darkAqua> and <span class='font-ascii' style='color:#00aa00'><span class='font-common'><\/span><span class='font-ascii' style='color:#ffff55'><span class='font-common'><\/span><span class='font-ascii' style='color:#55ffff'><span class='font-common'><\/span><span class='font-ascii' style='color:#ff5555'><span class='font-common'><\/span><span class='font-ascii' style='color:#ffffff'><span class='font-common'><\/span>30%<\/span><darkAqua> over 5 hits.<\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span>"},
     "averageDps": 817,
     "attackSpeed": "super_fast",
     "name": "Hanafubuki",
@@ -80509,7 +80246,6 @@
       "weakenEnemy": 4
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 56,
     "attackSpeed": "very_fast",
     "name": "Eel Spear",
@@ -80622,11 +80358,10 @@
     "type": "weapon",
     "identifications": {
       "walkSpeed": -3,
-      "poison": 360,
+      "poison": 185,
       "rawHealth": 130
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 65,
     "attackSpeed": "normal",
     "name": "Putrid",
@@ -80679,7 +80414,6 @@
       "rawFireMainAttackDamage": 34
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 151,
     "attackSpeed": "normal",
     "name": "Upgraded HellRaiser",
@@ -80726,9 +80460,9 @@
     "identifications": {
       "rawStrength": 8,
       "poison": {
-        "min": 3246,
-        "max": 14065,
-        "raw": 10819
+        "min": 1800,
+        "max": 7800,
+        "raw": 6000
       },
       "rawAttackSpeed": -1,
       "rawFireMainAttackDamage": {
@@ -80927,7 +80661,6 @@
       "rawMainAttackDamage": 30
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 94,
     "attackSpeed": "fast",
     "name": "Clawctus",
@@ -81026,9 +80759,9 @@
     "type": "weapon",
     "identifications": {
       "poison": {
-        "min": 163,
-        "max": 705,
-        "raw": 542
+        "min": 90,
+        "max": 390,
+        "raw": 300
       },
       "manaSteal": {
         "min": 2,
@@ -81362,7 +81095,6 @@
       "rawAgility": 4
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 64,
     "attackSpeed": "very_fast",
     "name": "White Ghost",
@@ -82064,13 +81796,12 @@
       "walkSpeed": -15,
       "rawStrength": 5,
       "thorns": 25,
-      "poison": 4400,
+      "poison": 2400,
       "fireDefence": -50,
       "rawAgility": 5,
       "rawMainAttackDamage": 120
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 341,
     "attackSpeed": "very_fast",
     "name": "Barkgraft",
@@ -82278,7 +82009,6 @@
       "rawAirDamage": 85
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 181,
     "attackSpeed": "very_fast",
     "name": "Dual",
@@ -82647,14 +82377,13 @@
     "restrictions": "untradable",
     "type": "weapon",
     "identifications": {
-      "poison": 32500,
+      "poison": 30000,
       "rawElementalSpellDamage": 1275,
       "rawHealth": -1000,
       "4thSpellCost": 28,
       "airDefence": -25
     },
     "powderSlots": 2,
-    "identified": true,
     "attackSpeed": "normal",
     "name": "Forest Aconite",
     "subType": "dagger",
@@ -82816,7 +82545,6 @@
       "rawHealth": 180
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 166,
     "attackSpeed": "slow",
     "name": "Hue",
@@ -82884,7 +82612,6 @@
       "rawHealth": 25
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 28,
     "attackSpeed": "slow",
     "name": "Guard Spear",
@@ -82997,9 +82724,9 @@
     "identifications": {
       "rawDefence": 40,
       "poison": {
-        "min": -26000,
-        "max": -14000,
-        "raw": -20000
+        "min": -15600,
+        "max": -8400,
+        "raw": -12000
       },
       "lifeSteal": {
         "min": 140,
@@ -83056,6 +82783,71 @@
       }
     },
     "rarity": "mythic"
+  },
+  "Shredder Club": {
+    "dropRestriction": "never",
+    "requirements": {
+      "strength": 70,
+      "level": 86,
+      "classRequirement": "warrior"
+    },
+    "lore": "There's a scrawling etched onto the handle: \"UNGA BUNGA'S. NO TOUCH.\"",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "483",
+        "name": "spear.earth3",
+        "id": "minecraft:iron_horse_armor"
+      }
+    },
+    "type": "weapon",
+    "identifications": {
+      "damage": {
+        "min": 5,
+        "max": 23,
+        "raw": 18
+      },
+      "walkSpeed": {
+        "min": -26,
+        "max": -14,
+        "raw": -20
+      },
+      "3rdSpellCost": {
+        "min": -5,
+        "max": -23,
+        "raw": -18
+      },
+      "rawDefence": 15,
+      "rawAttackSpeed": {
+        "min": -48,
+        "max": -26,
+        "raw": -37
+      },
+      "knockback": {
+        "min": 11,
+        "max": 46,
+        "raw": 35
+      }
+    },
+    "majorIds": {"Troll Barge": "<span class='font-ascii' style='color:#55FFFF'>+Troll Barge: <span class='font-ascii' style='color:#00AAAA'>Quake allows you to charge forth, dealing <span class='font-ascii' style='color:#ffaa00'><span class='font-common'><\/span>80%<\/span><darkAqua> and \n<span class='font-ascii' style='color:#00aa00'><span class='font-common'><\/span>20%<\/span><darkAqua> to any mobs hit, and ending with a powerful stomp for <span class='font-ascii' style='color:#ffaa00'><span class='font-common'><\/span>400%<\/span><darkAqua> and \n<span class='font-ascii' style='color:#00aa00'><span class='font-common'><\/span>150%<\/span><darkAqua>. This will leave you vulnerable.<\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span>"},
+    "powderSlots": 2,
+    "averageDps": 538,
+    "attackSpeed": "super_slow",
+    "name": "Shredder Club",
+    "subType": "spear",
+    "base": {
+      "baseEarthDamage": {
+        "min": 330,
+        "max": 380,
+        "raw": 330
+      },
+      "baseDamage": {
+        "min": 600,
+        "max": 800,
+        "raw": 600
+      }
+    },
+    "rarity": "fabled"
   },
   "Flawless Light Oak Relik": {
     "powderSlots": 1,
@@ -83630,7 +83422,6 @@
       "rawHealth": -200
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 216,
     "attackSpeed": "normal",
     "name": "Nodguj Warrior Sword",
@@ -84072,7 +83863,6 @@
       "spellDamage": 12
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 56,
     "attackSpeed": "normal",
     "name": "Upgraded Lullaby",
@@ -84482,7 +84272,6 @@
       "rawAgility": 4
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 33,
     "attackSpeed": "very_fast",
     "name": "Iklaj",
@@ -84991,7 +84780,6 @@
       "waterDefence": 20
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 285,
     "attackSpeed": "slow",
     "name": "Rusty Sword",
@@ -85293,7 +85081,6 @@
       "rawHealth": -1250
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 496,
     "attackSpeed": "very_slow",
     "name": "Voidstone Esbald",
@@ -85344,7 +85131,6 @@
       "rawMainAttackDamage": 70
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 257,
     "attackSpeed": "very_fast",
     "name": "Captain's Razor",
@@ -85466,14 +85252,9 @@
       },
       "rawDefence": 15,
       "fireDamage": {
-        "min": 11,
-        "max": 46,
-        "raw": 35
-      },
-      "mainAttackDamage": {
-        "min": 8,
-        "max": 33,
-        "raw": 25
+        "min": 14,
+        "max": 60,
+        "raw": 46
       },
       "raw1stSpellCost": {
         "min": -1,
@@ -85481,14 +85262,9 @@
         "raw": -4
       },
       "healthRegen": {
-        "min": -58,
-        "max": -31,
-        "raw": -45
-      },
-      "manaRegen": {
-        "min": -8,
-        "max": -4,
-        "raw": -6
+        "min": -84,
+        "max": -45,
+        "raw": -65
       },
       "rawHealth": {
         "min": 450,
@@ -85496,9 +85272,9 @@
         "raw": 1500
       },
       "rawMainAttackDamage": {
-        "min": 168,
-        "max": 728,
-        "raw": 560
+        "min": 231,
+        "max": 1000,
+        "raw": 769
       },
       "waterDefence": {
         "min": -52,
@@ -85646,7 +85422,6 @@
       "waterDefence": 15
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 80,
     "attackSpeed": "normal",
     "name": "Drought Savior",
@@ -85852,9 +85627,19 @@
     "rarity": "unique"
   },
   "Earth Relic Daggers": {
+    "dropMeta": {
+      "name": "Relic Guardian",
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "requirements": {
-      "strength": 30,
+      "strength": 25,
       "level": 65,
       "classRequirement": "assassin"
     },
@@ -85955,7 +85740,6 @@
       "lootBonus": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 270,
     "attackSpeed": "very_slow",
     "name": "Algaa",
@@ -86295,11 +86079,10 @@
       "healthRegenRaw": 14,
       "thorns": 10,
       "rawDefence": 3,
-      "poison": 420,
+      "poison": 320,
       "weakenEnemy": 5
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 96,
     "attackSpeed": "slow",
     "name": "Venom",
@@ -86412,7 +86195,6 @@
       "xpBonus": 10,
       "rawSpellDamage": 100
     },
-    "identified": true,
     "averageDps": 460,
     "attackSpeed": "super_fast",
     "name": "Polar Star",
@@ -86447,13 +86229,12 @@
     "type": "weapon",
     "identifications": {
       "healthRegenRaw": -150,
-      "poison": 3000,
+      "poison": 2000,
       "lifeSteal": 140,
       "manaSteal": 8,
       "raw4thSpellCost": -5
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 518,
     "attackSpeed": "slow",
     "name": "Azotar",
@@ -86668,7 +86449,6 @@
       "manaRegen": 10
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 484,
     "attackSpeed": "normal",
     "name": "Acevro",
@@ -87023,7 +86803,6 @@
       "thunderDamage": 20
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 244,
     "attackSpeed": "fast",
     "name": "Crying Heart",
@@ -87354,7 +87133,6 @@
       "rawAgility": 3
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 35,
     "attackSpeed": "fast",
     "name": "Scout Dagger",
@@ -87442,9 +87220,9 @@
       },
       "rawStrength": 13,
       "poison": {
-        "min": 900,
-        "max": 3900,
-        "raw": 3000
+        "min": 450,
+        "max": 1950,
+        "raw": 1500
       },
       "lifeSteal": {
         "min": 45,
@@ -88019,7 +87797,6 @@
       "waterDefence": -20
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 340,
     "attackSpeed": "very_slow",
     "name": "Krampus",
@@ -88465,9 +88242,9 @@
         "raw": 30
       },
       "poison": {
-        "min": 5769,
-        "max": 25000,
-        "raw": 19231
+        "min": 3600,
+        "max": 15600,
+        "raw": 12000
       },
       "lifeSteal": {
         "min": 152,
@@ -88605,7 +88382,6 @@
       "fireDefence": 30
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 45,
     "attackSpeed": "slow",
     "name": "Match",
@@ -88908,7 +88684,6 @@
       "rawAgility": 4
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 270,
     "attackSpeed": "very_slow",
     "name": "Chasseur",
@@ -88967,7 +88742,6 @@
       "airDefence": -35
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 632,
     "attackSpeed": "super_fast",
     "name": "Hardcore",
@@ -89354,7 +89128,6 @@
       "rawAgility": 4
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 508,
     "attackSpeed": "very_fast",
     "name": "Odin",
@@ -89568,7 +89341,6 @@
       "rawAgility": 8
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 392,
     "attackSpeed": "very_fast",
     "name": "Earth Drift",
@@ -89821,14 +89593,13 @@
       "earthDamage": 10,
       "rawStrength": 5,
       "thorns": 10,
-      "poison": 2500,
+      "poison": 1400,
       "rawIntelligence": 5,
       "xpBonus": 15,
       "manaRegen": 6,
       "waterDefence": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 248,
     "attackSpeed": "slow",
     "name": "Olux's Prized Spear",
@@ -90102,9 +89873,9 @@
         "raw": 10
       },
       "poison": {
-        "min": 692,
-        "max": 3000,
-        "raw": 2308
+        "min": 195,
+        "max": 845,
+        "raw": 650
       },
       "raw4thSpellCost": {
         "min": -1,
@@ -90345,7 +90116,6 @@
       "rawMainAttackDamage": 16
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 49,
     "attackSpeed": "normal",
     "name": "Backstaff",
@@ -90482,12 +90252,11 @@
     "type": "weapon",
     "identifications": {
       "thorns": -12,
-      "poison": 600,
+      "poison": 400,
       "lifeSteal": 18,
       "reflection": -12
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 118,
     "attackSpeed": "very_fast",
     "name": "Upgraded Echolocation",
@@ -90777,7 +90546,6 @@
       "rawMainAttackDamage": 315
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 720,
     "attackSpeed": "slow",
     "name": "Destructor",
@@ -91231,7 +90999,6 @@
       "mainAttackDamage": 16
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 104,
     "attackSpeed": "slow",
     "name": "Upgraded Steel Buster",
@@ -91700,10 +91467,15 @@
     },
     "type": "weapon",
     "identifications": {
+      "rawMaxMana": {
+        "min": 18,
+        "max": 78,
+        "raw": 60
+      },
       "raw3rdSpellCost": {
-        "min": 12,
-        "max": 6,
-        "raw": 9
+        "min": 5,
+        "max": 3,
+        "raw": 4
       },
       "rawThunderSpellDamage": {
         "min": 60,
@@ -91719,25 +91491,25 @@
     },
     "majorIds": {"Perfect Recall": "<span class='font-ascii' style='color:#55FFFF'>+Perfect Recall: <span class='font-ascii' style='color:#00AAAA'>Memory Recollection adds 1 extra spell. Increases Chaos Explosion's mana bank requirement to 150.<\/span><\/span>"},
     "powderSlots": 3,
-    "averageDps": 482,
+    "averageDps": 408,
     "attackSpeed": "normal",
     "name": "Third Wish",
     "subType": "wand",
     "base": {
       "baseThunderDamage": {
-        "min": 75,
-        "max": 81,
-        "raw": 75
+        "min": 61,
+        "max": 71,
+        "raw": 61
       },
       "baseDamage": {
-        "min": 75,
-        "max": 81,
-        "raw": 75
+        "min": 61,
+        "max": 71,
+        "raw": 61
       },
       "baseWaterDamage": {
-        "min": 75,
-        "max": 81,
-        "raw": 75
+        "min": 61,
+        "max": 71,
+        "raw": 61
       }
     },
     "rarity": "fabled"
@@ -92068,7 +91840,6 @@
       "rawHealth": 1000
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 285,
     "attackSpeed": "slow",
     "name": "Nest",
@@ -92120,7 +91891,6 @@
       "4thSpellCost": -20
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 314,
     "attackSpeed": "normal",
     "name": "Gear Grinder",
@@ -93130,10 +92900,7 @@
         "raw": -28
       }
     },
-    "majorIds": {
-      "Flashfreeze": "<span class='font-ascii' style='color:#55FFFF'>+Flashfreeze: <span class='font-ascii' style='color:#00AAAA'>Ice Snake is instant and freezes for +1s.<\/span><\/span>",
-      "Flashfreeze2": "<\/br>"
-    },
+    "majorIds": {"Flashfreeze": "<span class='font-ascii' style='color:#55FFFF'>+Flashfreeze: <span class='font-ascii' style='color:#00AAAA'>Ice Snake is instant and freezes for +1s.<\/span><\/span>"},
     "averageDps": 229,
     "attackSpeed": "very_fast",
     "name": "Heat Death",
@@ -93191,7 +92958,6 @@
       "rawSpellDamage": 140
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 473,
     "attackSpeed": "super_fast",
     "name": "Mosquito",
@@ -93858,7 +93624,6 @@
       "rawAgility": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 338,
     "attackSpeed": "fast",
     "name": "Ghoul",
@@ -94238,7 +94003,6 @@
       "mainAttackRange": 16
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 56,
     "attackSpeed": "normal",
     "name": "Tromsian Survival Knife",
@@ -94293,7 +94057,6 @@
       "rawHealth": -130
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 175,
     "attackSpeed": "very_fast",
     "name": "Dujgon Warrior Hammer",
@@ -94933,7 +94696,6 @@
       "rawMainAttackDamage": 65
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 172,
     "attackSpeed": "fast",
     "name": "Tearing Seam",
@@ -94984,7 +94746,6 @@
       "slowEnemy": 8
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 639,
     "attackSpeed": "super_fast",
     "name": "Corrupted Witherhead's Elbow",
@@ -95361,7 +95122,6 @@
       "manaRegen": 6
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 105,
     "attackSpeed": "fast",
     "name": "Calamaro's Staff",
@@ -95450,7 +95210,6 @@
       "rawHealth": 5000
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 719,
     "attackSpeed": "fast",
     "name": "The Watched",
@@ -95707,7 +95466,6 @@
       "lootBonus": 10
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 398,
     "attackSpeed": "very_slow",
     "name": "Siege Ram",
@@ -96431,7 +96189,6 @@
       "thunderDamage": 15
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 138,
     "attackSpeed": "very_fast",
     "name": "Orc Slasher",
@@ -96475,7 +96232,6 @@
       "manaRegen": 6
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 152,
     "attackSpeed": "fast",
     "name": "Calamaro's Relik",
@@ -96623,7 +96379,6 @@
       "4thSpellCost": -15
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 68,
     "attackSpeed": "slow",
     "name": "Ivy Whip",
@@ -96675,7 +96430,6 @@
       "waterDefence": -12
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 388,
     "attackSpeed": "super_slow",
     "name": "Decay Burner",
@@ -96860,7 +96614,6 @@
       "rawHealth": 400
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 148,
     "attackSpeed": "slow",
     "name": "Flaming War Spear",
@@ -96905,7 +96658,6 @@
       "airDefence": 15
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 415,
     "attackSpeed": "very_fast",
     "name": "Slush Rush",
@@ -97071,7 +96823,6 @@
       "rawHealth": -1750
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 534,
     "attackSpeed": "super_slow",
     "name": "Island Sniper",
@@ -97177,9 +96928,9 @@
         "raw": 12
       },
       "poison": {
-        "min": 600,
-        "max": 2600,
-        "raw": 2000
+        "min": 360,
+        "max": 1560,
+        "raw": 1200
       },
       "mainAttackDamage": {
         "min": 5,
@@ -97415,7 +97166,6 @@
       "manaRegen": -6
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 602,
     "attackSpeed": "fast",
     "name": "Paranoia",
@@ -97468,7 +97218,6 @@
       "manaRegen": 12
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 527,
     "attackSpeed": "very_fast",
     "name": "Ghorme Ndaizma",
@@ -97587,7 +97336,6 @@
       "lootBonus": 6
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 26,
     "attackSpeed": "slow",
     "name": "Corpse",
@@ -97641,7 +97389,6 @@
       "1stSpellCost": -25
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 255,
     "attackSpeed": "super_slow",
     "name": "Dune Kiln",
@@ -97684,9 +97431,9 @@
       },
       "rawStrength": 5,
       "poison": {
-        "min": 105,
-        "max": 455,
-        "raw": 350
+        "min": 57,
+        "max": 247,
+        "raw": 190
       },
       "fireDefence": {
         "min": -13,
@@ -97924,7 +97671,6 @@
       "waterDefence": 20
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 232,
     "attackSpeed": "fast",
     "name": "Permafrosted Saxifrage",
@@ -98148,7 +97894,6 @@
       "rawHealth": 130
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 82,
     "attackSpeed": "super_fast",
     "name": "Upgraded Vartija",
@@ -98258,7 +98003,6 @@
       "manaRegen": 8
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 438,
     "attackSpeed": "normal",
     "name": "Cornucopia",
@@ -99109,7 +98853,6 @@
       "rawHealth": 200
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 82,
     "attackSpeed": "slow",
     "name": "Summer",
@@ -99152,9 +98895,9 @@
       },
       "rawStrength": 5,
       "poison": {
-        "min": 2040,
-        "max": 8840,
-        "raw": 6800
+        "min": 1140,
+        "max": 4940,
+        "raw": 3800
       },
       "raw4thSpellCost": {
         "min": -1,
@@ -99224,7 +98967,6 @@
       "manaRegen": 18
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 608,
     "attackSpeed": "very_fast",
     "name": "Nauticals",
@@ -99340,7 +99082,6 @@
       "rawAgility": 4,
       "rawHealth": -40
     },
-    "identified": true,
     "averageDps": 90,
     "attackSpeed": "very_fast",
     "name": "Savannah Wind",
@@ -99504,9 +99245,9 @@
     "type": "weapon",
     "identifications": {
       "poison": {
-        "min": 360,
-        "max": 1560,
-        "raw": 1200
+        "min": 165,
+        "max": 715,
+        "raw": 550
       },
       "manaSteal": {
         "min": 2,
@@ -99605,9 +99346,9 @@
         "raw": 15
       },
       "poison": {
-        "min": 750,
-        "max": 3250,
-        "raw": 2500
+        "min": 450,
+        "max": 1950,
+        "raw": 1500
       },
       "lifeSteal": {
         "min": 36,
@@ -99676,13 +99417,12 @@
     "type": "weapon",
     "identifications": {
       "waterDamage": 10,
-      "poison": 3250,
+      "poison": 1800,
       "spellDamage": 15,
       "healthRegen": -16,
       "raw4thSpellCost": -4
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 131,
     "attackSpeed": "slow",
     "name": "Rotten Swamp",
@@ -100028,7 +99768,6 @@
       "rawHealth": -50
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 99,
     "attackSpeed": "very_fast",
     "name": "Clunderthap",
@@ -100072,9 +99811,9 @@
         "raw": 15
       },
       "poison": {
-        "min": 9000,
-        "max": 39000,
-        "raw": 30000
+        "min": 6000,
+        "max": 26000,
+        "raw": 20000
       },
       "mainAttackDamage": {
         "min": 5,
@@ -100092,6 +99831,7 @@
         "raw": 575
       }
     },
+    "majorIds": {"Earthen Splinter": "<span class='font-ascii' style='color:#55FFFF'>+Earthen Splinter: <span class='font-ascii' style='color:#00AAAA'>Quake channels nature energy into a powerful root, travelling underground and emerging under the nearest mob for <span class='font-ascii' style='color:#ffaa00'><span class='font-common'><\/span>1200%<\/span><darkAqua><\/span><\/span><\/span><\/span>"},
     "powderSlots": 3,
     "averageDps": 502,
     "attackSpeed": "very_slow",
@@ -100268,7 +100008,6 @@
       "manaRegen": 18
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 443,
     "attackSpeed": "super_fast",
     "name": "Zawah Jed",
@@ -100524,7 +100263,6 @@
       "rawHealth": 980
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 229,
     "attackSpeed": "slow",
     "name": "Cuthroat",
@@ -100848,7 +100586,6 @@
       "rawAgility": 5
     },
     "powderSlots": 2,
-    "identified": true,
     "averageDps": 112,
     "attackSpeed": "slow",
     "name": "Traitor",
@@ -101178,7 +100915,6 @@
     },
     "majorIds": {"Greed": "<span class='font-ascii' style='color:#55FFFF'>+Greed: <span class='font-ascii' style='color:#00AAAA'>Picking up emeralds heals you and nearby players for 8% max health.<\/span><\/span>"},
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 559,
     "attackSpeed": "super_fast",
     "name": "The Exploited",
@@ -101372,7 +101108,6 @@
       "elementalDamage": 20
     },
     "powderSlots": 5,
-    "identified": true,
     "averageDps": 688,
     "attackSpeed": "fast",
     "name": "Infused Hive Relik",
@@ -101535,7 +101270,6 @@
       "rawHealth": -1100
     },
     "powderSlots": 1,
-    "identified": true,
     "averageDps": 430,
     "attackSpeed": "super_fast",
     "name": "Sekaisin",
@@ -102104,7 +101838,6 @@
       "airDefence": -30
     },
     "powderSlots": 3,
-    "identified": true,
     "averageDps": 525,
     "attackSpeed": "normal",
     "name": "Evergreen",
