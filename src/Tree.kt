@@ -1,5 +1,5 @@
-import api_access.getJSONFromAPI
-import file_management.writeStringToFile
+import api.getJSONFromAPI
+import file.writeStringToFile
 import org.json.JSONArray
 import org.json.JSONObject
 
@@ -19,8 +19,8 @@ fun writeTrees(): JSONObject {
         classes.put(className, wynnClass)
     }
 
-    writeStringToFile("tree/classTrees.js", "const classAbilities = ${classes.toString().replace("\\", "")}")
-    writeStringToFile("tree/reference/classTrees.json", classes.toString(2).replace("\\", ""))
+    writeStringToFile("database/tree/classTrees.js", "const classAbilities = $classes")
+    writeStringToFile("database/tree/reference/classTrees.json", classes.toString(2))
 
     return classes
 }
