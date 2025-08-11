@@ -22,13 +22,9 @@ fun item() {
 }
 
 fun writeFiles(newQuery: JSONObject, groups: JSONObject, database: JSONObject) {
-    writeStringToFile("database/formatted_items.json", newQuery.toString(2))
+    writeStringToFile("database/formatted/items.json", newQuery.toString(2))
 
-    for (groupName in groups.names()) {
-        groupName as String
-        writeStringToFile("database/group_indexes/${groupName}.json", groups.getJSONArray(groupName).toString())
-        println(groups.getJSONArray(groupName).length())
-    }
+    writeStringToFile("database/indexes/item_groups.json", "$groups")
     writeStringToFile("database/wynnsmith/indexed_names.js", "const indexedInternalNameGroups = $groups")
 
     writeStringToFile("database/items.json", "$database")
@@ -52,6 +48,9 @@ fun updateDatabase(allItems: JSONObject, database: JSONObject) {
 }
 
 fun getGroupArrays(allItems: JSONObject): JSONObject {
+    val groupArrays = JSONObject(readStringFromFile("database/indexes/item_groups.json"))
+
+    // find groups in the new data
     val groupNames = JSONArray()
     for (itemName in allItems.names()) {
         val item = allItems.getJSONObject(itemName as String)
@@ -63,12 +62,10 @@ fun getGroupArrays(allItems: JSONObject): JSONObject {
         }
     }
 
-    val groupArrays = JSONObject()
+    // any groups that aren't already in the database are added
     for (groupName in groupNames) {
         groupName as String
-        val json = JSONArray(readStringFromFile("database/group_indexes/${groupName}.json"))
-        println(json)
-        groupArrays.put(groupName, json)
+        if (!groupArrays.has(groupName)) groupArrays.put(groupName, JSONArray())
     }
 
     return groupArrays

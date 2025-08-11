@@ -1,26 +1,28 @@
 import api.getJSONFromAPI
+import file.readStringFromFile
 import file.writeStringToFile
 import org.json.JSONArray
 import org.json.JSONObject
 
 fun tree() {
     writeTrees()
+    indexAspects()
 }
+
+val classNames = arrayOf("archer", "warrior", "assassin", "mage", "shaman")
 
 fun writeTrees(): JSONObject {
     val classes = JSONObject()
 
-    val classNames = arrayOf("archer", "warrior", "assassin", "mage", "shaman")
-    for (className in classNames) {
+    for (name in classNames) {
         val wynnClass = JSONObject()
-        wynnClass.put("tree", getJSONFromAPI("https://api.wynncraft.com/v3/ability/tree/$className"))
-        wynnClass.put("map", dePageMap(getJSONFromAPI("https://api.wynncraft.com/v3/ability/map/$className")))
-        wynnClass.put("aspects", getJSONFromAPI("https://api.wynncraft.com/v3/aspects/$className"))
-        classes.put(className, wynnClass)
+        wynnClass.put("tree", getJSONFromAPI("https://api.wynncraft.com/v3/ability/tree/$name"))
+        wynnClass.put("map", dePageMap(getJSONFromAPI("https://api.wynncraft.com/v3/ability/map/$name")))
+        wynnClass.put("aspects", getJSONFromAPI("https://api.wynncraft.com/v3/aspects/$name"))
+        classes.put(name, wynnClass)
     }
 
-    writeStringToFile("database/tree/classTrees.js", "const classAbilities = $classes")
-    writeStringToFile("database/tree/reference/classTrees.json", classes.toString(2))
+    writeStringToFile("database/formatted/class_trees.json", classes.toString(2))
 
     return classes
 }
@@ -36,4 +38,21 @@ fun dePageMap(map: JSONObject): JSONArray {
         }
     }
     return unPagedMap
+}
+
+fun indexAspects() {
+    val aspectsDatabases = JSONObject(readStringFromFile("database/indexes/aspects.json"))
+
+    for (name in classNames) {
+        val classAspects = getJSONFromAPI("https://api.wynncraft.com/v3/aspects/$name")
+        val aspectsDatabase = aspectsDatabases.getJSONArray(name)
+
+        for (aspectName in classAspects.names()) {
+            if (aspectsDatabase.indexOf(aspectName) == -1)
+                aspectsDatabase.put(aspectName)
+        }
+    }
+
+    writeStringToFile("database/indexes/aspects.json", "$aspectsDatabases")
+    writeStringToFile("database/wynnsmith/indexed_aspects.js", "const aspect_indexes = $aspectsDatabases")
 }
