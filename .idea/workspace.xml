@@ -4,48 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c6fcfb9-2a60-42c2-a7d9-ddcf0ff6fce3" name="Changes" comment="Changed the name of the .js that gets written.">
-      <change afterPath="$PROJECT_DIR$/database/indexes/aspects.json" afterDir="false" />
+    <list default="true" id="2c6fcfb9-2a60-42c2-a7d9-ddcf0ff6fce3" name="Changes" comment="Added aspect indexing.&#10;Merged indexing jsons into one file.">
+      <change afterPath="$PROJECT_DIR$/database/maIds.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/formatted_items.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/accessory.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/armour.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/armour_tome.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/axe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/boots.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/bow.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/bracelet.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/charm.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/chestplate.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/dagger.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/expertise_tome.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/guild_tome.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/helmet.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/ingredient.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/leggings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/lootrun_tome.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/marathon_tome.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/material.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/mysticism_tome.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/necklace.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/pickaxe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/relik.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/ring.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/rod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/scythe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/spear.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/tome.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/tool.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/wand.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/weapon.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/group_indexes/weapon_tome.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/items.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/tree/classTrees.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/tree/reference/classTrees.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/wynnsmith/indexed_names.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/wynnsmith/indexed_names.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/wynnsmith/items.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/wynnsmith/items.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Item.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Item.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753770399219</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added aspect indexing.&#10;Merged indexing jsons into one file.">
+      <option name="closed" value="true" />
+      <created>1754880355938</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1754880355938</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +163,7 @@
     <MESSAGE value="Tree database" />
     <MESSAGE value="Revised the item database format." />
     <MESSAGE value="Changed the name of the .js that gets written." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the name of the .js that gets written." />
+    <MESSAGE value="Added aspect indexing.&#10;Merged indexing jsons into one file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added aspect indexing.&#10;Merged indexing jsons into one file." />
   </component>
 </project>

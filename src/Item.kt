@@ -18,6 +18,7 @@ fun item() {
 
     updateDatabase(allItems, database)
 
+    writeMaIds(allItems)
     writeFiles(allItems, groups, database)
 }
 
@@ -90,6 +91,23 @@ fun updateItemIndexes(allItems: JSONObject, groups: JSONObject) {
                 subTypeArray.put(internalName)
         }
     }
+}
+
+fun writeMaIds(allItems: JSONObject) {
+    val maIds = JSONArray(readStringFromFile("database/maIds.json"))
+    for (name in allItems.names()) {
+        name as String
+        val item = allItems.getJSONObject(name)
+        if (!item.has("majorIds")) continue
+        val itemMaIds = item.getJSONObject("majorIds")
+        for (maId in itemMaIds.names()) {
+            maId as String
+            if (maIds.indexOf(maId) == -1) {
+                maIds.put(maId)
+            }
+        }
+    }
+    writeStringToFile("database/maIds.json", "$maIds")
 }
 
 fun transposeSubtyping(allItems: JSONObject) {
