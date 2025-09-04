@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c6fcfb9-2a60-42c2-a7d9-ddcf0ff6fce3" name="Changes" comment="Update database.">
+    <list default="true" id="2c6fcfb9-2a60-42c2-a7d9-ddcf0ff6fce3" name="Changes" comment="Fuck this bitch ass API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/formatted/class_trees.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/formatted/class_trees.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/formatted/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/formatted/items.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/items.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/wynnsmith/items.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/wynnsmith/items.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +32,12 @@
     &quot;assignee&quot;: &quot;LogicalSpaghetti&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LogicalSpaghetti/notWynnData.git",
-    "accountId": "325a291c-c555-434b-8f10-5de0d1472162"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LogicalSpaghetti/notWynnData.git&quot;,
+    &quot;accountId&quot;: &quot;325a291c-c555-434b-8f10-5de0d1472162&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -50,23 +54,23 @@
     <option name="showScratchesAndConsoles" value="false" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/gabriel/IdeaProjects/notWynnData",
-    "onboarding.tips.debug.path": "C:/Users/Admin/IdeaProjects/notWynnData/src/Main.kt",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gabriel/IdeaProjects/notWynnData&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Admin/IdeaProjects/notWynnData/src/Main.kt&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/database/group_indexes" />
@@ -157,7 +161,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755727496416</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fix Inhibitor values.">
+      <option name="closed" value="true" />
+      <created>1756329687912</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1756329687913</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix Inhibitor values.">
+      <option name="closed" value="true" />
+      <created>1756329725808</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1756329725808</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +200,7 @@
     <MESSAGE value="Added aspect indexing.&#10;Merged indexing jsons into one file." />
     <MESSAGE value="Added MajorId Listing" />
     <MESSAGE value="Update database." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update database." />
+    <MESSAGE value="Fix Inhibitor values." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Inhibitor values." />
   </component>
 </project>
